@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MainTemplateFiles</key>
+	<string></string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Summary</key>
+	<string>Swift CocoaTouch</string>
+	<key>Description</key>
+	<string>Generate Switch subclass for CocoaTouch</string>
+	<key>SortOrder</key>
+	<string>4</string>
+	<key>DefaultCompletionName</key>
+	<string>MyClass</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the class to create</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Class:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>NSObject</string>
+			<key>Description</key>
+			<string>What class to subclass in the new file</string>
+			<key>Identifier</key>
+			<string>cocoaTouchSubclass</string>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Suffixes</key>
+			<dict>
+				<key>UIView</key>
+				<string>View</string>
+				<key>UIViewController</key>
+				<string>ViewController</string>
+				<key>UITableViewController</key>
+				<string>TableViewController</string>
+				<key>UICollectionViewController</key>
+				<string>CollectionViewController</string>
+			</dict>
+			<key>Values</key>
+			<array>
+				<string>NSObject</string>
+				<string>UIView</string>
+				<string>UIViewController</string>
+				<string>UITableViewController</string>
+				<string>UICollectionViewController</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
