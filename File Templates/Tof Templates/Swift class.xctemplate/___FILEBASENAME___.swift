@@ -7,7 +7,7 @@
 //___COPYRIGHT___
 //
 
-import UIKit
+import Foundation
 
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
