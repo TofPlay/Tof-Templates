@@ -6,9 +6,6 @@ Xcode templates for Swift and Objective-C
 
 I shared templates I created. They allow to create a Swift or Objective-C sources with sections. This helps to structure your code. It is then much easier to maintain and evolve your code. When it's possible I insert code snippets to help you.
 
-I made different templates for Xcode. They help to structure your code. It is then easier to maintain and evolve your code.
-Feel free to use them :)﻿
-
 ## Manual Installation 
 Open `Terminal.app` and made the following commands:
 ```bash
