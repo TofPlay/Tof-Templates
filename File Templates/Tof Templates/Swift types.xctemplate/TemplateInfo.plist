@@ -9,7 +9,7 @@
 	<key>Description</key>
 	<string>Swift struct, protocol and extension</string>
 	<key>SortOrder</key>
-	<string>3</string>
+	<string>4</string>
 	<key>DefaultCompletionName</key>
 	<string>File</string>
 	<key>AllowedTypes</key>
