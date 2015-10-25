@@ -20,7 +20,7 @@ $ cp -R Tof\ Templates ~/Library/Developer/Xcode/Templates/File\ Templates/
 
 [![](https://raw.githubusercontent.com/TofPlay/Tof-Templates/master/Images/Xcode-Alcatraz.png)](http://alcatraz.io/)
 
-by[Alcatraz](http://alcatraz.io/):
+by [Alcatraz](http://alcatraz.io/):
 *Alcatraz is an open-source package manager for Xcode 5+. It lets you discover and install plugins, templates and color schemes without the need for manually cloning or copying files. It installs itself as a part of Xcode and it feels like home.*
 
 ![](https://raw.githubusercontent.com/TofPlay/Tof-Templates/master/Images/TofTemplate-Alcatraz.gif)
