@@ -16,6 +16,10 @@ $ mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/
 $ cp -R Tof\ Templates ~/Library/Developer/Xcode/Templates/File\ Templates/
 ``` 
 
+## Installation with Alcatraz
+
+Comming soon
+
 ## License
 The MIT License (MIT)
 
