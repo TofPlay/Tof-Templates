@@ -35,7 +35,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   // MARK: -> Internal methods
   
-  // MARK: -> Interface class override ___VARIABLE_cocoaTouchSubclass___
+  // MARK: -> Internal class override ___VARIABLE_cocoaTouchSubclass___
 
   // MARK: -> Internal protocol <#protocol name#>
   

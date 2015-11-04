@@ -35,7 +35,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___ { // : <#base class#>, <#protocol 
   
   // MARK: -> Internal methods
   
-  // MARK: -> Interface class override <#class name#>
+  // MARK: -> Internal class override <#class name#>
   
   // MARK: -> Internal protocol <#protocol name#>
   
