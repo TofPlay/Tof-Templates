@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Base on Tof Template
+//  Base on Tof Templates
 //___COPYRIGHT___
 //
 
@@ -35,6 +35,8 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   // MARK: -> Internal methods
   
+  // MARK: -> Interface class override ___VARIABLE_cocoaTouchSubclass___
+
   // MARK: -> Internal protocol <#protocol name#>
   
   // MARK: -

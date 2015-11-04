@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Base on Tof Template
+//  Base on Tof Templates
 //___COPYRIGHT___
 //
 
@@ -12,7 +12,7 @@ import Foundation
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-internal class ___FILEBASENAMEASIDENTIFIER___ {
+internal class ___FILEBASENAMEASIDENTIFIER___ { // : <#base class#>, <#protocol name#> { 
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
@@ -34,6 +34,8 @@ internal class ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: -> Internal init methods
   
   // MARK: -> Internal methods
+  
+  // MARK: -> Interface class override <#class name#>
   
   // MARK: -> Internal protocol <#protocol name#>
   

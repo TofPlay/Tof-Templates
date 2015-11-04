@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Base on Tof Template
+//  Base on Tof Templates
 //___COPYRIGHT___
 //
 
@@ -88,7 +88,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
     var lRet:UITableViewCell! = nil
     
     if pIndexPath.row < self.items.count {
-      if let lCell = pTableView.dequeueReusableCellWithIdentifier("___FILEBASENAMEASIDENTIFIER___Cell") as? ___FILEBASENAMEASIDENTIFIER___Cell {
+      if lCell = pTableView.dequeueReusableCellWithIdentifier("___FILEBASENAMEASIDENTIFIER___Cell") as? ___FILEBASENAMEASIDENTIFIER___Cell {
         let lItem = self.items[pIndexPath.row]
         
         lRet = lCell
