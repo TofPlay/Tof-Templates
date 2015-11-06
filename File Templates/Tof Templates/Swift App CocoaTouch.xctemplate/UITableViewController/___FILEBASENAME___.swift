@@ -88,7 +88,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
     var lRet:UITableViewCell! = nil
     
     if pIndexPath.row < self.items.count {
-      if lCell = pTableView.dequeueReusableCellWithIdentifier("___FILEBASENAMEASIDENTIFIER___Cell") as? ___FILEBASENAMEASIDENTIFIER___Cell {
+      if let lCell = pTableView.dequeueReusableCellWithIdentifier("___FILEBASENAMEASIDENTIFIER___Cell") as? ___FILEBASENAMEASIDENTIFIER___Cell {
         let lItem = self.items[pIndexPath.row]
         
         lRet = lCell
