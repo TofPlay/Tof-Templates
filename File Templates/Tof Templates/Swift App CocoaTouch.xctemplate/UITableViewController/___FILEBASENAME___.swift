@@ -70,6 +70,22 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
     //self.navigationItem.rightBarButtonItem = self.editButtonItem;
   }
   
+  //override internal func viewWillAppear(pAnimated: Bool) {
+  //  super.viewWillAppear(pAnimated)
+  //}
+  
+  //override internal func viewDidAppear(pAnimated: Bool) {
+  //  super.viewDidAppear(pAnimated)
+  //}
+  
+  //override internal func viewWillDisappear(pAnimated: Bool) {
+  //  super.viewWillDisappear(pAnimated)
+  //}
+  
+  //override internal func viewDidDisappear(pAnimated: Bool) {
+  //  super.viewDidDisappear(pAnimated)
+  //}
+
   override internal func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
   }
@@ -112,9 +128,14 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   //override internal func tableView(pTableView: UITableView, commitEditingStyle pEditingStyle: UITableViewCellEditingStyle, forRowAtIndexPath pIndexPath: NSIndexPath) {
   //  if pEditingStyle == .Delete {
   //    // Delete the row from the data source
+  //    self.items.removeAtIndex(pIndexPath.row)
   //    self.tableView.deleteRowsAtIndexPaths([pIndexPath], withRowAnimation: .Fade)
   //  } else if pEditingStyle == .Insert {
   //    // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+  //    let lItem = <#item class#>()
+  //    self.items += [lItem]      
+  //    let lIndexPath = NSIndexPath(forRow: self.items.count - 1, inSection: 0)
+  //    self.tableView.insertRowsAtIndexPaths([lIndexPath], withRowAnimation: .Automatic)
   //  }
   //}
   

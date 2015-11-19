@@ -76,6 +76,22 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
     //self.sizeCell = CGSize(width: <#IB Cell Width#> * (lSize.width / 320), height: <#IB Cell Width#> * (lSize.height / 568))
   }
   
+  //override internal func viewWillAppear(pAnimated: Bool) {
+  //  super.viewWillAppear(pAnimated)
+  //}
+  
+  //override internal func viewDidAppear(pAnimated: Bool) {
+  //  super.viewDidAppear(pAnimated)
+  //}
+  
+  //override internal func viewWillDisappear(pAnimated: Bool) {
+  //  super.viewWillDisappear(pAnimated)
+  //}
+  
+  //override internal func viewDidDisappear(pAnimated: Bool) {
+  //  super.viewDidDisappear(pAnimated)
+  //}
+
   override internal func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
   }
