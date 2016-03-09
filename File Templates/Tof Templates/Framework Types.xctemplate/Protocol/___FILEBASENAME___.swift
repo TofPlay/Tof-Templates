@@ -12,7 +12,7 @@ import Foundation
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___ protocol
 // MARK: -
-protocol ___FILEBASENAMEASIDENTIFIER___ {
+public protocol ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: -> Properties
   
   // MARK: -> Class methods

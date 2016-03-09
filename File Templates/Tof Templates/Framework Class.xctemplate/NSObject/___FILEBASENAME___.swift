@@ -7,12 +7,38 @@
 //___COPYRIGHT___
 //
 
-import Foundation
+import UIKit
 
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-internal class ___FILEBASENAMEASIDENTIFIER___ { // : <#base class#>, <#protocol name#> { 
+public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
+  // MARK: -
+  // MARK: Public
+  // MARK: -
+  
+  // MARK: -> Public enums
+  
+  // MARK: -> Public structs
+  
+  // MARK: -> Public class
+  
+  // MARK: -> Public type alias 
+  
+  // MARK: -> Public static properties
+  
+  // MARK: -> Public properties
+  
+  // MARK: -> Public class methods
+  
+  // MARK: -> Public init methods
+  
+  // MARK: -> Public methods
+  
+  // MARK: -> Public class override ___VARIABLE_cocoaTouchSubclass___
+
+  // MARK: -> Public protocol <#protocol name#>
+
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
@@ -35,8 +61,6 @@ internal class ___FILEBASENAMEASIDENTIFIER___ { // : <#base class#>, <#protocol 
   
   // MARK: -> Internal methods
   
-  // MARK: -> Internal class override <#class name#>
-  
   // MARK: -> Internal protocol <#protocol name#>
   
   // MARK: -
@@ -54,11 +78,11 @@ internal class ___FILEBASENAMEASIDENTIFIER___ { // : <#base class#>, <#protocol 
   // MARK: -> Private static properties
 
   // MARK: -> Private properties
-  
+
   // MARK: -> Private class methods
-  
+
   // MARK: -> Private init methods
   
   // MARK: -> Private methods
-
+  
 }

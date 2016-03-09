@@ -38,8 +38,6 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   // MARK: -> Interface Builder properties
   
-  //@IBOutlet weak internal var tableView: UITableView!
-
   // MARK: -> Interface Builder actions
   
   // MARK: -> Interface navigation
@@ -64,7 +62,12 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   override internal func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    //Uncomment the following line to preserve selection between presentations.
+    //self.clearsSelectionOnViewWillAppear = NO;
+    
+    //Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    //self.navigationItem.rightBarButtonItem = self.editButtonItem;
   }
   
   //override internal func viewWillAppear(pAnimated: Bool) {
@@ -85,51 +88,45 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
   override internal func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
   }
-  
-  // MARK: -> Interface protocol <#protocol name#>
 
   // MARK: -> Interface protocol UITableViewDataSource
-  
-  //internal func numberOfSectionsInTableView(pTableView: UITableView) -> Int {
-  //  return 1
-  //}
-  
-  //internal func tableView(pTableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-  //  let lRet:Int = self.items.count
-  //  
-  //  return lRet
-  //}
 
-  //internal func tableView(pTableView: UITableView, cellForRowAtIndexPath pIndexPath: NSIndexPath) -> UITableViewCell {
-  //  var lRet:UITableViewCell! = nil
-  //  
-  //  if self.items.count > 0 && pIndexPath.row < self.items.count {
-  //    if let lCell = pTableView.dequeueReusableCellWithIdentifier("___FILEBASENAMEASIDENTIFIER___Cell") as? ___FILEBASENAMEASIDENTIFIER___Cell {
-  //      let lItem = self.items[pIndexPath.row]
-  //      
-  //      lCell.<#interface property#>.text = lItem.<#property#>
-  //      
-  //      lRet = lCell
-  //    }
-  //  }
-  //  
-  //  if lRet == nil {
-  //    lRet = UITableViewCell()
-  //  }
-  //  
-  //  return lRet
-  //}
-  
-  // Support conditional editing of the table view.
-  // internal func tableView(pTableView: UITableView, canEditRowAtIndexPath pIndexPath: NSIndexPath) -> Bool {
+  override internal func numberOfSectionsInTableView(pTableView: UITableView) -> Int {
+    return 1
+  }
+
+  override internal func tableView(pTableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return self.items.count
+  }
+
+  override internal func tableView(pTableView: UITableView, cellForRowAtIndexPath pIndexPath: NSIndexPath) -> UITableViewCell {
+    var lRet:UITableViewCell! = nil
+    
+    if pIndexPath.row < self.items.count {
+      if let lCell = pTableView.dequeueReusableCellWithIdentifier("___FILEBASENAMEASIDENTIFIER___Cell") as? ___FILEBASENAMEASIDENTIFIER___Cell {
+        let lItem = self.items[pIndexPath.row]
+        
+        lRet = lCell
+      }
+    }
+    
+    if lRet == nil {
+      lRet = UITableViewCell()
+      lRet.backgroundColor = UIColor.clearColor()
+    }
+    
+    return lRet
+  }
+
+  // Override to support conditional editing of the table view.
+  //override internal func tableView(pTableView: UITableView, canEditRowAtIndexPath pIndexPath: NSIndexPath) -> Bool {
   //  // Return NO if you do not want the specified item to be editable.
   //  return true
   //}
   
-  // Support editing the table view.
-  // internal func tableView(pTableView: UITableView, commitEditingStyle pEditingStyle: UITableViewCellEditingStyle, forRowAtIndexPath pIndexPath: NSIndexPath) {
+  // Override to support editing the table view.
+  //override internal func tableView(pTableView: UITableView, commitEditingStyle pEditingStyle: UITableViewCellEditingStyle, forRowAtIndexPath pIndexPath: NSIndexPath) {
   //  if pEditingStyle == .Delete {
   //    // Delete the row from the data source
   //    self.items.removeAtIndex(pIndexPath.row)
@@ -143,34 +140,33 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   //  }
   //}
   
-  // Support rearranging the table view.
-  // internal func tableView(pTableView: UITableView, moveRowAtIndexPath pFromIndexPath: NSIndexPath, toIndexPath pToIndexPath: NSIndexPath) {
+  // Override to support rearranging the table view.
+  //override internal func tableView(pTableView: UITableView, moveRowAtIndexPath pFromIndexPath: NSIndexPath, toIndexPath pToIndexPath: NSIndexPath) {
   //
   //}
   
-  // Support conditional rearranging of the table view.
-  // internal func tableView(pTableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+  // Override to support conditional rearranging of the table view.
+  //override internal func tableView(pTableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
   //  // Return NO if you do not want the item to be re-orderable.
   //  return true
   //}
   
   // MARK: -> Interface protocol UITableViewDelegate
   
-  //internal func tableView(pTableView: UITableView, willDisplayCell pCell: UITableViewCell, forRowAtIndexPath pIndexPath: NSIndexPath) {
+  // Override to disable separator
+  //override internal func tableView(pTableView: UITableView, willDisplayCell pCell: UITableViewCell, forRowAtIndexPath pIndexPath: NSIndexPath) {
   //  pTableView.separatorInset = UIEdgeInsetsZero
   //  pCell.separatorInset = UIEdgeInsetsZero
   //  pTableView.layoutMargins = UIEdgeInsetsZero
   //  pCell.layoutMargins = UIEdgeInsetsZero
   //}
   
-  // Select cell
-  //internal func tableView(pTableView: UITableView, didSelectRowAtIndexPath pIndexPath: NSIndexPath) {
-  //  if self.items.count > 0 && pIndexPath.row < self.items.count {
-  //    let lItem = self.items[pIndexPath.row]
-  //    
-  //     // Do something with the item
-  //   }
-  //}
+  override internal func tableView(pTableView: UITableView, didSelectRowAtIndexPath pIndexPath: NSIndexPath) {
+    if pIndexPath.row < self.items.count {
+      let lItem = self.items[pIndexPath.row]
+      self.performSegueWithIdentifier("<#segue#>", sender: self)
+    }
+  }
 
   // MARK: -
   // MARK: Internal access (aka public for current module)
@@ -211,8 +207,8 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   // MARK: -> Private static properties
 
   // MARK: -> Private properties
-
-  //private var items:[AnyObject] = [] // Items for tableview
+  
+  private var items = [AnyObject]()
   
   // MARK: -> Private class methods
   

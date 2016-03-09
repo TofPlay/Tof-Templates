@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>Swift CocoaTouch</string>
 	<key>Description</key>
-	<string>Generate Switch subclass for CocoaTouch</string>
+	<string>Generate Switch subclass for CocoaTouch for an application</string>
 	<key>SortOrder</key>
 	<string>3</string>
 	<key>DefaultCompletionName</key>
@@ -65,6 +65,7 @@
 			<key>Values</key>
 			<array>
 				<string>NSObject</string>
+				<string>Mappable</string>
 				<string>UIView</string>
 				<string>UIViewController</string>
 				<string>UITableViewController</string>

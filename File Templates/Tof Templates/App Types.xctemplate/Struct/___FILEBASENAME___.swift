@@ -12,25 +12,11 @@ import Foundation
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___ Struct
 // MARK: -
-struct ___FILEBASENAMEASIDENTIFIER___ {
+internal struct ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: -
-  // MARK: Public access
+  // MARK: Internal access (aka public for current module)
   // MARK: -
-  
-  // MARK: -> Public properties
-  
-  // MARK: -> Public class methods
-  
-  // MARK: -> Public init methods
-  
-  // MARK: -> Public methods
-  
-  // MARK: -> Public protocol <#protocol name#>
-  
-  // MARK: -
-  // MARK: Internal access
-  // MARK: -
-  
+    
   // MARK: -> Internal properties
   
   // MARK: -> Internal class methods

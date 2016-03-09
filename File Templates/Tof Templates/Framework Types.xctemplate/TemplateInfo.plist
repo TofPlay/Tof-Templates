@@ -5,9 +5,9 @@
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Summary</key>
-	<string>Swift types</string>
+	<string>Swift Framework types</string>
 	<key>Description</key>
-	<string>Swift struct, protocol and extension</string>
+	<string>Swift struct, protocol and extension for a Framework</string>
 	<key>SortOrder</key>
 	<string>4</string>
 	<key>DefaultCompletionName</key>
@@ -15,6 +15,10 @@
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>Options</key>
 	<array>
