@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>Swift CocoaTouch</string>
 	<key>Description</key>
-	<string>Generate Switch subclass for CocoaTouch for a Framework</string>
+	<string>Generate Swift subclass for CocoaTouch for a Framework</string>
 	<key>SortOrder</key>
 	<string>3</string>
 	<key>DefaultCompletionName</key>
