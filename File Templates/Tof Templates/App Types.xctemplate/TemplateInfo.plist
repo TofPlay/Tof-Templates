@@ -28,7 +28,7 @@
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Name</key>
-			<string>File:</string>
+			<string>Name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
