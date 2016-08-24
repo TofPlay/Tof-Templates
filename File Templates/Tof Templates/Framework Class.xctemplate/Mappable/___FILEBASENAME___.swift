@@ -34,11 +34,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 
   // MARK: -> Open class methods
   
-  // MARK: -> Open init methods
-  
-  open required init?(_ pMap: Map){
-  }
-  
   // MARK: -> Open operators
 
   // MARK: -> Open methods
@@ -68,6 +63,9 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> Public class methods
   
   // MARK: -> Public init methods
+  
+  public required init?(_ pMap: Map){
+  }
   
   // MARK: -> Public operators
 

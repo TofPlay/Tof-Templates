@@ -21,8 +21,6 @@ open class ___FILEBASENAMEASIDENTIFIER___Cell : UITableViewCell {
   
   // MARK: -> Open class methods
   
-  // MARK: -> Open init methods
-  
   // MARK: -> Open operators
 
   // MARK: -> Open methods
@@ -204,8 +202,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> Open properties
   
   // MARK: -> Open class methods
-  
-  // MARK: -> Open init methods
   
   // MARK: -> Open operators
 

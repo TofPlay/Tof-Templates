@@ -27,8 +27,6 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
   
   // MARK: -> Open class methods
   
-  // MARK: -> Open init methods
-  
   // MARK: -> Open operators
 
   // MARK: -> Open methods
