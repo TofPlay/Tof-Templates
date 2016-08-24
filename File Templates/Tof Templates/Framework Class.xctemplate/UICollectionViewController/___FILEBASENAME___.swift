@@ -167,8 +167,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Open class
   
-  // MARK: -> Open type alias 
-  
   // MARK: -> Open static properties
   
   // MARK: -> Open properties

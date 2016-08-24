@@ -23,8 +23,6 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
   
   // MARK: -> Open class
   
-  // MARK: -> Open type alias 
-  
   // MARK: -> Open static properties
   
   // MARK: -> Open properties

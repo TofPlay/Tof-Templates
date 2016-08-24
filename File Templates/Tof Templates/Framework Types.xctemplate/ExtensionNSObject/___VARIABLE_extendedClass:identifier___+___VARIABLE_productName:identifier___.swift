@@ -12,33 +12,7 @@ import Foundation
 // MARK: -
 // MARK: ___VARIABLE_extendedClass:identifier___ extension
 // MARK: -
-open  extension ___VARIABLE_extendedClass:identifier___ {
-  // MARK: -
-  // MARK: Open access
-  // MARK: -
-  
-  // MARK: -> Open enums
-  
-  // MARK: -> Open structs
-  
-  // MARK: -> Open class
-  
-  // MARK: -> Open type alias 
-  
-  // MARK: -> Open static properties
-  
-  // MARK: -> Open properties
-  
-  // MARK: -> Open class methods
-  
-  // MARK: -> Open init methods
-  
-  // MARK: -> Open operators
-
-  // MARK: -> Open methods
-  
-  // MARK: -> Open protocol <#protocol name#>
-
+public  extension ___VARIABLE_extendedClass:identifier___ {
   // MARK: -
   // MARK: Public access
   // MARK: -
