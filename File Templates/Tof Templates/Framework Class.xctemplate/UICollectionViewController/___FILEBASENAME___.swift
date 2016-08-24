@@ -161,8 +161,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: Open access
   // MARK: -
   
-  // MARK: -> Open enums
-  
   // MARK: -> Open structs
   
   // MARK: -> Open class

@@ -17,8 +17,6 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: Open access
   // MARK: -
   
-  // MARK: -> Open enums
-  
   // MARK: -> Open structs
   
   // MARK: -> Open class
