@@ -12,9 +12,35 @@ import UIKit
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
+open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -
-  // MARK: Public
+  // MARK: Open access
+  // MARK: -
+  
+  // MARK: -> Open enums
+  
+  // MARK: -> Open structs
+  
+  // MARK: -> Open class
+  
+  // MARK: -> Open type alias 
+  
+  // MARK: -> Open static properties
+  
+  // MARK: -> Open properties
+  
+  // MARK: -> Open class methods
+  
+  // MARK: -> Open init methods
+  
+  // MARK: -> Open operators
+
+  // MARK: -> Open methods
+  
+  // MARK: -> Open protocol <#protocol name#>
+
+  // MARK: -
+  // MARK: Public access
   // MARK: -
   
   // MARK: -> Public enums
@@ -33,10 +59,10 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Public init methods
   
+  // MARK: -> Public operators
+
   // MARK: -> Public methods
   
-  // MARK: -> Public class override ___VARIABLE_cocoaTouchSubclass___
-
   // MARK: -> Public protocol <#protocol name#>
 
   // MARK: -
@@ -59,10 +85,36 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Internal init methods
   
+  // MARK: -> Internal operators
+
   // MARK: -> Internal methods
   
   // MARK: -> Internal protocol <#protocol name#>
   
+  // MARK: -
+  // MARK: File Private access
+  // MARK: -
+  
+  // MARK: -> File Private enums
+  
+  // MARK: -> File Private structs
+  
+  // MARK: -> File Private class
+  
+  // MARK: -> File Private type alias 
+
+  // MARK: -> File Private static properties
+
+  // MARK: -> File Private properties
+  
+  // MARK: -> File Private class methods
+  
+  // MARK: -> File Private init methods
+  
+  // MARK: -> File Private operators
+
+  // MARK: -> File Private methods
+
   // MARK: -
   // MARK: Private access
   // MARK: -
@@ -80,9 +132,11 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> Private properties
 
   // MARK: -> Private class methods
-
+  
   // MARK: -> Private init methods
   
+  // MARK: -> Private operators
+
   // MARK: -> Private methods
-  
+    
 }

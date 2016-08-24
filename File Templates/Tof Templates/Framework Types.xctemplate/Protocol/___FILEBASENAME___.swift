@@ -12,12 +12,14 @@ import Foundation
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___ protocol
 // MARK: -
-public protocol ___FILEBASENAMEASIDENTIFIER___ {
+open protocol ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: -> Properties
   
   // MARK: -> Class methods
   
   // MARK: -> Init methods
   
+  // MARK: -> Public operators
+
   // MARK: -> Public methods
 }

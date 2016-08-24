@@ -43,6 +43,8 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   internal required init?(_ pMap: Map){
   }
   
+  // MARK: -> Internal operators
+
   // MARK: -> Internal methods
   
   internal func mapping(pMap: Map) {
@@ -53,6 +55,30 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
   // MARK: -> Internal protocol <#protocol name#>
   
+  // MARK: -
+  // MARK: File Private access
+  // MARK: -
+  
+  // MARK: -> File Private enums
+  
+  // MARK: -> File Private structs
+  
+  // MARK: -> File Private class
+  
+  // MARK: -> File Private type alias 
+
+  // MARK: -> File Private static properties
+
+  // MARK: -> File Private properties
+  
+  // MARK: -> File Private class methods
+  
+  // MARK: -> File Private init methods
+  
+  // MARK: -> File Private operators
+
+  // MARK: -> File Private methods
+
   // MARK: -
   // MARK: Private access
   // MARK: -
@@ -70,9 +96,11 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   // MARK: -> Private properties
 
   // MARK: -> Private class methods
-
+  
   // MARK: -> Private init methods
   
+  // MARK: -> Private operators
+
   // MARK: -> Private methods
-  
+    
 }

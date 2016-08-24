@@ -13,9 +13,48 @@ import ObjectMapper
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
+open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -
-  // MARK: Public
+  // MARK: Open access
+  // MARK: -
+  
+  // MARK: -> Open enums
+  
+  // MARK: -> Open structs
+  
+  // MARK: -> Open class
+  
+  // MARK: -> Open type alias 
+  
+  // MARK: -> Open static properties
+  
+  // MARK: -> Open properties
+  
+  //open var <#field#>:Bool? = nil
+  //open var <#field#>:Int? = nil
+  //open var <#field#>:Float? = nil
+  //open var <#field#>:Double? = nil
+  //open var <#field#>:String? = nil
+
+  // MARK: -> Open class methods
+  
+  // MARK: -> Open init methods
+  
+  open required init?(_ pMap: Map){
+  }
+  
+  // MARK: -> Open operators
+
+  // MARK: -> Open methods
+  
+  open func mapping(pMap: Map) {
+    // self.<#field#>      <- pMap["<#field#>"]
+  }
+  
+  // MARK: -> Open protocol <#protocol name#>
+
+  // MARK: -
+  // MARK: Public access
   // MARK: -
   
   // MARK: -> Public enums
@@ -30,29 +69,68 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Public properties
   
-  //internal var <#field#>:Bool? = nil
-  //internal var <#field#>:Int? = nil
-  //internal var <#field#>:Float? = nil
-  //internal var <#field#>:Double? = nil
-  //internal var <#field#>:String? = nil
-
   // MARK: -> Public class methods
   
   // MARK: -> Public init methods
   
-  public required init?(_ pMap: Map){
-  }
-  
+  // MARK: -> Public operators
+
   // MARK: -> Public methods
-  
-  public func mapping(pMap: Map) {
-    // self.<#field#>      <- pMap["<#field#>"]
-  }
   
   // MARK: -> Public class override ___VARIABLE_cocoaTouchSubclass___
 
   // MARK: -> Public protocol <#protocol name#>
   
+  // MARK: -
+  // MARK: Internal access (aka public for current module)
+  // MARK: -
+  
+  // MARK: -> Internal enums
+  
+  // MARK: -> Internal structs
+  
+  // MARK: -> Internal class
+  
+  // MARK: -> Internal type alias 
+  
+  // MARK: -> Internal static properties
+  
+  // MARK: -> Internal properties
+  
+  // MARK: -> Internal class methods
+  
+  // MARK: -> Internal init methods
+  
+  // MARK: -> Internal operators
+
+  // MARK: -> Internal methods
+  
+  // MARK: -> Internal protocol <#protocol name#>
+  
+  // MARK: -
+  // MARK: File Private access
+  // MARK: -
+  
+  // MARK: -> File Private enums
+  
+  // MARK: -> File Private structs
+  
+  // MARK: -> File Private class
+  
+  // MARK: -> File Private type alias 
+
+  // MARK: -> File Private static properties
+
+  // MARK: -> File Private properties
+  
+  // MARK: -> File Private class methods
+  
+  // MARK: -> File Private init methods
+  
+  // MARK: -> File Private operators
+
+  // MARK: -> File Private methods
+
   // MARK: -
   // MARK: Private access
   // MARK: -
@@ -73,6 +151,8 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 
   // MARK: -> Private init methods
   
+  // MARK: -> Private operators
+
   // MARK: -> Private methods
   
 }

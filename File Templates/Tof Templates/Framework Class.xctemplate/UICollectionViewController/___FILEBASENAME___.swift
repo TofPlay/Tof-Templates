@@ -12,7 +12,7 @@ import UIKit
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___Cell
 // MARK: -
-public class ___FILEBASENAMEASIDENTIFIER___Cell : UICollectionViewCell {
+open class ___FILEBASENAMEASIDENTIFIER___Cell : UICollectionViewCell {
   // MARK: -
   // MARK: Public
   // MARK: -
@@ -23,6 +23,8 @@ public class ___FILEBASENAMEASIDENTIFIER___Cell : UICollectionViewCell {
   
   // MARK: -> Public init methods
   
+  // MARK: -> Public operators
+
   // MARK: -> Public methods
   
   // MARK: -> Public protocol <#protocol name#>
@@ -32,7 +34,7 @@ public class ___FILEBASENAMEASIDENTIFIER___Cell : UICollectionViewCell {
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
+open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -
   // MARK: Interface
   // MARK: -
@@ -43,7 +45,7 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Interface navigation
   
-  //override public func prepareForSegue(pSegue: UIStoryboardSegue, sender pSender: AnyObject?) {
+  //override open func prepareForSegue(pSegue: UIStoryboardSegue, sender pSender: AnyObject?) {
   //  if pSegue.identifier == "<#segue name#>" {
   //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
@@ -53,7 +55,7 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Interface notifications
   
-  //public func notification<#notification name#>(pNotification: NSNotification){
+  //open func notification<#notification name#>(pNotification: NSNotification){
   //  if pNotification.object is <#type#> {
   //    // <#notification code#>
   //  }
@@ -76,37 +78,37 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     //self.sizeCell = CGSize(width: <#IB Cell Width#> * (lSize.width / 320), height: <#IB Cell Width#> * (lSize.height / 568))
   }
   
-  //override public func viewWillAppear(pAnimated: Bool) {
+  //override open func viewWillAppear(pAnimated: Bool) {
   //  super.viewWillAppear(pAnimated)
   //}
   
-  //override public func viewDidAppear(pAnimated: Bool) {
+  //override open func viewDidAppear(pAnimated: Bool) {
   //  super.viewDidAppear(pAnimated)
   //}
   
-  //override public func viewWillDisappear(pAnimated: Bool) {
+  //override open func viewWillDisappear(pAnimated: Bool) {
   //  super.viewWillDisappear(pAnimated)
   //}
   
-  //override public func viewDidDisappear(pAnimated: Bool) {
+  //override open func viewDidDisappear(pAnimated: Bool) {
   //  super.viewDidDisappear(pAnimated)
   //}
 
-  override public func didReceiveMemoryWarning() {
+  override open func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
   }
 
   // MARK: -> Interface protocol UICollectionViewDataSource
 
-  override public func numberOfSectionsInCollectionView(pCollectionView: UICollectionView) -> Int {
+  override open func numberOfSectionsInCollectionView(pCollectionView: UICollectionView) -> Int {
     return 1
   }
 
-  override public func collectionView(pCollectionView: UICollectionView, numberOfItemsInSection pSection: Int) -> Int {
+  override open func collectionView(pCollectionView: UICollectionView, numberOfItemsInSection pSection: Int) -> Int {
     return self.items.count
   }
 
-  override public func collectionView(pCollectionView: UICollectionView, cellForItemAtIndexPath pIndexPath: NSIndexPath) -> UICollectionViewCell {
+  override open func collectionView(pCollectionView: UICollectionView, cellForItemAtIndexPath pIndexPath: NSIndexPath) -> UICollectionViewCell {
     var lRet:UICollectionViewCell! = nil
     
     if pIndexPath.row < self.items.count {
@@ -124,37 +126,89 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     return lRet
   }
 
-  // MARK: -> public protocol UICollectionViewDelegate
+  // MARK: -> open protocol UICollectionViewDelegate
 
   // Uncomment this method to specify if the specified item should be highlighted during tracking
-  //override public func collectionView(pCollectionView: UICollectionView, shouldHighlightItemAtIndexPath pIndexPath: NSIndexPath) -> Bool {
+  //override open func collectionView(pCollectionView: UICollectionView, shouldHighlightItemAtIndexPath pIndexPath: NSIndexPath) -> Bool {
   //  return true
   //}
 
   // Uncomment this method to specify if the specified item should be selected
-  //override public func collectionView(pCollectionView: UICollectionView, shouldSelectItemAtIndexPath pIndexPath: NSIndexPath) -> Bool {
+  //override open func collectionView(pCollectionView: UICollectionView, shouldSelectItemAtIndexPath pIndexPath: NSIndexPath) -> Bool {
   //  return true
   //}
 
   // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-  //override public func collectionView(pCollectionView: UICollectionView, shouldShowMenuForItemAtIndexPath pIndexPath: NSIndexPath) -> Bool {
+  //override open func collectionView(pCollectionView: UICollectionView, shouldShowMenuForItemAtIndexPath pIndexPath: NSIndexPath) -> Bool {
   //  return false
   //}
 
-  //override public func collectionView(pCollectionView: UICollectionView, canPerformAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) -> Bool {
+  //override open func collectionView(pCollectionView: UICollectionView, canPerformAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) -> Bool {
   //  return false
   //}
 
-  //override public func collectionView(pCollectionView: UICollectionView, performAction pAction: Selector, forItemAtIndexPath pIndexPath: NSIndexPath, withSender pSender: AnyObject?) {
+  //override open func collectionView(pCollectionView: UICollectionView, performAction pAction: Selector, forItemAtIndexPath pIndexPath: NSIndexPath, withSender pSender: AnyObject?) {
   //
   //}
   
   // MARK: -> Interface protocol UICollectionViewDelegateFlowLayout
   
-  public func collectionView(pCollectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+  open func collectionView(pCollectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
     return self.sizeCell
   }
   
+  // MARK: -
+  // MARK: Open access
+  // MARK: -
+  
+  // MARK: -> Open enums
+  
+  // MARK: -> Open structs
+  
+  // MARK: -> Open class
+  
+  // MARK: -> Open type alias 
+  
+  // MARK: -> Open static properties
+  
+  // MARK: -> Open properties
+  
+  // MARK: -> Open class methods
+  
+  // MARK: -> Open init methods
+  
+  // MARK: -> Open operators
+
+  // MARK: -> Open methods
+  
+  // MARK: -> Open protocol <#protocol name#>
+
+  // MARK: -
+  // MARK: Public access
+  // MARK: -
+  
+  // MARK: -> Public enums
+  
+  // MARK: -> Public structs
+  
+  // MARK: -> Public class
+  
+  // MARK: -> Public type alias 
+  
+  // MARK: -> Public static properties
+  
+  // MARK: -> Public properties
+  
+  // MARK: -> Public class methods
+  
+  // MARK: -> Public init methods
+  
+  // MARK: -> Public operators
+
+  // MARK: -> Public methods
+  
+  // MARK: -> Public protocol <#protocol name#>
+
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
@@ -168,17 +222,43 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> Internal type alias 
   
   // MARK: -> Internal static properties
-
+  
   // MARK: -> Internal properties
   
   // MARK: -> Internal class methods
   
   // MARK: -> Internal init methods
   
+  // MARK: -> Internal operators
+
   // MARK: -> Internal methods
   
   // MARK: -> Internal protocol <#protocol name#>
   
+  // MARK: -
+  // MARK: File Private access
+  // MARK: -
+  
+  // MARK: -> File Private enums
+  
+  // MARK: -> File Private structs
+  
+  // MARK: -> File Private class
+  
+  // MARK: -> File Private type alias 
+
+  // MARK: -> File Private static properties
+
+  // MARK: -> File Private properties
+  
+  // MARK: -> File Private class methods
+  
+  // MARK: -> File Private init methods
+  
+  // MARK: -> File Private operators
+
+  // MARK: -> File Private methods
+
   // MARK: -
   // MARK: Private access
   // MARK: -
@@ -194,7 +274,7 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> Private static properties
 
   // MARK: -> Private properties
-  
+
   private var items = [AnyObject]()
   private var sizeCell:CGSize!
   
@@ -202,6 +282,7 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Private init methods
   
+  // MARK: -> Private operators
+
   // MARK: -> Private methods
-  
 }

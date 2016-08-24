@@ -12,7 +12,33 @@ import Foundation
 // MARK: -
 // MARK: ___VARIABLE_extendedClass:identifier___ extension
 // MARK: -
-public  extension ___VARIABLE_extendedClass:identifier___ {
+open  extension ___VARIABLE_extendedClass:identifier___ {
+  // MARK: -
+  // MARK: Open access
+  // MARK: -
+  
+  // MARK: -> Open enums
+  
+  // MARK: -> Open structs
+  
+  // MARK: -> Open class
+  
+  // MARK: -> Open type alias 
+  
+  // MARK: -> Open static properties
+  
+  // MARK: -> Open properties
+  
+  // MARK: -> Open class methods
+  
+  // MARK: -> Open init methods
+  
+  // MARK: -> Open operators
+
+  // MARK: -> Open methods
+  
+  // MARK: -> Open protocol <#protocol name#>
+
   // MARK: -
   // MARK: Public access
   // MARK: -
@@ -33,10 +59,62 @@ public  extension ___VARIABLE_extendedClass:identifier___ {
   
   // MARK: -> Public init methods
   
+  // MARK: -> Public operators
+  
   // MARK: -> Public methods
   
   // MARK: -> Public protocol <#protocol name#>
   
+  // MARK: -
+  // MARK: Internal access (aka public for current module)
+  // MARK: -
+  
+  // MARK: -> Internal enums
+  
+  // MARK: -> Internal structs
+  
+  // MARK: -> Internal class
+  
+  // MARK: -> Internal type alias 
+  
+  // MARK: -> Internal static properties
+  
+  // MARK: -> Internal properties
+  
+  // MARK: -> Internal class methods
+  
+  // MARK: -> Internal init methods
+  
+  // MARK: -> Internal operators
+
+  // MARK: -> Internal methods
+  
+  // MARK: -> Internal protocol <#protocol name#>
+  
+  // MARK: -
+  // MARK: File Private access
+  // MARK: -
+  
+  // MARK: -> File Private enums
+  
+  // MARK: -> File Private structs
+  
+  // MARK: -> File Private class
+  
+  // MARK: -> File Private type alias 
+
+  // MARK: -> File Private static properties
+
+  // MARK: -> File Private properties
+  
+  // MARK: -> File Private class methods
+  
+  // MARK: -> File Private init methods
+  
+  // MARK: -> File Private operators
+
+  // MARK: -> File Private methods
+
   // MARK: -
   // MARK: Private access
   // MARK: -
@@ -57,5 +135,7 @@ public  extension ___VARIABLE_extendedClass:identifier___ {
   
   // MARK: -> Private init methods
   
+  // MARK: -> Private operators
+
   // MARK: -> Private methods
 }

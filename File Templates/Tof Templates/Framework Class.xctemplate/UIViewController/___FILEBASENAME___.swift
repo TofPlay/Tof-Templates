@@ -12,7 +12,23 @@ import UIKit
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___Cell
 // MARK: -
-public class ___FILEBASENAMEASIDENTIFIER___Cell : UITableViewCell {
+open class ___FILEBASENAMEASIDENTIFIER___Cell : UITableViewCell {
+  // MARK: -
+  // MARK: Open access
+  // MARK: -
+  
+  // MARK: -> Open properties
+  
+  // MARK: -> Open class methods
+  
+  // MARK: -> Open init methods
+  
+  // MARK: -> Open operators
+
+  // MARK: -> Open methods
+  
+  // MARK: -> Open protocol <#protocol name#>
+
   // MARK: -
   // MARK: Public
   // MARK: -
@@ -23,6 +39,8 @@ public class ___FILEBASENAMEASIDENTIFIER___Cell : UITableViewCell {
   
   // MARK: -> Public init methods
   
+  // MARK: -> Public operators
+
   // MARK: -> Public methods
   
   // MARK: -> Public protocol <#protocol name#>
@@ -31,7 +49,7 @@ public class ___FILEBASENAMEASIDENTIFIER___Cell : UITableViewCell {
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
+open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -
   // MARK: Interface
   // MARK: -
@@ -44,7 +62,7 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Interface navigation
   
-  //override public func prepareForSegue(pSegue: UIStoryboardSegue, sender pSender: AnyObject?) {
+  //override open func prepareForSegue(pSegue: UIStoryboardSegue, sender pSender: AnyObject?) {
   //  if pSegue.identifier == "<#segue name#>" {
   //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
@@ -54,7 +72,7 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Interface notifications
   
-  //public func notification<#notification name#>(pNotification: NSNotification){
+  //open func notification<#notification name#>(pNotification: NSNotification){
   //  if pNotification.object is <#type#> {
   //    // <#notification code#>
   //  }
@@ -62,28 +80,28 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Interface class override ___VARIABLE_cocoaTouchSubclass___
   
-  override public func viewDidLoad() {
+  override open func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
   }
   
-  //override public func viewWillAppear(pAnimated: Bool) {
+  //override open func viewWillAppear(pAnimated: Bool) {
   //  super.viewWillAppear(pAnimated)
   //}
   
-  //override public func viewDidAppear(pAnimated: Bool) {
+  //override open func viewDidAppear(pAnimated: Bool) {
   //  super.viewDidAppear(pAnimated)
   //}
   
-  //override public func viewWillDisappear(pAnimated: Bool) {
+  //override open func viewWillDisappear(pAnimated: Bool) {
   //  super.viewWillDisappear(pAnimated)
   //}
   
-  //override public func viewDidDisappear(pAnimated: Bool) {
+  //override open func viewDidDisappear(pAnimated: Bool) {
   //  super.viewDidDisappear(pAnimated)
   //}
 
-  override public func didReceiveMemoryWarning() {
+  override open func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
@@ -92,17 +110,17 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 
   // MARK: -> Interface protocol UITableViewDataSource
   
-  //public func numberOfSectionsInTableView(pTableView: UITableView) -> Int {
+  //open func numberOfSectionsInTableView(pTableView: UITableView) -> Int {
   //  return 1
   //}
   
-  //public func tableView(pTableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+  //open func tableView(pTableView: UITableView, numberOfRowsInSection section: Int) -> Int {
   //  let lRet:Int = self.items.count
   //  
   //  return lRet
   //}
 
-  //public func tableView(pTableView: UITableView, cellForRowAtIndexPath pIndexPath: NSIndexPath) -> UITableViewCell {
+  //open func tableView(pTableView: UITableView, cellForRowAtIndexPath pIndexPath: NSIndexPath) -> UITableViewCell {
   //  var lRet:UITableViewCell! = nil
   //  
   //  if self.items.count > 0 && pIndexPath.row < self.items.count {
@@ -124,13 +142,13 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   //}
   
   // Support conditional editing of the table view.
-  // public func tableView(pTableView: UITableView, canEditRowAtIndexPath pIndexPath: NSIndexPath) -> Bool {
+  // open func tableView(pTableView: UITableView, canEditRowAtIndexPath pIndexPath: NSIndexPath) -> Bool {
   //  // Return NO if you do not want the specified item to be editable.
   //  return true
   //}
   
   // Support editing the table view.
-  // public func tableView(pTableView: UITableView, commitEditingStyle pEditingStyle: UITableViewCellEditingStyle, forRowAtIndexPath pIndexPath: NSIndexPath) {
+  // open func tableView(pTableView: UITableView, commitEditingStyle pEditingStyle: UITableViewCellEditingStyle, forRowAtIndexPath pIndexPath: NSIndexPath) {
   //  if pEditingStyle == .Delete {
   //    // Delete the row from the data source
   //    self.items.removeAtIndex(pIndexPath.row)
@@ -145,19 +163,19 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   //}
   
   // Support rearranging the table view.
-  // public func tableView(pTableView: UITableView, moveRowAtIndexPath pFromIndexPath: NSIndexPath, toIndexPath pToIndexPath: NSIndexPath) {
+  // open func tableView(pTableView: UITableView, moveRowAtIndexPath pFromIndexPath: NSIndexPath, toIndexPath pToIndexPath: NSIndexPath) {
   //
   //}
   
   // Support conditional rearranging of the table view.
-  // public func tableView(pTableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+  // open func tableView(pTableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
   //  // Return NO if you do not want the item to be re-orderable.
   //  return true
   //}
   
   // MARK: -> Interface protocol UITableViewDelegate
   
-  //public func tableView(pTableView: UITableView, willDisplayCell pCell: UITableViewCell, forRowAtIndexPath pIndexPath: NSIndexPath) {
+  //open func tableView(pTableView: UITableView, willDisplayCell pCell: UITableViewCell, forRowAtIndexPath pIndexPath: NSIndexPath) {
   //  pTableView.separatorInset = UIEdgeInsetsZero
   //  pCell.separatorInset = UIEdgeInsetsZero
   //  pTableView.layoutMargins = UIEdgeInsetsZero
@@ -165,7 +183,7 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   //}
   
   // Select cell
-  //public func tableView(pTableView: UITableView, didSelectRowAtIndexPath pIndexPath: NSIndexPath) {
+  //open func tableView(pTableView: UITableView, didSelectRowAtIndexPath pIndexPath: NSIndexPath) {
   //  if self.items.count > 0 && pIndexPath.row < self.items.count {
   //    let lItem = self.items[pIndexPath.row]
   //    
@@ -174,7 +192,33 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   //}
 
   // MARK: -
-  // MARK: Public
+  // MARK: Open access
+  // MARK: -
+  
+  // MARK: -> Open enums
+  
+  // MARK: -> Open structs
+  
+  // MARK: -> Open class
+  
+  // MARK: -> Open type alias 
+  
+  // MARK: -> Open static properties
+  
+  // MARK: -> Open properties
+  
+  // MARK: -> Open class methods
+  
+  // MARK: -> Open init methods
+  
+  // MARK: -> Open operators
+
+  // MARK: -> Open methods
+  
+  // MARK: -> Open protocol <#protocol name#>
+
+  // MARK: -
+  // MARK: Public access
   // MARK: -
   
   // MARK: -> Public enums
@@ -193,6 +237,8 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Public init methods
   
+  // MARK: -> Public operators
+
   // MARK: -> Public methods
   
   // MARK: -> Public protocol <#protocol name#>
@@ -217,10 +263,36 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Internal init methods
   
+  // MARK: -> Internal operators
+
   // MARK: -> Internal methods
   
   // MARK: -> Internal protocol <#protocol name#>
   
+  // MARK: -
+  // MARK: File Private access
+  // MARK: -
+  
+  // MARK: -> File Private enums
+  
+  // MARK: -> File Private structs
+  
+  // MARK: -> File Private class
+  
+  // MARK: -> File Private type alias 
+
+  // MARK: -> File Private static properties
+
+  // MARK: -> File Private properties
+  
+  // MARK: -> File Private class methods
+  
+  // MARK: -> File Private init methods
+  
+  // MARK: -> File Private operators
+
+  // MARK: -> File Private methods
+
   // MARK: -
   // MARK: Private access
   // MARK: -
@@ -243,6 +315,8 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Private init methods
   
+  // MARK: -> Private operators
+
   // MARK: -> Private methods
     
 }

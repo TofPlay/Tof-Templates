@@ -33,10 +33,62 @@ internal  extension ___VARIABLE_extendedClass:identifier___ {
   
   // MARK: -> Public init methods
   
+  // MARK: -> Public operators
+  
   // MARK: -> Public methods
   
   // MARK: -> Public protocol <#protocol name#>
   
+  // MARK: -
+  // MARK: Internal access (aka public for current module)
+  // MARK: -
+  
+  // MARK: -> Internal enums
+  
+  // MARK: -> Internal structs
+  
+  // MARK: -> Internal class
+  
+  // MARK: -> Internal type alias 
+  
+  // MARK: -> Internal static properties
+  
+  // MARK: -> Internal properties
+  
+  // MARK: -> Internal class methods
+  
+  // MARK: -> Internal init methods
+  
+  // MARK: -> Internal operators
+
+  // MARK: -> Internal methods
+  
+  // MARK: -> Internal protocol <#protocol name#>
+  
+  // MARK: -
+  // MARK: File Private access
+  // MARK: -
+  
+  // MARK: -> File Private enums
+  
+  // MARK: -> File Private structs
+  
+  // MARK: -> File Private class
+  
+  // MARK: -> File Private type alias 
+
+  // MARK: -> File Private static properties
+
+  // MARK: -> File Private properties
+  
+  // MARK: -> File Private class methods
+  
+  // MARK: -> File Private init methods
+  
+  // MARK: -> File Private operators
+
+  // MARK: -> File Private methods
+
   // MARK: -
   // MARK: Private access
   // MARK: -
@@ -57,5 +109,7 @@ internal  extension ___VARIABLE_extendedClass:identifier___ {
   
   // MARK: -> Private init methods
   
+  // MARK: -> Private operators
+
   // MARK: -> Private methods
 }
