@@ -21,9 +21,9 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   // Only override drawRect: if you perform custom drawing.
   // An empty implementation adversely affects performance during animation.
-  override internal func drawRect(pRect: CGRect) {
-    // Drawing code
-  }
+  //override internal func draw(_ pRect: CGRect) {
+  //  // Drawing code
+  //}
 
   // MARK: -> Interface protocol <#protocol name#>
 

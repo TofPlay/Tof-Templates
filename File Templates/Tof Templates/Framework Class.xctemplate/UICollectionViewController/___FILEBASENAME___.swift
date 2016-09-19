@@ -7,7 +7,7 @@
 //___COPYRIGHT___
 //
 
-import UIKit
+import UIKit 
 
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___Cell
@@ -45,7 +45,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Interface navigation
   
-  //override open func prepareForSegue(pSegue: UIStoryboardSegue, sender pSender: AnyObject?) {
+  //override open func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
   //  if pSegue.identifier == "<#segue name#>" {
   //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
@@ -63,7 +63,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Interface class override ___VARIABLE_cocoaTouchSubclass___
   
-  override internal func viewDidLoad() {
+  override open func viewDidLoad() {
     super.viewDidLoad()
 
     //Uncomment the following line to preserve selection between presentations.
@@ -78,19 +78,19 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     //self.sizeCell = CGSize(width: <#IB Cell Width#> * (lSize.width / 320), height: <#IB Cell Width#> * (lSize.height / 568))
   }
   
-  //override open func viewWillAppear(pAnimated: Bool) {
+  //override open func viewWillAppear(_ pAnimated: Bool) {
   //  super.viewWillAppear(pAnimated)
   //}
   
-  //override open func viewDidAppear(pAnimated: Bool) {
+  //override open func viewDidAppear(_ pAnimated: Bool) {
   //  super.viewDidAppear(pAnimated)
   //}
   
-  //override open func viewWillDisappear(pAnimated: Bool) {
+  //override open func viewWillDisappear(_ pAnimated: Bool) {
   //  super.viewWillDisappear(pAnimated)
   //}
   
-  //override open func viewDidDisappear(pAnimated: Bool) {
+  //override open func viewDidDisappear(_ pAnimated: Bool) {
   //  super.viewDidDisappear(pAnimated)
   //}
 
@@ -100,21 +100,23 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 
   // MARK: -> Interface protocol UICollectionViewDataSource
 
-  override open func numberOfSectionsInCollectionView(pCollectionView: UICollectionView) -> Int {
+  override open func numberOfSections(in pCollectionView: UICollectionView) -> Int {
     return 1
   }
 
-  override open func collectionView(pCollectionView: UICollectionView, numberOfItemsInSection pSection: Int) -> Int {
+  override open func collectionView(_ pCollectionView: UICollectionView, numberOfItemsInSection pSection: Int) -> Int {
     return self.items.count
   }
 
-  override open func collectionView(pCollectionView: UICollectionView, cellForItemAtIndexPath pIndexPath: NSIndexPath) -> UICollectionViewCell {
+  override open func collectionView(_ pCollectionView: UICollectionView, cellForItemAt pIndexPath: IndexPath) -> UICollectionViewCell {
     var lRet:UICollectionViewCell! = nil
     
     if pIndexPath.row < self.items.count {
-      if lCell = pCollectionView.dequeueReusableCellWithReuseIdentifier("___FILEBASENAMEASIDENTIFIER___Cell", forIndexPath: pIndexPath) as? ___FILEBASENAMEASIDENTIFIER___Cell {
+      if let lCell = pCollectionView.dequeueReusableCell(withReuseIdentifier: "___FILEBASENAMEASIDENTIFIER___Cell", for: pIndexPath) as? ___FILEBASENAMEASIDENTIFIER___Cell {
         let lItem = self.items[pIndexPath.row]
         
+        lCell.<#interface property#>.text = lItem.<#property#>
+
         lRet = lCell
       }
     }
@@ -129,31 +131,30 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> open protocol UICollectionViewDelegate
 
   // Uncomment this method to specify if the specified item should be highlighted during tracking
-  //override open func collectionView(pCollectionView: UICollectionView, shouldHighlightItemAtIndexPath pIndexPath: NSIndexPath) -> Bool {
+  //override open func collectionView(_ pCollectionView: UICollectionView, shouldHighlightItemAt pIndexPath: IndexPath) -> Bool {
   //  return true
   //}
 
   // Uncomment this method to specify if the specified item should be selected
-  //override open func collectionView(pCollectionView: UICollectionView, shouldSelectItemAtIndexPath pIndexPath: NSIndexPath) -> Bool {
+  //override open func collectionView(_ pCollectionView: UICollectionView, shouldSelectItemAt pIndexPath: IndexPath) -> Bool {
   //  return true
   //}
 
   // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-  //override open func collectionView(pCollectionView: UICollectionView, shouldShowMenuForItemAtIndexPath pIndexPath: NSIndexPath) -> Bool {
+  //override open func collectionView(_ pCollectionView: UICollectionView, shouldShowMenuForItemAt pIndexPath: IndexPath) -> Bool {
   //  return false
   //}
 
-  //override open func collectionView(pCollectionView: UICollectionView, canPerformAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) -> Bool {
+  //override open func collectionView(_ pCollectionView: UICollectionView, canPerformAction pAction: Selector, forItemAt pIndexPath: IndexPath, withSender pSender: Any?) -> Bool {
   //  return false
   //}
 
-  //override open func collectionView(pCollectionView: UICollectionView, performAction pAction: Selector, forItemAtIndexPath pIndexPath: NSIndexPath, withSender pSender: AnyObject?) {
-  //
+  //override open func collectionView(_ pCollectionView: UICollectionView, performAction pAction: Selector, forItemAt pIndexPath: IndexPath, withSender pSender: Any?) {
   //}
   
   // MARK: -> Interface protocol UICollectionViewDelegateFlowLayout
   
-  open func collectionView(pCollectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+  open func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, sizeForItemAt pIndexPath: IndexPath) -> CGSize {
     return self.sizeCell
   }
   

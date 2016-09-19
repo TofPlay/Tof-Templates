@@ -35,12 +35,13 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   //internal var <#field#>:Float? = nil
   //internal var <#field#>:Double? = nil
   //internal var <#field#>:String? = nil
+  //internal var <#field date#>:Date? = nil
 
   // MARK: -> Internal class methods
   
   // MARK: -> Internal init methods
   
-  internal required init?(_ pMap: Map){
+  internal required init?(map pMap: Map){
   }
   
   // MARK: -> Internal operators
@@ -49,6 +50,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   internal func mapping(pMap: Map) {
     // self.<#field#>      <- pMap["<#field#>"]
+    // self.<#field date#> <- (pMap["<#field date#>"], TransformOf<Date, String>(fromJSON: { Date.dateWithISO8601($0,timezone: TimeZone.autoupdatingCurrent) }, toJSON: { $0.map { $0.iso8601(timezone: TimeZone.autoupdatingCurrent)! } }))
   }
   
   // MARK: -> Internal class override ___VARIABLE_cocoaTouchSubclass___

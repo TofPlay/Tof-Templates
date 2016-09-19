@@ -46,7 +46,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   // MARK: -> Interface navigation
   
-  //override internal func prepareForSegue(pSegue: UIStoryboardSegue, sender pSender: AnyObject?) {
+  //override internal func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
   //  if pSegue.identifier == "<#segue name#>" {
   //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
@@ -69,19 +69,19 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
     // Do any additional setup after loading the view, typically from a nib.
   }
   
-  //override internal func viewWillAppear(pAnimated: Bool) {
+  //override internal func viewWillAppear(_ pAnimated: Bool) {
   //  super.viewWillAppear(pAnimated)
   //}
   
-  //override internal func viewDidAppear(pAnimated: Bool) {
+  //override internal func viewDidAppear(_ pAnimated: Bool) {
   //  super.viewDidAppear(pAnimated)
   //}
   
-  //override internal func viewWillDisappear(pAnimated: Bool) {
+  //override internal func viewWillDisappear(_ pAnimated: Bool) {
   //  super.viewWillDisappear(pAnimated)
   //}
   
-  //override internal func viewDidDisappear(pAnimated: Bool) {
+  //override internal func viewDidDisappear(_ pAnimated: Bool) {
   //  super.viewDidDisappear(pAnimated)
   //}
 
@@ -94,80 +94,84 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
   // MARK: -> Interface protocol UITableViewDataSource
   
-  //internal func numberOfSectionsInTableView(pTableView: UITableView) -> Int {
+  // Number of sections
+  //internal func numberOfSections(in pTableView: UITableView) -> Int {
   //  return 1
   //}
   
-  //internal func tableView(pTableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+  // Number of rows in section
+  //internal func tableView(_ pTableView: UITableView, numberOfRowsInSection pSection: Int) -> Int {
   //  let lRet:Int = self.items.count
   //  
   //  return lRet
   //}
 
-  //internal func tableView(pTableView: UITableView, cellForRowAtIndexPath pIndexPath: NSIndexPath) -> UITableViewCell {
+  // Generate a cell for a row
+  //internal func tableView(_ pTableView: UITableView, cellForRowAt pIndexPath: IndexPath) -> UITableViewCell {
   //  var lRet:UITableViewCell! = nil
-  //  
+  //
   //  if self.items.count > 0 && pIndexPath.row < self.items.count {
-  //    if let lCell = pTableView.dequeueReusableCellWithIdentifier("___FILEBASENAMEASIDENTIFIER___Cell") as? ___FILEBASENAMEASIDENTIFIER___Cell {
+  //    if let lCell = pTableView.dequeueReusableCell(withIdentifier: "ViewControllerCell") as? ViewControllerCell {
   //      let lItem = self.items[pIndexPath.row]
-  //      
+  //
   //      lCell.<#interface property#>.text = lItem.<#property#>
-  //      
+  //
   //      lRet = lCell
   //    }
   //  }
-  //  
+  //
   //  if lRet == nil {
   //    lRet = UITableViewCell()
-  //    lRet.backgroundColor = UIColor.clearColor()
+  //    lRet.backgroundColor = UIColor.clear
   //  }
   //  
   //  return lRet
   //}
   
   // Support conditional editing of the table view.
-  // internal func tableView(pTableView: UITableView, canEditRowAtIndexPath pIndexPath: NSIndexPath) -> Bool {
-  //  // Return NO if you do not want the specified item to be editable.
+  //internal func tableView(_ pTableView: UITableView, canEditRowAt pIndexPath: IndexPath) -> Bool {
+  //  // Return false if you do not want the specified item to be editable.
   //  return true
   //}
   
   // Support editing the table view.
-  // internal func tableView(pTableView: UITableView, commitEditingStyle pEditingStyle: UITableViewCellEditingStyle, forRowAtIndexPath pIndexPath: NSIndexPath) {
-  //  if pEditingStyle == .Delete {
+  //internal func tableView(_ pTableView: UITableView, commit pEditingStyle: UITableViewCellEditingStyle, forRowAt pIndexPath: IndexPath) {
+  //  if pEditingStyle == .delete {
   //    // Delete the row from the data source
-  //    self.items.removeAtIndex(pIndexPath.row)
-  //    self.tableView.deleteRowsAtIndexPaths([pIndexPath], withRowAnimation: .Fade)
-  //  } else if pEditingStyle == .Insert {
+  //    self.items.remove(at: pIndexPath.row)
+  //    self.tableView.deleteRows(at: [pIndexPath], with: .fade)
+  //  } else if pEditingStyle == .insert {
   //    // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
   //    let lItem = <#item class#>()
   //    self.items += [lItem]      
-  //    let lIndexPath = NSIndexPath(forRow: self.items.count - 1, inSection: 0)
-  //    self.tableView.insertRowsAtIndexPaths([lIndexPath], withRowAnimation: .Automatic)
+  //    let lIndexPath = IndexPath(row: self.items.count - 1, section: 0)
+  //    self.tableView.insertRows(at: [lIndexPath], with: .automatic)
   //  }
   //}
   
-  // Support rearranging the table view.
-  // internal func tableView(pTableView: UITableView, moveRowAtIndexPath pFromIndexPath: NSIndexPath, toIndexPath pToIndexPath: NSIndexPath) {
-  //
-  //}
-  
   // Support conditional rearranging of the table view.
-  // internal func tableView(pTableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-  //  // Return NO if you do not want the item to be re-orderable.
+  //internal func tableView(_ pTableView: UITableView, canMoveRowAt pIndexPath: IndexPath) -> Bool {
+  //  // Return false if you do not want the item to be re-orderable.
   //  return true
+  //}
+
+  // Support rearranging the table view.
+  //internal func tableView(_ pTableView: UITableView, moveRowAt pSourceIndexPath: IndexPath, to pDestinationIndexPath: IndexPath) {
+  //
   //}
   
   // MARK: -> Interface protocol UITableViewDelegate
   
-  //internal func tableView(pTableView: UITableView, willDisplayCell pCell: UITableViewCell, forRowAtIndexPath pIndexPath: NSIndexPath) {
-  //  pTableView.separatorInset = UIEdgeInsetsZero
-  //  pCell.separatorInset = UIEdgeInsetsZero
-  //  pTableView.layoutMargins = UIEdgeInsetsZero
-  //  pCell.layoutMargins = UIEdgeInsetsZero
+  // Will display cell
+  //internal func tableView(_ pTableView: UITableView, willDisplay pCell: UITableViewCell, forRowAt pIndexPath: IndexPath) {
+  //  pTableView.separatorInset = UIEdgeInsets.zero
+  //  pCell.separatorInset = UIEdgeInsets.zero
+  //  pTableView.layoutMargins = UIEdgeInsets.zero
+  //  pCell.layoutMargins = UIEdgeInsets.zero
   //}
   
   // Select cell
-  //internal func tableView(pTableView: UITableView, didSelectRowAtIndexPath pIndexPath: NSIndexPath) {
+  //internal func tableView(_ pTableView: UITableView, didSelectRowAt pIndexPath: IndexPath) {
   //  if self.items.count > 0 && pIndexPath.row < self.items.count {
   //    let lItem = self.items[pIndexPath.row]
   //    

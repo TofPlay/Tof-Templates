@@ -77,6 +77,11 @@
 			</dict>
 			<key>Type</key>
 			<string>class</string>
+			<key>Values</key>
+			<array>
+				<string>NSObject</string>
+				<string>Notification</string>
+			</array>
 		</dict>
 	</array>
 </dict>
