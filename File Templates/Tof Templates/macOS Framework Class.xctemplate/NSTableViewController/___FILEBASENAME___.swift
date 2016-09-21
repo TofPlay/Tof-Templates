@@ -458,8 +458,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSTableViewDataSour
   // MARK: Open access
   // MARK: -
   
-  // MARK: -> Open enums
-  
   // MARK: -> Open structs
   
   // MARK: -> Open class
@@ -471,8 +469,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSTableViewDataSour
   // MARK: -> Open properties
   
   // MARK: -> Open class methods
-  
-  // MARK: -> Open init methods
   
   // MARK: -> Open operators
 

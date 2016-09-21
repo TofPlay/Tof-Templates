@@ -13,7 +13,68 @@ import ObjectMapper
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
+open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
+  // MARK: -
+  // MARK: Open access (aka public for current module)
+  // MARK: -
+  
+  // MARK: -> Open structs
+  
+  // MARK: -> Open class
+  
+  // MARK: -> Open static properties
+  
+  // MARK: -> Open properties
+  
+  //open var <#field#>:Bool? = nil
+  //open var <#field#>:Int? = nil
+  //open var <#field#>:Float? = nil
+  //open var <#field#>:Double? = nil
+  //open var <#field#>:String? = nil
+  //open var <#field date#>:Date? = nil
+
+  // MARK: -> Open class methods
+  
+  // MARK: -> Open operators
+
+  // MARK: -> Open methods
+  
+  open func mapping(pMap: Map) {
+    // self.<#field#>      <- pMap["<#field#>"]
+    // self.<#field date#> <- (pMap["<#field date#>"], TransformOf<Date, String>(fromJSON: { Date.dateWithISO8601($0,timezone: TimeZone.autoupdatingCurrent) }, toJSON: { $0.map { $0.iso8601(timezone: TimeZone.autoupdatingCurrent)! } }))
+  }
+  
+  // MARK: -
+  // MARK: Public access
+  // MARK: -
+  
+  // MARK: -> Public enums
+  
+  // MARK: -> Public structs
+  
+  // MARK: -> Public class
+  
+  // MARK: -> Public type alias 
+  
+  // MARK: -> Public static properties
+  
+  // MARK: -> Public properties
+  
+  // MARK: -> Public class methods
+  
+  // MARK: -> Public init methods
+  
+  public required init?(map pMap: Map) {
+  }
+  
+  // MARK: -> Public operators
+
+  // MARK: -> Public methods
+  
+  // MARK: -> Public class override Mappable
+
+  // MARK: -> Public protocol <#protocol name#>
+  
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
@@ -30,32 +91,18 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   // MARK: -> Internal properties
   
-  //internal var <#field#>:Bool? = nil
-  //internal var <#field#>:Int? = nil
-  //internal var <#field#>:Float? = nil
-  //internal var <#field#>:Double? = nil
-  //internal var <#field#>:String? = nil
-  //internal var <#field date#>:Date? = nil
-
   // MARK: -> Internal class methods
   
   // MARK: -> Internal init methods
-  
-  internal required init?(map pMap: Map){
-  }
   
   // MARK: -> Internal operators
 
   // MARK: -> Internal methods
   
-  internal func mapping(pMap: Map) {
-    // self.<#field#>      <- pMap["<#field#>"]
-    // self.<#field date#> <- (pMap["<#field date#>"], TransformOf<Date, String>(fromJSON: { Date.dateWithISO8601($0,timezone: TimeZone.autoupdatingCurrent) }, toJSON: { $0.map { $0.iso8601(timezone: TimeZone.autoupdatingCurrent)! } }))
-  }
-  
-  // MARK: -> Internal class override ___VARIABLE_cocoaTouchSubclass___
-
   // MARK: -> Internal protocol <#protocol name#>
+  
+
+  // MARK: -> Open protocol <#protocol name#>
   
   // MARK: -
   // MARK: File Private access

@@ -69,31 +69,31 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionVie
     // Do any additional setup after loading the view, typically from a nib.
   }
   
-  //override func viewWillAppear() {
+  //override internal func viewWillAppear() {
   //  // Your code here
   //}
   
-  //override func viewDidAppear() {
+  //override internal func viewDidAppear() {
   //  // Your code here
   //}
   
-  //override func updateViewConstraints() {
+  //override internal func updateViewConstraints() {
   //  // Your code here
   //}
   
-  //override func viewWillLayout() {
+  //override internal func viewWillLayout() {
   //  // Your code here
   //}
   
-  //override func viewDidLayout() {
+  //override internal func viewDidLayout() {
   //  // Your code here
   //}
   
-  //override func viewWillDisappear() {
+  //override internal func viewWillDisappear() {
   //  // Your code here
   //}
   
-  //override func viewDidDisappear() {
+  //override internal func viewDidDisappear() {
   //  // Your code here
   //}
   
@@ -106,12 +106,12 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionVie
   // MARK: --> Getting the Number of Sections and Items
   
   // Asks your data source object to provide the total number of sections.
-  //func numberOfSections(in pCollectionView: NSCollectionView) -> Int {
+  //internal func numberOfSections(in pCollectionView: NSCollectionView) -> Int {
   //  return 1
   //}
   
   // Asks your data source object to provide the number of items in the specified section.
-  func collectionView(_ pCollectionView: NSCollectionView, numberOfItemsInSection pSection: Int) -> Int {
+  internal func collectionView(_ pCollectionView: NSCollectionView, numberOfItemsInSection pSection: Int) -> Int {
     let lRet:Int = self.items.count
     
     // Change lRet here and add your code
@@ -122,7 +122,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionVie
   // MARK: --> Configuring Items and Supplementary Views
   
   // Asks your data source object to provide the item at the specified location in the collection view.
-  func collectionView(_ pCollectionView: NSCollectionView, itemForRepresentedObjectAt pIndexPath: IndexPath) -> NSCollectionViewItem {
+  internal func collectionView(_ pCollectionView: NSCollectionView, itemForRepresentedObjectAt pIndexPath: IndexPath) -> NSCollectionViewItem {
     let lRet = pCollectionView.makeItem(withIdentifier: "___FILEBASENAMEASIDENTIFIER___Item", for: pIndexPath)
     
     // Change lRet here and add your code
@@ -131,7 +131,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionVie
   }
   
   // Asks your data source object to provide the supplementary view at the specified location in a section of the collection view.
-  //func collectionView(_ pCollectionView: NSCollectionView, viewForSupplementaryElementOfKind pKind: String, at pIndexPath: IndexPath) -> NSView {
+  //internal func collectionView(_ pCollectionView: NSCollectionView, viewForSupplementaryElementOfKind pKind: String, at pIndexPath: IndexPath) -> NSView {
   //  let lRet = pCollectionView.makeSupplementaryView(ofKind: pKind, withIdentifier: "<#CollectionSupplementaryItem#>", for: pIndexPath)
   //  
   //  // Change lRet here and add your code
