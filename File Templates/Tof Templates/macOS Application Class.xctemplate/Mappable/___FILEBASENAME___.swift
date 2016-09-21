@@ -7,91 +7,51 @@
 //___COPYRIGHT___
 //
 
-import UIKit
+import Foundation
+import ObjectMapper
 
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
-  // MARK: -
-  // MARK: Interface
-  // MARK: -
-  
-  // MARK: -> Interface Builder properties
-  
-  // MARK: -> Interface Builder actions
-  
-  // MARK: -> Interface navigation
-  
-  //override open func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
-  //  if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
-  //  } else if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
-  //  }
-  //}
-  
-  // MARK: -> Interface notifications
-  
-  //open func notification<#notification name#>(pNotification: NSNotification){
-  //  if pNotification.object is <#type#> {
-  //    // <#notification code#>
-  //  }
-  //}
-  
-  // MARK: -> Interface class override UIViewController
-  
-  // Called after the controller's view is loaded into memory.
-  override open func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
-  }
-  
-  // Notifies the view controller that its view is about to be added to a view hierarchy.
-  //override open func viewWillAppear(_ pAnimated: Bool) {
-  //  super.viewWillAppear(pAnimated)
-  //}
-  
-  // Notifies the view controller that its view was added to a view hierarchy.
-  //override open func viewDidAppear(_ pAnimated: Bool) {
-  //  super.viewDidAppear(pAnimated)
-  //}
-  
-  // Notifies the view controller that its view is about to be removed from a view hierarchy.
-  //override open func viewWillDisappear(_ pAnimated: Bool) {
-  //  super.viewWillDisappear(pAnimated)
-  //}
-  
-  // Notifies the view controller that its view was removed from a view hierarchy.
-  //override open func viewDidDisappear(_ pAnimated: Bool) {
-  //  super.viewDidDisappear(pAnimated)
-  //}
-
-  override open func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-  
+open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -
   // MARK: Open access
   // MARK: -
+  
+  // MARK: -> Open enums
   
   // MARK: -> Open structs
   
   // MARK: -> Open class
   
+  // MARK: -> Open type alias 
+  
   // MARK: -> Open static properties
   
   // MARK: -> Open properties
   
+  //open var <#field#>:Bool? = nil
+  //open var <#field#>:Int? = nil
+  //open var <#field#>:Float? = nil
+  //open var <#field#>:Double? = nil
+  //open var <#field#>:String? = nil
+  //open var <#field date#>:Date? = nil
+
   // MARK: -> Open class methods
   
   // MARK: -> Open operators
 
   // MARK: -> Open methods
   
-  // MARK: -> Open protocol <#protocol name#>
+  open func mapping(pMap: Map) {
+    // self.<#field#>      <- pMap["<#field#>"]
+    // self.<#field date#> <- (pMap["<#field date#>"], TransformOf<Date, String>(fromJSON: { Date.dateWithISO8601($0,timezone: TimeZone.autoupdatingCurrent) }, toJSON: { $0.map { $0.iso8601(timezone: TimeZone.autoupdatingCurrent)! } }))
+  }
+  
+  // MARK: -> Open class override ___VARIABLE_cocoaTouchSubclass___
 
+  // MARK: -> Open protocol <#protocol name#>
+  
   // MARK: -
   // MARK: Public access
   // MARK: -
@@ -112,14 +72,17 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   
   // MARK: -> Public init methods
   
+  public required init?(map pMap: Map){
+  }
+  
   // MARK: -> Public operators
 
   // MARK: -> Public methods
   
+  // MARK: -> Public class override Mappable
+
   // MARK: -> Public protocol <#protocol name#>
-
-  // MARK: -> Interface protocol <#protocol name#>
-
+  
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
@@ -193,4 +156,5 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   // MARK: -> Private operators
 
   // MARK: -> Private methods
+    
 }

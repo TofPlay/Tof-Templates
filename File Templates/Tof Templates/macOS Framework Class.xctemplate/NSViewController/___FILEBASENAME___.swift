@@ -7,12 +7,12 @@
 //___COPYRIGHT___
 //
 
-import UIKit
+import Cocoa
 
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
+open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -
   // MARK: Interface
   // MARK: -
@@ -23,7 +23,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   
   // MARK: -> Interface navigation
   
-  //override open func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
+  //override open func prepare(for pSegue: NSStoryboardSegue, sender pSender: Any?) {
   //  if pSegue.identifier == "<#segue name#>" {
   //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
@@ -33,52 +33,60 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   
   // MARK: -> Interface notifications
   
-  //open func notification<#notification name#>(pNotification: NSNotification){
+  //open func notification<#notification name#>(pNotification: NSNotification) {
   //  if pNotification.object is <#type#> {
   //    // <#notification code#>
   //  }
   //}
   
-  // MARK: -> Interface class override UIViewController
+  // MARK: -> Interface class override ___VARIABLE_cocoaTouchSubclass___
   
-  // Called after the controller's view is loaded into memory.
   override open func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
   }
   
-  // Notifies the view controller that its view is about to be added to a view hierarchy.
-  //override open func viewWillAppear(_ pAnimated: Bool) {
-  //  super.viewWillAppear(pAnimated)
+  //override func viewWillAppear() {
+  //  // Your code here
   //}
   
-  // Notifies the view controller that its view was added to a view hierarchy.
-  //override open func viewDidAppear(_ pAnimated: Bool) {
-  //  super.viewDidAppear(pAnimated)
+  //override func viewDidAppear() {
+  //  // Your code here
   //}
   
-  // Notifies the view controller that its view is about to be removed from a view hierarchy.
-  //override open func viewWillDisappear(_ pAnimated: Bool) {
-  //  super.viewWillDisappear(pAnimated)
+  //override func updateViewConstraints() {
+  //  // Your code here
   //}
   
-  // Notifies the view controller that its view was removed from a view hierarchy.
-  //override open func viewDidDisappear(_ pAnimated: Bool) {
-  //  super.viewDidDisappear(pAnimated)
+  //override func viewWillLayout() {
+  //  // Your code here
   //}
+  
+  //override func viewDidLayout() {
+  //  // Your code here
+  //}
+  
+  //override func viewWillDisappear() {
+  //  // Your code here
+  //}
+  
+  //override func viewDidDisappear() {
+  //  // Your code here
+  //}
+  
+  // MARK: -> Interface protocol <#protocol name#>
 
-  override open func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-  
   // MARK: -
   // MARK: Open access
   // MARK: -
   
+  // MARK: -> Open enums
+  
   // MARK: -> Open structs
   
   // MARK: -> Open class
+  
+  // MARK: -> Open type alias 
   
   // MARK: -> Open static properties
   
@@ -86,11 +94,19 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   
   // MARK: -> Open class methods
   
+  // MARK: -> Open init methods
+  
   // MARK: -> Open operators
 
   // MARK: -> Open methods
   
-  // MARK: -> Open protocol <#protocol name#>
+  // MARK: -> Open class override ___VARIABLE_cocoaTouchSubclass___
+  
+  override open var representedObject: Any? {
+    didSet {
+    // Update the view, if already loaded.
+    }
+  }
 
   // MARK: -
   // MARK: Public access
@@ -116,10 +132,10 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
 
   // MARK: -> Public methods
   
+  // MARK: -> Public class override Mappable
+
   // MARK: -> Public protocol <#protocol name#>
-
-  // MARK: -> Interface protocol <#protocol name#>
-
+  
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -

@@ -12,7 +12,7 @@ import UIKit
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___Cell
 // MARK: -
-open class ___FILEBASENAMEASIDENTIFIER___Cell : UITableViewCell {
+internal class ___FILEBASENAMEASIDENTIFIER___Cell : UITableViewCell {
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
@@ -33,20 +33,20 @@ open class ___FILEBASENAMEASIDENTIFIER___Cell : UITableViewCell {
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSource, UITableViewDelegate {
+internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSource, UITableViewDelegate {
   // MARK: -
   // MARK: Interface
   // MARK: -
   
   // MARK: -> Interface Builder properties
   
-  @IBOutlet weak open var tableView: UITableView!
+  @IBOutlet weak internal var tableView: UITableView!
 
   // MARK: -> Interface Builder actions
   
   // MARK: -> Interface navigation
   
-  //override open func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
+  //override internal func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
   //  if pSegue.identifier == "<#segue name#>" {
   //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
@@ -56,7 +56,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   
   // MARK: -> Interface notifications
   
-  //open func notification<#notification name#>(pNotification: NSNotification){
+  //internal func notification<#notification name#>(pNotification: NSNotification){
   //  if pNotification.object is <#type#> {
   //    // <#notification code#>
   //  }
@@ -65,32 +65,32 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   // MARK: -> Interface class override UIViewController
   
   // Called after the controller's view is loaded into memory.
-  override open func viewDidLoad() {
+  override internal func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
   }
   
   // Notifies the view controller that its view is about to be added to a view hierarchy.
-  //override open func viewWillAppear(_ pAnimated: Bool) {
+  //override internal func viewWillAppear(_ pAnimated: Bool) {
   //  super.viewWillAppear(pAnimated)
   //}
   
   // Notifies the view controller that its view was added to a view hierarchy.
-  //override open func viewDidAppear(_ pAnimated: Bool) {
+  //override internal func viewDidAppear(_ pAnimated: Bool) {
   //  super.viewDidAppear(pAnimated)
   //}
   
   // Notifies the view controller that its view is about to be removed from a view hierarchy.
-  //override open func viewWillDisappear(_ pAnimated: Bool) {
+  //override internal func viewWillDisappear(_ pAnimated: Bool) {
   //  super.viewWillDisappear(pAnimated)
   //}
   
   // Notifies the view controller that its view was removed from a view hierarchy.
-  //override open func viewDidDisappear(_ pAnimated: Bool) {
+  //override internal func viewDidDisappear(_ pAnimated: Bool) {
   //  super.viewDidDisappear(pAnimated)
   //}
 
-  override open func didReceiveMemoryWarning() {
+  override internal func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
@@ -104,7 +104,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   // MARK: --> Configuring a Table View
   
   // Asks the data source for a cell to insert in a particular location of the table view.
-  open func tableView(_ pTableView: UITableView, cellForRowAt pIndexPath: IndexPath) -> UITableViewCell {
+  internal func tableView(_ pTableView: UITableView, cellForRowAt pIndexPath: IndexPath) -> UITableViewCell {
     var lRet:UITableViewCell! = nil
     
     if self.items.count > 0 && pIndexPath.row < self.items.count {
@@ -126,12 +126,12 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   }
 
   // Asks the data source to return the number of sections in the table view.
-  //open func numberOfSections(in pTableView: UITableView) -> Int {
+  //internal func numberOfSections(in pTableView: UITableView) -> Int {
   //  return 1
   //}
   
   // Tells the data source to return the number of rows in a given section of a table view.
-  open func tableView(_ pTableView: UITableView, numberOfRowsInSection pSection: Int) -> Int {
+  internal func tableView(_ pTableView: UITableView, numberOfRowsInSection pSection: Int) -> Int {
     var lRet:Int = self.items.count
     
     // Change lRet here and add your code
@@ -140,7 +140,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   }
 
   // Asks the data source to return the titles for the sections for a table view.
-  //open func sectionIndexTitles(for pTableView: UITableView) -> [String]? {
+  //internal func sectionIndexTitles(for pTableView: UITableView) -> [String]? {
   //  var lRet:[String]? = nil
   //  
   //  // Change lRet here and add your code
@@ -149,7 +149,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the data source to return the index of the section having the given title and section title index.
-  //open func tableView(_ pTableView: UITableView, sectionForSectionIndexTitle pTitle: String, at pIndex: Int) -> Int {
+  //internal func tableView(_ pTableView: UITableView, sectionForSectionIndexTitle pTitle: String, at pIndex: Int) -> Int {
   //  var lRet:Int = 0
   //  
   //  // Change lRet here and add your code
@@ -158,7 +158,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the data source for the title of the header of the specified section of the table view.
-  //open func tableView(_ pTableView: UITableView, titleForHeaderInSection pSection: Int) -> String? {
+  //internal func tableView(_ pTableView: UITableView, titleForHeaderInSection pSection: Int) -> String? {
   //  var lRet:String? = nil
   //  
   //  // Change lRet here and add your code
@@ -167,7 +167,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the data source for the title of the footer of the specified section of the table view.
-  //open func tableView(_ pTableView: UITableView, titleForFooterInSection section: Int) -> String? {
+  //internal func tableView(_ pTableView: UITableView, titleForFooterInSection section: Int) -> String? {
   //  var lRet:String? = nil
   //  
   //  // Change lRet here and add your code
@@ -178,7 +178,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   // MARK: --> Inserting or Deleting Table Rows
   
   // Asks the data source to commit the insertion or deletion of a specified row in the receiver.
-  //open func tableView(_ pTableView: UITableView, commit pEditingStyle: UITableViewCellEditingStyle, forRowAt pIndexPath: IndexPath) {
+  //internal func tableView(_ pTableView: UITableView, commit pEditingStyle: UITableViewCellEditingStyle, forRowAt pIndexPath: IndexPath) {
   //  if pEditingStyle == .delete {
   //    // Delete the row from the data source
   //    self.items.remove(at: pIndexPath.row)
@@ -193,7 +193,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the data source to verify that the given row is editable.
-  //open func tableView(_ pTableView: UITableView, canEditRowAt pIndexPath: IndexPath) -> Bool {
+  //internal func tableView(_ pTableView: UITableView, canEditRowAt pIndexPath: IndexPath) -> Bool {
   //  // Return false if you do not want the specified item to be editable.
   //  return true
   //}
@@ -201,13 +201,13 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   // MARK: --> Reordering Table Rows
   
   // Asks the data source whether a given row can be moved to another location in the table view.
-  //open func tableView(_ pTableView: UITableView, canMoveRowAt pIndexPath: IndexPath) -> Bool {
+  //internal func tableView(_ pTableView: UITableView, canMoveRowAt pIndexPath: IndexPath) -> Bool {
   //  // Return false if you do not want the item to be re-orderable.
   //  return true
   //}
 
   // Tells the data source to move a row at a specific location in the table view to another location.
-  //open func tableView(_ pTableView: UITableView, moveRowAt pSourceIndexPath: IndexPath, to pDestinationIndexPath: IndexPath) {
+  //internal func tableView(_ pTableView: UITableView, moveRowAt pSourceIndexPath: IndexPath, to pDestinationIndexPath: IndexPath) {
   //  // Your code here
   //}
   
@@ -218,7 +218,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   // MARK: --> Configuring Rows for the Table View
   
   // Asks the delegate for the height to use for a row in a specified location.
-  //open func tableView(_ pTableView: UITableView, heightForRowAt pIndexPath: IndexPath) -> CGFloat {
+  //internal func tableView(_ pTableView: UITableView, heightForRowAt pIndexPath: IndexPath) -> CGFloat {
   //  var lRet:CGFloat = 0.0
   //
   //  // Change lRet here and add your code
@@ -227,7 +227,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the delegate for the estimated height of a row in a specified location.
-  //open func tableView(_ pTableView: UITableView, estimatedHeightForRowAt pIndexPath: IndexPath) -> CGFloat {
+  //internal func tableView(_ pTableView: UITableView, estimatedHeightForRowAt pIndexPath: IndexPath) -> CGFloat {
   //  var lRet:CGFloat = 0.0
   //  
   //  // Change lRet here and add your code
@@ -236,7 +236,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the delegate to return the level of indentation for a row in a given section.
-  //open func tableView(_ pTableView: UITableView, indentationLevelForRowAt pIndexPath: IndexPath) -> Int {
+  //internal func tableView(_ pTableView: UITableView, indentationLevelForRowAt pIndexPath: IndexPath) -> Int {
   //  var lRet:Int = 0
   //  
   //  // Change lRet here and add your code
@@ -245,7 +245,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Tells the delegate the table view is about to draw a cell for a particular row.
-  //open func tableView(_ pTableView: UITableView, willDisplay pCell: UITableViewCell, forRowAt pIndexPath: IndexPath) {
+  //internal func tableView(_ pTableView: UITableView, willDisplay pCell: UITableViewCell, forRowAt pIndexPath: IndexPath) {
   //  pTableView.separatorInset = UIEdgeInsets.zero
   //  pCell.separatorInset = UIEdgeInsets.zero
   //  pTableView.layoutMargins = UIEdgeInsets.zero
@@ -255,7 +255,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //MARK: --> Managing Accessory Views
   
   // Asks the delegate for the actions to display in response to a swipe in the specified row.
-  //open func tableView(_ pTableView: UITableView, editActionsForRowAt pIndexPath: IndexPath) -> [UITableViewRowAction]? {
+  //internal func tableView(_ pTableView: UITableView, editActionsForRowAt pIndexPath: IndexPath) -> [UITableViewRowAction]? {
   //  var lRet:[UITableViewRowAction]? = nil
   //
   //  // Change lRet here and add your code
@@ -264,14 +264,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Tells the delegate that the user tapped the accessory (disclosure) view associated with a given row.
-  //open func tableView(_ pTableView: UITableView, accessoryButtonTappedForRowWith pIndexPath: IndexPath) {
+  //internal func tableView(_ pTableView: UITableView, accessoryButtonTappedForRowWith pIndexPath: IndexPath) {
   //  // Your code here
   //}
 
   //MARK: --> Managing Selections
   
   // Tells the delegate that a specified row is about to be selected.
-  //open func tableView(_ pTableView: UITableView, willSelectRowAt pIndexPath: IndexPath) -> IndexPath? {
+  //internal func tableView(_ pTableView: UITableView, willSelectRowAt pIndexPath: IndexPath) -> IndexPath? {
   //  var lRet:IndexPath? = nil
   //  
   //  if self.items.count > 0 && pIndexPath.row < self.items.count {
@@ -282,7 +282,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Tells the delegate that the specified row is now selected.
-  //open func tableView(_ pTableView: UITableView, didSelectRowAt pIndexPath: IndexPath) {
+  //internal func tableView(_ pTableView: UITableView, didSelectRowAt pIndexPath: IndexPath) {
   //  if self.items.count > 0 && pIndexPath.row < self.items.count {
   //    let lItem = self.items[pIndexPath.row]
   //    
@@ -291,7 +291,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Tells the delegate that a specified row is about to be deselected.
-  //open func tableView(_ pTableView: UITableView, willDeselectRowAt pIndexPath: IndexPath) -> IndexPath? {
+  //internal func tableView(_ pTableView: UITableView, willDeselectRowAt pIndexPath: IndexPath) -> IndexPath? {
   //  var lRet:IndexPath? = nil
   //
   //  if self.items.count > 0 && pIndexPath.row < self.items.count {
@@ -302,7 +302,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Tells the delegate that the specified row is now deselected.
-  //open func tableView(_ pTableView: UITableView, didDeselectRowAt pIndexPath: IndexPath) {
+  //internal func tableView(_ pTableView: UITableView, didDeselectRowAt pIndexPath: IndexPath) {
   //  if self.items.count > 0 && pIndexPath.row < self.items.count {
   //    let lItem = self.items[pIndexPath.row]
   //
@@ -313,7 +313,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //MARK: --> Modifying the Header and Footer of Sections
   
   // Asks the delegate for a view object to display in the header of the specified section of the table view.
-  //open func tableView(_ pTableView: UITableView, viewForHeaderInSection pSection: Int) -> UIView? {
+  //internal func tableView(_ pTableView: UITableView, viewForHeaderInSection pSection: Int) -> UIView? {
   //  var lRet:UIView? = nil
   //  
   //  // Change lRet here and add your code
@@ -322,7 +322,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the delegate for a view object to display in the footer of the specified section of the table view.
-  //open func tableView(_ pTableView: UITableView, viewForFooterInSection pSection: Int) -> UIView? {
+  //internal func tableView(_ pTableView: UITableView, viewForFooterInSection pSection: Int) -> UIView? {
   //  var lRet:UIView? = nil
   //  
   //  // Change lRet here and add your code
@@ -331,7 +331,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the delegate for the height to use for the header of a particular section.
-  //open func tableView(_ pTableView: UITableView, heightForHeaderInSection pSection: Int) -> CGFloat {
+  //internal func tableView(_ pTableView: UITableView, heightForHeaderInSection pSection: Int) -> CGFloat {
   //  var lRet:CGFloat = 0.0
   //
   //  // Change lRet here and add your code
@@ -340,7 +340,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the delegate for the estimated height of the header of a particular section.
-  //open func tableView(_ pTableView: UITableView, estimatedHeightForHeaderInSection pSection: Int) -> CGFloat {
+  //internal func tableView(_ pTableView: UITableView, estimatedHeightForHeaderInSection pSection: Int) -> CGFloat {
   //  var lRet:CGFloat = 0.0
   //  
   //  // Change lRet here and add your code
@@ -349,7 +349,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the delegate for the height to use for the footer of a particular section.
-  //open func tableView(_ pTableView: UITableView, heightForFooterInSection pSection: Int) -> CGFloat {
+  //internal func tableView(_ pTableView: UITableView, heightForFooterInSection pSection: Int) -> CGFloat {
   //  var lRet:CGFloat = 0.0
   //  
   //  // Change lRet here and add your code
@@ -358,7 +358,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the delegate for the estimated height of the footer of a particular section.
-  //open func tableView(_ pTableView: UITableView, estimatedHeightForFooterInSection pSection: Int) -> CGFloat {
+  //internal func tableView(_ pTableView: UITableView, estimatedHeightForFooterInSection pSection: Int) -> CGFloat {
   //  var lRet:CGFloat = 0.0
   //  
   //  // Change lRet here and add your code
@@ -367,29 +367,29 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Tells the delegate that a header view is about to be displayed for the specified section.
-  //open func tableView(_ pTableView: UITableView, willDisplayHeaderView pView: UIView, forSection pSection: Int) {
+  //internal func tableView(_ pTableView: UITableView, willDisplayHeaderView pView: UIView, forSection pSection: Int) {
   //  // Your code here
   //}
   
   // Tells the delegate that a footer view is about to be displayed for the specified section.
-  //open func tableView(_ pTableView: UITableView, willDisplayFooterView pView: UIView, forSection pSection: Int) {
+  //internal func tableView(_ pTableView: UITableView, willDisplayFooterView pView: UIView, forSection pSection: Int) {
   //  // Your code here
   //}
   
   //MARK: --> Editing Table Rows
   
   // Tells the delegate that the table view is about to go into editing mode.
-  //open func tableView(_ pTableView: UITableView, willBeginEditingRowAt pIndexPath: IndexPath) {
+  //internal func tableView(_ pTableView: UITableView, willBeginEditingRowAt pIndexPath: IndexPath) {
   //  // Your code here
   //}
   
   // Tells the delegate that the table view has left editing mode.
-  //open func tableView(_ pTableView: UITableView, didEndEditingRowAt pIndexPath: IndexPath?) {
+  //internal func tableView(_ pTableView: UITableView, didEndEditingRowAt pIndexPath: IndexPath?) {
   //  // Your code here
   //}
   
   // Asks the delegate for the editing style of a row at a particular location in a table view.
-  //open func tableView(_ pTableView: UITableView, editingStyleForRowAt pIndexPath: IndexPath) -> UITableViewCellEditingStyle {
+  //internal func tableView(_ pTableView: UITableView, editingStyleForRowAt pIndexPath: IndexPath) -> UITableViewCellEditingStyle {
   //  var lRet:UITableViewCellEditingStyle = .none
   //
   //  // Change lRet here and add your code
@@ -398,7 +398,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Changes the default title of the delete-confirmation button.
-  //open func tableView(_ pTableView: UITableView, titleForDeleteConfirmationButtonForRowAt pIndexPath: IndexPath) -> String? {
+  //internal func tableView(_ pTableView: UITableView, titleForDeleteConfirmationButtonForRowAt pIndexPath: IndexPath) -> String? {
   //  var lRet:String? = nil
   //  
   //  // Change lRet here and add your code
@@ -407,7 +407,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the delegate whether the background of the specified row should be indented while the table view is in editing mode.
-  //open func tableView(_ pTableView: UITableView, shouldIndentWhileEditingRowAt pIndexPath: IndexPath) -> Bool {
+  //internal func tableView(_ pTableView: UITableView, shouldIndentWhileEditingRowAt pIndexPath: IndexPath) -> Bool {
   //  var lRet:Bool = false
   //  
   //  // Change lRet here and add your code
@@ -418,7 +418,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //MARK: --> Reordering Table Rows
   
   // Asks the delegate to return a new index path to retarget a proposed move of a row.
-  //open func tableView(_ pTableView: UITableView, targetIndexPathForMoveFromRowAt pSourceIndexPath: IndexPath, toProposedIndexPath pProposedDestinationIndexPath: IndexPath) -> IndexPath {
+  //internal func tableView(_ pTableView: UITableView, targetIndexPathForMoveFromRowAt pSourceIndexPath: IndexPath, toProposedIndexPath pProposedDestinationIndexPath: IndexPath) -> IndexPath {
   //    var lRet:IndexPath = IndexPath()
   //  
   //    // Change lRet here and add your code
@@ -429,24 +429,24 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //MARK: --> Tracking the Removal of Views
   
   // Tells the delegate that the specified cell was removed from the table.
-  //open func tableView(_ pTableView: UITableView, didEndDisplaying pCell: UITableViewCell, forRowAt pIndexPath: IndexPath) {
+  //internal func tableView(_ pTableView: UITableView, didEndDisplaying pCell: UITableViewCell, forRowAt pIndexPath: IndexPath) {
   //  // Your code here
   //}
   
   // Tells the delegate that the specified header view was removed from the table.
-  //open func tableView(_ pTableView: UITableView, didEndDisplayingHeaderView pView: UIView, forSection pSection: Int) {
+  //internal func tableView(_ pTableView: UITableView, didEndDisplayingHeaderView pView: UIView, forSection pSection: Int) {
   //  // Your code here
   //}
   
   // Tells the delegate that the specified footer view was removed from the table.
-  //open func tableView(_ pTableView: UITableView, didEndDisplayingFooterView pView: UIView, forSection pSection: Int) {
+  //internal func tableView(_ pTableView: UITableView, didEndDisplayingFooterView pView: UIView, forSection pSection: Int) {
   //  // Your code here
   //}
   
   //MARK: --> Copying and Pasting Row Content
   
   // Asks the delegate if the editing menu should be shown for a certain row.
-  //open func tableView(_ pTableView: UITableView, shouldShowMenuForRowAt pIndexPath: IndexPath) -> Bool {
+  //internal func tableView(_ pTableView: UITableView, shouldShowMenuForRowAt pIndexPath: IndexPath) -> Bool {
   //  var lRet:Bool = false
   //
   //  // Change lRet here and add your code
@@ -455,7 +455,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the delegate if the editing menu should omit the Copy or Paste command for a given row.
-  //open func tableView(_ pTableView: UITableView, canPerformAction pAction: Selector, forRowAt pIndexPath: IndexPath, withSender pSender: Any?) -> Bool {
+  //internal func tableView(_ pTableView: UITableView, canPerformAction pAction: Selector, forRowAt pIndexPath: IndexPath, withSender pSender: Any?) -> Bool {
   //  var lRet:Bool = false
   //  
   //  // Change lRet here and add your code
@@ -464,14 +464,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Tells the delegate to perform a copy or paste operation on the content of a given row.
-  //open func tableView(_ pTableView: UITableView, performAction pAction: Selector, forRowAt pIndexPath: IndexPath, withSender pSender: Any?) {
+  //internal func tableView(_ pTableView: UITableView, performAction pAction: Selector, forRowAt pIndexPath: IndexPath, withSender pSender: Any?) {
   //  // Your code here
   //}
   
   //MARK: --> Managing Table View Highlighting
   
   // Asks the delegate if the specified row should be highlighted.
-  //open func tableView(_ pTableView: UITableView, shouldHighlightRowAt pIndexPath: IndexPath) -> Bool {
+  //internal func tableView(_ pTableView: UITableView, shouldHighlightRowAt pIndexPath: IndexPath) -> Bool {
   //  var lRet:Bool = false
   //
   //  // Change lRet here and add your code
@@ -480,19 +480,19 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Tells the delegate that the specified row was highlighted.
-  //open func tableView(_ pTableView: UITableView, didHighlightRowAt pIndexPath: IndexPath) {
+  //internal func tableView(_ pTableView: UITableView, didHighlightRowAt pIndexPath: IndexPath) {
   //  // Your code here
   //}
   
   // Tells the delegate that the highlight was removed from the row at the specified index path.
-  //open func tableView(_ pTableView: UITableView, didUnhighlightRowAt pIndexPath: IndexPath) {
+  //internal func tableView(_ pTableView: UITableView, didUnhighlightRowAt pIndexPath: IndexPath) {
   //  // Your code here
   //}
   
   //MARK: --> Managing Table View Focus
   
   // Asks the delegate whether the cell at the specified index path is itself focusable.
-  //open func tableView(_ tableView: UITableView, canFocusRowAt indexPath: IndexPath) -> Bool {
+  //internal func tableView(_ tableView: UITableView, canFocusRowAt indexPath: IndexPath) -> Bool {
   //  var lRet:Bool = false
   //
   //  // Change lRet here and add your code
@@ -501,7 +501,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Asks the delegate whether the focus update specified by the context is allowed to occur.
-  //open func tableView(_ tableView: UITableView, shouldUpdateFocusIn context: UITableViewFocusUpdateContext) -> Bool {
+  //internal func tableView(_ tableView: UITableView, shouldUpdateFocusIn context: UITableViewFocusUpdateContext) -> Bool {
   //  var lRet:Bool = false
   //  
   //  // Change lRet here and add your code
@@ -510,12 +510,12 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // Tells the delegate that a focus update specified by the context has just occurred.
-  //open func tableView(_ tableView: UITableView, didUpdateFocusIn context: UITableViewFocusUpdateContext, with coordinator: UIFocusAnimationCoordinator) {
+  //internal func tableView(_ tableView: UITableView, didUpdateFocusIn context: UITableViewFocusUpdateContext, with coordinator: UIFocusAnimationCoordinator) {
   //  // Your code here
   //}
   
   // Asks the delegate for the table view’s index path for the preferred focused view.
-  //open func indexPathForPreferredFocusedView(in tableView: UITableView) -> IndexPath? {
+  //internal func indexPathForPreferredFocusedView(in tableView: UITableView) -> IndexPath? {
   //  var lRet:IndexPath? = nil
   //  
   //  // Change lRet here and add your code
@@ -523,52 +523,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //  return lRet
   //}
   
-  // MARK: -
-  // MARK: Open access
-  // MARK: -
-  
-  // MARK: -> Open structs
-  
-  // MARK: -> Open class
-  
-  // MARK: -> Open static properties
-  
-  // MARK: -> Open properties
-  
-  // MARK: -> Open class methods
-  
-  // MARK: -> Open operators
-
-  // MARK: -> Open methods
-  
-  // MARK: -> Open protocol <#protocol name#>
-
-  // MARK: -
-  // MARK: Public access
-  // MARK: -
-  
-  // MARK: -> Public enums
-  
-  // MARK: -> Public structs
-  
-  // MARK: -> Public class
-  
-  // MARK: -> Public type alias 
-  
-  // MARK: -> Public static properties
-  
-  // MARK: -> Public properties
-  
-  // MARK: -> Public class methods
-  
-  // MARK: -> Public init methods
-  
-  // MARK: -> Public operators
-
-  // MARK: -> Public methods
-  
-  // MARK: -> Public protocol <#protocol name#>
-
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -

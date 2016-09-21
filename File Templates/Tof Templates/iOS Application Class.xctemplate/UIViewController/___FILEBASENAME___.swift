@@ -12,7 +12,7 @@ import UIKit
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
+internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   // MARK: -
   // MARK: Interface
   // MARK: -
@@ -23,7 +23,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   
   // MARK: -> Interface navigation
   
-  //override open func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
+  //override internal func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
   //  if pSegue.identifier == "<#segue name#>" {
   //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
@@ -33,7 +33,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   
   // MARK: -> Interface notifications
   
-  //open func notification<#notification name#>(pNotification: NSNotification){
+  //internal func notification<#notification name#>(pNotification: NSNotification){
   //  if pNotification.object is <#type#> {
   //    // <#notification code#>
   //  }
@@ -42,82 +42,36 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   // MARK: -> Interface class override UIViewController
   
   // Called after the controller's view is loaded into memory.
-  override open func viewDidLoad() {
+  override internal func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
   }
   
   // Notifies the view controller that its view is about to be added to a view hierarchy.
-  //override open func viewWillAppear(_ pAnimated: Bool) {
+  //override internal func viewWillAppear(_ pAnimated: Bool) {
   //  super.viewWillAppear(pAnimated)
   //}
   
   // Notifies the view controller that its view was added to a view hierarchy.
-  //override open func viewDidAppear(_ pAnimated: Bool) {
+  //override internal func viewDidAppear(_ pAnimated: Bool) {
   //  super.viewDidAppear(pAnimated)
   //}
   
   // Notifies the view controller that its view is about to be removed from a view hierarchy.
-  //override open func viewWillDisappear(_ pAnimated: Bool) {
+  //override internal func viewWillDisappear(_ pAnimated: Bool) {
   //  super.viewWillDisappear(pAnimated)
   //}
   
   // Notifies the view controller that its view was removed from a view hierarchy.
-  //override open func viewDidDisappear(_ pAnimated: Bool) {
+  //override internal func viewDidDisappear(_ pAnimated: Bool) {
   //  super.viewDidDisappear(pAnimated)
   //}
 
-  override open func didReceiveMemoryWarning() {
+  override internal func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
   
-  // MARK: -
-  // MARK: Open access
-  // MARK: -
-  
-  // MARK: -> Open structs
-  
-  // MARK: -> Open class
-  
-  // MARK: -> Open static properties
-  
-  // MARK: -> Open properties
-  
-  // MARK: -> Open class methods
-  
-  // MARK: -> Open operators
-
-  // MARK: -> Open methods
-  
-  // MARK: -> Open protocol <#protocol name#>
-
-  // MARK: -
-  // MARK: Public access
-  // MARK: -
-  
-  // MARK: -> Public enums
-  
-  // MARK: -> Public structs
-  
-  // MARK: -> Public class
-  
-  // MARK: -> Public type alias 
-  
-  // MARK: -> Public static properties
-  
-  // MARK: -> Public properties
-  
-  // MARK: -> Public class methods
-  
-  // MARK: -> Public init methods
-  
-  // MARK: -> Public operators
-
-  // MARK: -> Public methods
-  
-  // MARK: -> Public protocol <#protocol name#>
-
   // MARK: -> Interface protocol <#protocol name#>
 
   // MARK: -

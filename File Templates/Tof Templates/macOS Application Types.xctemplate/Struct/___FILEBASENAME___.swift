@@ -8,46 +8,11 @@
 //
 
 import Foundation
-import ObjectMapper
 
 // MARK: -
-// MARK: ___FILEBASENAMEASIDENTIFIER___
+// MARK: ___FILEBASENAMEASIDENTIFIER___ Struct
 // MARK: -
-open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
-  // MARK: -
-  // MARK: Open access
-  // MARK: -
-  
-  // MARK: -> Open enums
-  
-  // MARK: -> Open structs
-  
-  // MARK: -> Open class
-  
-  // MARK: -> Open type alias 
-  
-  // MARK: -> Open static properties
-  
-  // MARK: -> Open properties
-  
-  //open var <#field#>:Bool? = nil
-  //open var <#field#>:Int? = nil
-  //open var <#field#>:Float? = nil
-  //open var <#field#>:Double? = nil
-  //open var <#field#>:String? = nil
-  //open var <#field date#>:Date? = nil
-
-  // MARK: -> Open class methods
-  
-  // MARK: -> Open operators
-
-  // MARK: -> Open methods
-  
-  open func mapping(pMap: Map) {
-    // self.<#field#>      <- pMap["<#field#>"]
-    // self.<#field date#> <- (pMap["<#field date#>"], TransformOf<Date, String>(fromJSON: { Date.dateWithISO8601($0,timezone: TimeZone.autoupdatingCurrent) }, toJSON: { $0.map { $0.iso8601(timezone: TimeZone.autoupdatingCurrent)! } }))
-  }
-  
+public struct ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: -
   // MARK: Public access
   // MARK: -
@@ -67,9 +32,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> Public class methods
   
   // MARK: -> Public init methods
-  
-  public required init?(map pMap: Map){
-  }
   
   // MARK: -> Public operators
 
@@ -152,5 +114,4 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> Private operators
 
   // MARK: -> Private methods
-    
 }

@@ -12,7 +12,7 @@ import UIKit
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___Cell
 // MARK: -
-open class ___FILEBASENAMEASIDENTIFIER___Cell : UICollectionViewCell {
+internal class ___FILEBASENAMEASIDENTIFIER___Cell : UICollectionViewCell {
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
@@ -32,7 +32,7 @@ open class ___FILEBASENAMEASIDENTIFIER___Cell : UICollectionViewCell {
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
   // MARK: -
   // MARK: Interface
   // MARK: -
@@ -43,7 +43,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   
   // MARK: -> Interface navigation
   
-  //override open func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
+  //override internal func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
   //  if pSegue.identifier == "<#segue name#>" {
   //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
@@ -53,7 +53,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   
   // MARK: -> Interface notifications
   
-  //open func notification<#notification name#>(pNotification: NSNotification){
+  //internal func notification<#notification name#>(pNotification: NSNotification){
   //  if pNotification.object is <#type#> {
   //    // <#notification code#>
   //  }
@@ -62,7 +62,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   // MARK: -> Interface class override UICollectionViewController
   
   // Called after the controller's view is loaded into memory.
-  override open func viewDidLoad() {
+  override internal func viewDidLoad() {
     super.viewDidLoad()
 
     //Uncomment the following line to preserve selection between presentations.
@@ -78,26 +78,26 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   }
   
   // Notifies the view controller that its view is about to be added to a view hierarchy.
-  //override open func viewWillAppear(_ pAnimated: Bool) {
+  //override internal func viewWillAppear(_ pAnimated: Bool) {
   //  super.viewWillAppear(pAnimated)
   //}
   
   // Notifies the view controller that its view was added to a view hierarchy.
-  //override open func viewDidAppear(_ pAnimated: Bool) {
+  //override internal func viewDidAppear(_ pAnimated: Bool) {
   //  super.viewDidAppear(pAnimated)
   //}
   
   // Notifies the view controller that its view is about to be removed from a view hierarchy.
-  //override open func viewWillDisappear(_ pAnimated: Bool) {
+  //override internal func viewWillDisappear(_ pAnimated: Bool) {
   //  super.viewWillDisappear(pAnimated)
   //}
   
   // Notifies the view controller that its view was removed from a view hierarchy.
-  //override open func viewDidDisappear(_ pAnimated: Bool) {
+  //override internal func viewDidDisappear(_ pAnimated: Bool) {
   //  super.viewDidDisappear(pAnimated)
   //}
 
-  override open func didReceiveMemoryWarning() {
+  override internal func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
   }
 
@@ -108,19 +108,19 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   // MARK: --> Getting Item and Section Metrics
   
   // Asks your data source object for the number of items in the specified section.
-  open func collectionView(_ pCollectionView: UICollectionView, numberOfItemsInSection pSection: Int) -> Int {
+  internal func collectionView(_ pCollectionView: UICollectionView, numberOfItemsInSection pSection: Int) -> Int {
     return self.items.count
   }
   
   // Asks your data source object for the number of sections in the collection view.
-  //open func numberOfSections(in pCollectionView: UICollectionView) -> Int {
+  //internal func numberOfSections(in pCollectionView: UICollectionView) -> Int {
   //  return 1
   //}
 
   // MARK: --> Getting Views for Items
   
   // Asks your data source object for the cell that corresponds to the specified item in the collection view.
-  open func collectionView(_ pCollectionView: UICollectionView, cellForItemAt pIndexPath: IndexPath) -> UICollectionViewCell {
+  internal func collectionView(_ pCollectionView: UICollectionView, cellForItemAt pIndexPath: IndexPath) -> UICollectionViewCell {
     var lRet:UICollectionViewCell! = nil
     
     if pIndexPath.row < self.items.count {
@@ -141,7 +141,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   }
   
   // Asks your data source object to provide a supplementary view to display in the collection view.
-  //open func collectionView(_ pCollectionView: UICollectionView, viewForSupplementaryElementOfKind pKind: String, at pIndexPath: IndexPath) -> UICollectionReusableView {
+  //internal func collectionView(_ pCollectionView: UICollectionView, viewForSupplementaryElementOfKind pKind: String, at pIndexPath: IndexPath) -> UICollectionReusableView {
   //  let lRet = pCollectionView.supplementaryView(forElementKind: "<#CollectionSupplementaryItem#>", at: pIndexPath) ?? UICollectionReusableView()
   //
   //  // Change lRet here and add your code
@@ -152,7 +152,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   // MARK: --> Reordering Items
   
   // Asks your data source object whether the specified item can be moved to another location in the collection view.
-  //open func collectionView(_ pCollectionView: UICollectionView, canMoveItemAt pIndexPath: IndexPath) -> Bool {
+  //internal func collectionView(_ pCollectionView: UICollectionView, canMoveItemAt pIndexPath: IndexPath) -> Bool {
   //  var lRet:Bool = false
   //
   //  // Change lRet here and add your code
@@ -161,7 +161,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // Tells your data source object to move the specified item to its new location.
-  //open func collectionView(_ pCollectionView: UICollectionView, moveItemAt pSourceIndexPath: IndexPath, to pDestinationIndexPath: IndexPath) {
+  //internal func collectionView(_ pCollectionView: UICollectionView, moveItemAt pSourceIndexPath: IndexPath, to pDestinationIndexPath: IndexPath) {
   //  // Your code here
   //}
   
@@ -172,7 +172,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   // MARK: --> Managing the Selected Cells
   
   // Asks the delegate if the specified item should be selected.
-  //open func collectionView(_ pCollectionView: UICollectionView, shouldSelectItemAt pIndexPath: IndexPath) -> Bool {
+  //internal func collectionView(_ pCollectionView: UICollectionView, shouldSelectItemAt pIndexPath: IndexPath) -> Bool {
   //  var lRet:Bool = false
   //  
   //  // Change lRet here and add your code
@@ -181,12 +181,12 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // Tells the delegate that the item at the specified index path was selected.
-  open func collectionView(_ pCollectionView: UICollectionView, didSelectItemAt pIndexPath: IndexPath) {
+  internal func collectionView(_ pCollectionView: UICollectionView, didSelectItemAt pIndexPath: IndexPath) {
     // Your code here
   }
   
   // Asks the delegate if the specified item should be deselected.
-  //open func collectionView(_ collectionView: UICollectionView, shouldDeselectItemAt indexPath: IndexPath) -> Bool {
+  //internal func collectionView(_ collectionView: UICollectionView, shouldDeselectItemAt indexPath: IndexPath) -> Bool {
   //  var lRet:Bool = false
   //
   //  // Change lRet here and add your code
@@ -195,14 +195,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // Tells the delegate that the item at the specified path was deselected.
-  //open func collectionView(_ pCollectionView: UICollectionView, didDeselectItemAt pIndexPath: IndexPath) {
+  //internal func collectionView(_ pCollectionView: UICollectionView, didDeselectItemAt pIndexPath: IndexPath) {
   //  // Your code here
   //}
   
   // MARK: --> Managing Cell Highlighting
   
   // Asks the delegate if the item should be highlighted during tracking.
-  //open func collectionView(_ pCollectionView: UICollectionView, shouldHighlightItemAt pIndexPath: IndexPath) -> Bool {
+  //internal func collectionView(_ pCollectionView: UICollectionView, shouldHighlightItemAt pIndexPath: IndexPath) -> Bool {
   //  var lRet:Bool = false
   //  
   //  // Change lRet here and add your code
@@ -223,29 +223,29 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   // MARK: --> Tracking the Addition and Removal of Views
 
   // Tells the delegate that the specified cell is about to be displayed in the collection view.
-  //open func collectionView(_ pCollectionView: UICollectionView, willDisplay pCell: UICollectionViewCell, forItemAt pIndexPath: IndexPath) {
+  //internal func collectionView(_ pCollectionView: UICollectionView, willDisplay pCell: UICollectionViewCell, forItemAt pIndexPath: IndexPath) {
   //  // Your code here
   //}
   
   // Tells the delegate that the specified supplementary view is about to be displayed in the collection view.
-  //open func collectionView(_ pCollectionView: UICollectionView, willDisplaySupplementaryView pView: UICollectionReusableView, forElementKind pElementKind: String, at pIndexPath: IndexPath) {
+  //internal func collectionView(_ pCollectionView: UICollectionView, willDisplaySupplementaryView pView: UICollectionReusableView, forElementKind pElementKind: String, at pIndexPath: IndexPath) {
   //  // Your code here
   //}
   
   // Tells the delegate that the specified cell was removed from the collection view.
-  //open func collectionView(_ pCollectionView: UICollectionView, didEndDisplaying pCell: UICollectionViewCell, forItemAt pIndexPath: IndexPath) {
+  //internal func collectionView(_ pCollectionView: UICollectionView, didEndDisplaying pCell: UICollectionViewCell, forItemAt pIndexPath: IndexPath) {
   //  // Your code here
   //}
   
   // Tells the delegate that the specified supplementary view was removed from the collection view.
-  //open func collectionView(_ pCollectionView: UICollectionView, didEndDisplayingSupplementaryView pView: UICollectionReusableView, forElementOfKind pElementKind: String, at pIndexPath: IndexPath) {
+  //internal func collectionView(_ pCollectionView: UICollectionView, didEndDisplayingSupplementaryView pView: UICollectionReusableView, forElementOfKind pElementKind: String, at pIndexPath: IndexPath) {
   //  // Your code here
   //}
   
   // MARK: --> Handling Layout Changes
   
   // Asks for the custom transition layout to use when moving between the specified layouts.
-  //open func collectionView(_ pCollectionView: UICollectionView, transitionLayoutForOldLayout pFromLayout: UICollectionViewLayout, newLayout pToLayout: UICollectionViewLayout) -> UICollectionViewTransitionLayout {
+  //internal func collectionView(_ pCollectionView: UICollectionView, transitionLayoutForOldLayout pFromLayout: UICollectionViewLayout, newLayout pToLayout: UICollectionViewLayout) -> UICollectionViewTransitionLayout {
   //  var lRet:UICollectionViewTransitionLayout = UICollectionViewTransitionLayout(currentLayout: pFromLayout, nextLayout: pToLayout)
   //
   //  // Change lRet here and add your code
@@ -254,7 +254,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // Gives the delegate an opportunity to customize the content offset for layout changes and animated updates.
-  //  open func collectionView(_ pCollectionView: UICollectionView, targetContentOffsetForProposedContentOffset pProposedContentOffset: CGPoint) -> CGPoint {
+  //  internal func collectionView(_ pCollectionView: UICollectionView, targetContentOffsetForProposedContentOffset pProposedContentOffset: CGPoint) -> CGPoint {
   //    var lRet:CGPoint = pProposedContentOffset
   //    
   //    // Change lRet here and add your code
@@ -263,7 +263,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //  }
   
   // Asks the delegate for the index path to use when moving an item.
-  //open func collectionView(_ pCollectionView: UICollectionView, targetIndexPathForMoveFromItemAt pOriginalIndexPath: IndexPath, toProposedIndexPath pProposedIndexPath: IndexPath) -> IndexPath {
+  //internal func collectionView(_ pCollectionView: UICollectionView, targetIndexPathForMoveFromItemAt pOriginalIndexPath: IndexPath, toProposedIndexPath pProposedIndexPath: IndexPath) -> IndexPath {
   //  var lRet:IndexPath = pProposedIndexPath
   //
   //  // Change lRet here and add your code
@@ -274,7 +274,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   // MARK: --> Managing Actions for Cells
   
   // Asks the delegate if an action menu should be displayed for the specified item.
-  //open func collectionView(_ pCollectionView: UICollectionView, shouldShowMenuForItemAt pIndexPath: IndexPath) -> Bool {
+  //internal func collectionView(_ pCollectionView: UICollectionView, shouldShowMenuForItemAt pIndexPath: IndexPath) -> Bool {
   //  var lRet:Bool = false
   //  
   //  // Change lRet here and add your code
@@ -283,7 +283,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // Asks the delegate if it can perform the specified action on an item in the collection view.
-  //open func collectionView(_ pCollectionView: UICollectionView, canPerformAction pAction: Selector, forItemAt pIndexPath: IndexPath, withSender pSender: Any?) -> Bool {
+  //internal func collectionView(_ pCollectionView: UICollectionView, canPerformAction pAction: Selector, forItemAt pIndexPath: IndexPath, withSender pSender: Any?) -> Bool {
   //  var lRet:Bool = false
   //  
   //  // Change lRet here and add your code
@@ -292,14 +292,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // Tells the delegate to perform the specified action on an item in the collection view.
-  //open func collectionView(_ pCollectionView: UICollectionView, performAction pAction: Selector, forItemAt pIndexPath: IndexPath, withSender pSender: Any?) {
+  //internal func collectionView(_ pCollectionView: UICollectionView, performAction pAction: Selector, forItemAt pIndexPath: IndexPath, withSender pSender: Any?) {
   //  // Your code here
   //}
   
   // MARK: --> Managing Focus in a Collection View
   
   // Asks the delegate whether the item at the specified index path can be focused.
-  //open func collectionView(_ pCollectionView: UICollectionView, canFocusItemAt pIndexPath: IndexPath) -> Bool {
+  //internal func collectionView(_ pCollectionView: UICollectionView, canFocusItemAt pIndexPath: IndexPath) -> Bool {
   //  var lRet:Bool = false
   //
   //  // Change lRet here and add your code
@@ -308,7 +308,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // Asks the delegate for the index path of the cell that should be focused.
-  //open func indexPathForPreferredFocusedView(in pCollectionView: UICollectionView) -> IndexPath? {
+  //internal func indexPathForPreferredFocusedView(in pCollectionView: UICollectionView) -> IndexPath? {
   //  var lRet:IndexPath? = nil
   //  
   //  // Change lRet here and add your code
@@ -317,7 +317,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // Asks the delegate whether a change in focus should occur.
-  //open func collectionView(_ pCollectionView: UICollectionView, shouldUpdateFocusIn pContext: UICollectionViewFocusUpdateContext) -> Bool {
+  //internal func collectionView(_ pCollectionView: UICollectionView, shouldUpdateFocusIn pContext: UICollectionViewFocusUpdateContext) -> Bool {
   //  var lRet:Bool = false
   //  
   //  // Change lRet here and add your code
@@ -326,7 +326,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // Tells the delegate that a focus update occurred.
-  //open func collectionView(_ pCollectionView: UICollectionView, didUpdateFocusIn pContext: UICollectionViewFocusUpdateContext, with pCoordinator: UIFocusAnimationCoordinator) {
+  //internal func collectionView(_ pCollectionView: UICollectionView, didUpdateFocusIn pContext: UICollectionViewFocusUpdateContext, with pCoordinator: UIFocusAnimationCoordinator) {
   //  // Your code here
   //}
 
@@ -337,7 +337,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   // MARK: --> Getting the Size of Items
   
   // Asks the delegate for the size of the specified item’s cell.
-  //open func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, sizeForItemAt pIndexPath: IndexPath) -> CGSize {
+  //internal func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, sizeForItemAt pIndexPath: IndexPath) -> CGSize {
   //  let lRet:CGSize = self.sizeCell
   //  return lRet
   //}
@@ -345,7 +345,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   // MARK: --> Getting the Section Spacing
   
   // Asks the delegate for the margins to apply to content in the specified section.
-  //open func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, insetForSectionAt pSection: Int) -> UIEdgeInsets {
+  //internal func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, insetForSectionAt pSection: Int) -> UIEdgeInsets {
   //  var lRet:UIEdgeInsets = UIEdgeInsets.zero
   //
   //  // Change lRet here and add your code
@@ -354,7 +354,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // Asks the delegate for the spacing between successive rows or columns of a section.
-  //open func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt pSection: Int) -> CGFloat {
+  //internal func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt pSection: Int) -> CGFloat {
   //  var lRet:CGFloat = 0.0
   //  
   //  // Change lRet here and add your code
@@ -363,7 +363,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // Asks the delegate for the spacing between successive items in the rows or columns of a section.
-  //open func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt pSection: Int) -> CGFloat {
+  //internal func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt pSection: Int) -> CGFloat {
   //  var lRet:CGFloat = 0.0
   //  
   //  // Change lRet here and add your code
@@ -374,7 +374,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   // MARK: --> Getting the Header and Footer Sizes
   
   // Asks the delegate for the size of the header view in the specified section.
-  //open func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection pSection: Int) -> CGSize {
+  //internal func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection pSection: Int) -> CGSize {
   //  var lRet:CGSize = CGSize.zero
   //
   //  // Change lRet here and add your code
@@ -383,7 +383,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // Asks the delegate for the size of the footer view in the specified section.
-  //open func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection pSection: Int) -> CGSize {
+  //internal func collectionView(_ pCollectionView: UICollectionView, layout pCollectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection pSection: Int) -> CGSize {
   //  var lRet:CGSize = CGSize.zero
   //  
   //  // Change lRet here and add your code
@@ -391,52 +391,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //  return lRet
   //}
   
-  // MARK: -
-  // MARK: Open access
-  // MARK: -
-  
-  // MARK: -> Open structs
-  
-  // MARK: -> Open class
-  
-  // MARK: -> Open static properties
-  
-  // MARK: -> Open properties
-  
-  // MARK: -> Open class methods
-  
-  // MARK: -> Open operators
-
-  // MARK: -> Open methods
-  
-  // MARK: -> Open protocol <#protocol name#>
-
-  // MARK: -
-  // MARK: Public access
-  // MARK: -
-  
-  // MARK: -> Public enums
-  
-  // MARK: -> Public structs
-  
-  // MARK: -> Public class
-  
-  // MARK: -> Public type alias 
-  
-  // MARK: -> Public static properties
-  
-  // MARK: -> Public properties
-  
-  // MARK: -> Public class methods
-  
-  // MARK: -> Public init methods
-  
-  // MARK: -> Public operators
-
-  // MARK: -> Public methods
-  
-  // MARK: -> Public protocol <#protocol name#>
-
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
