@@ -56,7 +56,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSTableViewDataSour
   
   // MARK: -> Interface notifications
   
-  //open func notification<#notification name#>(pNotification: NSNotification) {
+  //open func notification<#notification name#>(_ pNotification: NSNotification) {
   //  if pNotification.object is <#type#> {
   //    // <#notification code#>
   //  }

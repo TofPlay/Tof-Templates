@@ -33,7 +33,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   
   // MARK: -> Interface notifications
   
-  //internal func notification<#notification name#>(pNotification: NSNotification){
+  //internal func notification<#notification name#>(_ pNotification: NSNotification){
   //  if pNotification.object is <#type#> {
   //    // <#notification code#>
   //  }
