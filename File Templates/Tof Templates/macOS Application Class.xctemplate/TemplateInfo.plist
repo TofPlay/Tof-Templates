@@ -59,6 +59,8 @@
 				<string>TableViewController</string>
 				<key>NSCollectionViewController</key>
 				<string>CollectionViewController</string>
+				<key>NSOutlineViewController</key>
+				<string>OutlineViewController</string>
 			</dict>
 			<key>Values</key>
 			<array>
@@ -67,6 +69,7 @@
 				<string>NSViewController</string>
 				<string>NSTableViewController</string>
 				<string>NSCollectionViewController</string>
+				<string>NSOutlineViewController</string>
 			</array>
 		</dict>
 	</array>
