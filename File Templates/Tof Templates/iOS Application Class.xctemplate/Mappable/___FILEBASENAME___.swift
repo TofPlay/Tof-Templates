@@ -48,7 +48,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
 
   // MARK: -> Internal methods
   
-  internal func mapping(pMap: Map) {
+  internal func mapping(map pMap: Map) {
     // self.<#field#>      <- pMap["<#field#>"]
     // self.<#field date#> <- (pMap["<#field date#>"], TransformOf<Date, String>(fromJSON: { Date.dateWithISO8601($0,timezone: TimeZone.autoupdatingCurrent) }, toJSON: { $0.map { $0.iso8601(timezone: TimeZone.autoupdatingCurrent)! } }))
   }
