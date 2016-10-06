@@ -82,12 +82,21 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDa
   // MARK: -> Interface protocol NSOutlineViewDataSource
   // MARK: -
   
-  // Returns a Boolean value that indicates whether a drop operation was successful.
-  //internal func outlineView(_ pOutlineView: NSOutlineView, acceptDrop pInfo: NSDraggingInfo, pItem: Any?, childIndex pIndex: Int) -> Bool {
+  // Returns a Boolean value that indicates whether the a given item is expandable.
+  //internal func outlineView(_ pOutlineView: NSOutlineView, isItemExpandable pItem: Any) -> Bool {
   //  var lRet:Bool = false
-  //
+  //  
   //  // Change lRet here and add your code
-  //
+  //  
+  //  return lRet
+  //}
+  
+  // Returns the number of child items encompassed by a given item.
+  //internal func outlineView(_ pOutlineView: NSOutlineView, numberOfChildrenOfItem pItem: Any?) -> Int {
+  //  var lRet:Int = 0
+  //  
+  //  // Change lRet here and add your code
+  //  
   //  return lRet
   //}
   
@@ -100,6 +109,29 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDa
   //  return lRet
   //}
   
+  // Invoked by outlineView to return the data object associated with the specified item.
+  //internal func outlineView(_ pOutlineView: NSOutlineView, objectValueFor pTableColumn: NSTableColumn?, byItem pItem: Any?) -> Any? {
+  //  var lRet:Any? = nil
+  //  
+  //  // Change lRet here and add your code
+  //  
+  //  return lRet
+  //}
+  
+  // Set the data object for a given item in a given column.
+  //internal func outlineView(_ pOutlineView: NSOutlineView, setObjectValue pObject: Any?, for pTableColumn: NSTableColumn?, byItem pItem: Any?) {
+  //  // Your code here
+  //}
+  
+  // Returns a Boolean value that indicates whether a drop operation was successful.
+  //internal func outlineView(_ pOutlineView: NSOutlineView, acceptDrop pInfo: NSDraggingInfo, pItem: Any?, childIndex pIndex: Int) -> Bool {
+  //  var lRet:Bool = false
+  //
+  //  // Change lRet here and add your code
+  //
+  //  return lRet
+  //}
+  
   // Implement this method to know when the given dragging session has ended.
   //internal func outlineView(_ pOutlineView: NSOutlineView, draggingSession pSession: NSDraggingSession, endedAt pScreenPoint: NSPoint, operation pOperation: NSDragOperation) {
   //  // Your code here
@@ -108,15 +140,6 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDa
   // Implement this method know when the given dragging session is about to begin and potentially modify the dragging session.
   //internal func outlineView(_ pOutlineView: NSOutlineView, draggingSession pSession: NSDraggingSession, willBeginAt pScreenPoint: NSPoint, forItems pDraggedItems: [Any]) {
   //  // Your code here
-  //}
-  
-  // Returns a Boolean value that indicates whether the a given item is expandable.
-  //internal func outlineView(_ pOutlineView: NSOutlineView, isItemExpandable pItem: Any) -> Bool {
-  //  var lRet:Bool = false
-  //  
-  //  // Change lRet here and add your code
-  //  
-  //  return lRet
   //}
   
   // Invoked by outlineView to return the item for the archived object.
@@ -137,24 +160,6 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDa
   //  return lRet
   //}
 
-  // Returns the number of child items encompassed by a given item.
-  //internal func outlineView(_ pOutlineView: NSOutlineView, numberOfChildrenOfItem pItem: Any?) -> Int {
-  //  var lRet:Int = 0
-  //  
-  //  // Change lRet here and add your code
-  //  
-  //  return lRet
-  //}
-  
-  // Invoked by outlineView to return the data object associated with the specified item.
-  //internal func outlineView(_ pOutlineView: NSOutlineView, objectValueFor pTableColumn: NSTableColumn?, byItem pItem: Any?) -> Any? {
-  //  var lRet:Any? = nil
-  //  
-  //  // Change lRet here and add your code
-  //  
-  //  return lRet
-  //}
-  
   // Implement this method to enable the table to be an NSDraggingSource that supports dragging multiple items.
   //internal func outlineView(_ pOutlineView: NSOutlineView, pasteboardWriterForItem pItem: Any) -> NSPasteboardWriting? {
   //  var lRet:NSPasteboardWriting? = nil
@@ -171,11 +176,6 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDa
   //  // Change lRet here and add your code
   //  
   //  return lRet
-  //}
-  
-  // Set the data object for a given item in a given column.
-  //internal func outlineView(_ pOutlineView: NSOutlineView, setObjectValue pObject: Any?, for pTableColumn: NSTableColumn?, byItem pItem: Any?) {
-  //  // Your code here
   //}
   
   // Invoked by an outline view to notify the data source that the descriptors changed and the data may need to be resorted.
