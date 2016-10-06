@@ -369,6 +369,11 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSTableViewData
   //  // Your code here
   //}
   
+  //// Tells the delegate that the table view’s selection has changed.
+  //internal func tableViewSelectionDidChange(_ pNotification: Notification) {
+  //  // Your code here
+  //}
+
   // Asks the delegate to allow or deny type select for the specified event and current search string.
   //internal func tableView(_ pTableView: NSTableView, shouldTypeSelectFor pEvent: NSEvent, withCurrentSearch pSearchString: String?) -> Bool {
   //  var lRet:Bool = false
