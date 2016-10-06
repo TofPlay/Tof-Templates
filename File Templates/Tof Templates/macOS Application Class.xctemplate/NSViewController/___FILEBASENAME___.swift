@@ -39,7 +39,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   //  }
   //}
   
-  // MARK: -> Interface class override ___VARIABLE_cocoaTouchSubclass___
+  // MARK: -> Interface class override NSViewController
   
   override internal func viewDidLoad() {
     super.viewDidLoad()

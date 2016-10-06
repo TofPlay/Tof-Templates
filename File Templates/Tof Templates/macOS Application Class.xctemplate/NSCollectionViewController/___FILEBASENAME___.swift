@@ -62,7 +62,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionVie
   //  }
   //}
   
- // MARK: -> Interface class override NSCollectionView
+ // MARK: -> Interface class override NSViewController
   
   override internal func viewDidLoad() {
     super.viewDidLoad()

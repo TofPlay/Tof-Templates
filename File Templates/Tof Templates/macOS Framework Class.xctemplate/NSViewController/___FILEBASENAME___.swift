@@ -39,7 +39,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   //  }
   //}
   
-  // MARK: -> Interface class override ___VARIABLE_cocoaTouchSubclass___
+  // MARK: -> Interface class override NSViewController
   
   override open func viewDidLoad() {
     super.viewDidLoad()
