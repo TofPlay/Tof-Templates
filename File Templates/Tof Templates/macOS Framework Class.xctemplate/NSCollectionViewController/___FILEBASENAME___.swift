@@ -27,7 +27,7 @@ open class ___FILEBASENAMEASIDENTIFIER___Item : NSCollectionViewItem {
   
   // MARK: -> Open methods
   
-  // MARK: -> Open protocol <#protocol name#>
+  // MARK: -> Open implementation protocol <#protocol name#>
 }
 
 // MARK: -
@@ -97,10 +97,12 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
   //  // Your code here
   //}
   
-  // MARK: -> Interface protocol <#protocol name#>
+  // MARK: -> Interface implementation protocol <#protocol name#>
 
   // MARK: -
-  // MARK: -> Interface protocol NSCollectionViewDataSource
+  // MARK: -> Interface implementation protocol
+
+  // MARK: ->  enums NSCollectionViewDataSource
   // MARK: -
   
   // MARK: --> Getting the Number of Sections and Items
@@ -140,7 +142,9 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
   //}
   
   // MARK: -
-  // MARK: -> Interface protocol NSCollectionViewDelegate
+  // MARK: -> Interface implementation protocol
+
+  // MARK: ->  enums NSCollectionViewDelegate
   // MARK: -
   
   // MARK: --> Managing the Selection
@@ -323,12 +327,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
     }
   }
 
-  // MARK: -> Open protocol <#protocol name#>
+  // MARK: -> Open implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: Public access
   // MARK: -
   
+  // MARK: -> Public protocols
+
   // MARK: -> Public enums
   
   // MARK: -> Public structs
@@ -351,12 +357,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
   
   // MARK: -> Public class override Mappable
 
-  // MARK: -> Public protocol <#protocol name#>
+  // MARK: -> Public implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
   
+  // MARK: -> Internal protocols
+
   // MARK: -> Internal enums
   
   // MARK: -> Internal structs
@@ -377,12 +385,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
 
   // MARK: -> Internal methods
   
-  // MARK: -> Internal protocol <#protocol name#>
+  // MARK: -> Internal implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: File Private access
   // MARK: -
   
+  // MARK: -> File Private protocols
+
   // MARK: -> File Private enums
   
   // MARK: -> File Private structs
@@ -407,6 +417,8 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
   // MARK: Private access
   // MARK: -
   
+  // MARK: -> Private protocols
+
   // MARK: -> Private enums
   
   // MARK: -> Private structs

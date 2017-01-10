@@ -25,7 +25,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___Cell : UICollectionViewCell {
   
   // MARK: -> Internal methods
   
-  // MARK: -> Internal protocol <#protocol name#>
+  // MARK: -> Internal implementation protocol <#protocol name#>
   
 }
 
@@ -102,7 +102,9 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionVie
   }
 
   // MARK: -
-  // MARK: -> Interface protocol UICollectionViewDataSource
+  // MARK: -> Interface implementation protocol
+
+  // MARK: ->  enums UICollectionViewDataSource
   // MARK: -
 
   // MARK: --> Getting Item and Section Metrics
@@ -166,7 +168,9 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionVie
   //}
   
   // MARK: -
-  // MARK: -> Interface protocol UICollectionViewDelegate
+  // MARK: -> Interface implementation protocol
+
+  // MARK: ->  enums UICollectionViewDelegate
   // MARK: -
 
   // MARK: --> Managing the Selected Cells
@@ -331,7 +335,9 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionVie
   //}
 
   // MARK: -
-  // MARK: -> Interface protocol UICollectionViewDelegateFlowLayout
+  // MARK: -> Interface implementation protocol
+
+  // MARK: ->  enums UICollectionViewDelegateFlowLayout
   // MARK: -
   
   // MARK: --> Getting the Size of Items
@@ -395,6 +401,8 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionVie
   // MARK: Internal access (aka public for current module)
   // MARK: -
   
+  // MARK: -> Internal protocols
+
   // MARK: -> Internal enums
   
   // MARK: -> Internal structs
@@ -415,12 +423,14 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionVie
 
   // MARK: -> Internal methods
   
-  // MARK: -> Internal protocol <#protocol name#>
+  // MARK: -> Internal implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: File Private access
   // MARK: -
   
+  // MARK: -> File Private protocols
+
   // MARK: -> File Private enums
   
   // MARK: -> File Private structs
@@ -445,6 +455,8 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionVie
   // MARK: Private access
   // MARK: -
   
+  // MARK: -> Private protocols
+
   // MARK: -> Private enums
   
   // MARK: -> Private structs

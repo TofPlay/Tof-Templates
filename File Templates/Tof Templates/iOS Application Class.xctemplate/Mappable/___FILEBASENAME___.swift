@@ -18,6 +18,8 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   // MARK: Internal access (aka public for current module)
   // MARK: -
   
+  // MARK: -> Internal protocols
+
   // MARK: -> Internal enums
   
   // MARK: -> Internal structs
@@ -41,7 +43,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   // MARK: -> Internal init methods
   
-  internal required init?(map pMap: Map) {
+  internal required init?(map pMap: Map){
   }
   
   // MARK: -> Internal operators
@@ -49,18 +51,20 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   // MARK: -> Internal methods
   
   internal func mapping(map pMap: Map) {
-    //self.<#field#>      <- pMap["<#field#>"]
-    //self.<#field date#> <- (pMap["<#field date#>"], TransformOf<Date, String>(fromJSON: { Date.dateWithISO8601($0,timezone: TimeZone.autoupdatingCurrent) }, toJSON: { $0.map { $0.iso8601(timezone: TimeZone.autoupdatingCurrent)! } }))
+    // self.<#field#>      <- pMap["<#field#>"]
+    // self.<#field date#> <- (pMap["<#field date#>"], TransformOf<Date, String>(fromJSON: { Date.dateWithISO8601($0,timezone: TimeZone.autoupdatingCurrent) }, toJSON: { $0.map { $0.iso8601(timezone: TimeZone.autoupdatingCurrent)! } }))
   }
   
   // MARK: -> Internal class override ___VARIABLE_cocoaTouchSubclass___
 
-  // MARK: -> Internal protocol <#protocol name#>
+  // MARK: -> Internal implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: File Private access
   // MARK: -
   
+  // MARK: -> File Private protocols
+
   // MARK: -> File Private enums
   
   // MARK: -> File Private structs
@@ -85,6 +89,8 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   // MARK: Private access
   // MARK: -
   
+  // MARK: -> Private protocols
+
   // MARK: -> Private enums
   
   // MARK: -> Private structs

@@ -31,12 +31,14 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
 
   // MARK: -> Open methods
   
-  // MARK: -> Open protocol <#protocol name#>
+  // MARK: -> Open implementation protocol <#protocol name#>
 
   // MARK: -
   // MARK: Public access
   // MARK: -
   
+  // MARK: -> Public protocols
+
   // MARK: -> Public enums
   
   // MARK: -> Public structs
@@ -57,12 +59,14 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
   
   // MARK: -> Public methods
   
-  // MARK: -> Public protocol <#protocol name#>
+  // MARK: -> Public implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
   
+  // MARK: -> Internal protocols
+
   // MARK: -> Internal enums
   
   // MARK: -> Internal structs
@@ -83,12 +87,14 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
 
   // MARK: -> Internal methods
   
-  // MARK: -> Internal protocol <#protocol name#>
+  // MARK: -> Internal implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: File Private access
   // MARK: -
   
+  // MARK: -> File Private protocols
+
   // MARK: -> File Private enums
   
   // MARK: -> File Private structs
@@ -113,6 +119,8 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: Private access
   // MARK: -
   
+  // MARK: -> Private protocols
+
   // MARK: -> Private enums
   
   // MARK: -> Private structs

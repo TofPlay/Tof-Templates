@@ -27,7 +27,7 @@ open class ___FILEBASENAMEASIDENTIFIER___Cell : UITableViewCell {
 
   // MARK: -> Internal methods
   
-  // MARK: -> Internal protocol <#protocol name#>
+  // MARK: -> Internal implementation protocol <#protocol name#>
 }
 
 // MARK: -
@@ -95,10 +95,12 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
     // Dispose of any resources that can be recreated.
   }
   
-  // MARK: -> Interface protocol <#protocol name#>
+  // MARK: -> Interface implementation protocol <#protocol name#>
 
   // MARK: -
-  // MARK: -> Interface protocol UITableViewDataSource
+  // MARK: -> Interface implementation protocol
+
+  // MARK: ->  enums UITableViewDataSource
   // MARK: -
 
   // MARK: --> Configuring a Table View
@@ -212,7 +214,9 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // MARK: -
-  // MARK: -> Interface protocol UITableViewDelegate
+  // MARK: -> Interface implementation protocol
+
+  // MARK: ->  enums UITableViewDelegate
   // MARK: -
 
   // MARK: --> Configuring Rows for the Table View
@@ -541,12 +545,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
 
   // MARK: -> Open methods
   
-  // MARK: -> Open protocol <#protocol name#>
+  // MARK: -> Open implementation protocol <#protocol name#>
 
   // MARK: -
   // MARK: Public access
   // MARK: -
   
+  // MARK: -> Public protocols
+
   // MARK: -> Public enums
   
   // MARK: -> Public structs
@@ -567,12 +573,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
 
   // MARK: -> Public methods
   
-  // MARK: -> Public protocol <#protocol name#>
+  // MARK: -> Public implementation protocol <#protocol name#>
 
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
   
+  // MARK: -> Internal protocols
+
   // MARK: -> Internal enums
   
   // MARK: -> Internal structs
@@ -593,12 +601,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
 
   // MARK: -> Internal methods
   
-  // MARK: -> Internal protocol <#protocol name#>
+  // MARK: -> Internal implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: File Private access
   // MARK: -
   
+  // MARK: -> File Private protocols
+
   // MARK: -> File Private enums
   
   // MARK: -> File Private structs
@@ -623,6 +633,8 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   // MARK: Private access
   // MARK: -
   
+  // MARK: -> Private protocols
+
   // MARK: -> Private enums
   
   // MARK: -> Private structs

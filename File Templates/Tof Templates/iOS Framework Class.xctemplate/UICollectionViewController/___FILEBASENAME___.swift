@@ -25,7 +25,7 @@ open class ___FILEBASENAMEASIDENTIFIER___Cell : UICollectionViewCell {
   
   // MARK: -> Internal methods
   
-  // MARK: -> Internal protocol <#protocol name#>
+  // MARK: -> Internal implementation protocol <#protocol name#>
   
 }
 
@@ -102,7 +102,9 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   }
 
   // MARK: -
-  // MARK: -> Interface protocol UICollectionViewDataSource
+  // MARK: -> Interface implementation protocol
+
+  // MARK: ->  enums UICollectionViewDataSource
   // MARK: -
 
   // MARK: --> Getting Item and Section Metrics
@@ -166,7 +168,9 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
   
   // MARK: -
-  // MARK: -> Interface protocol UICollectionViewDelegate
+  // MARK: -> Interface implementation protocol
+
+  // MARK: ->  enums UICollectionViewDelegate
   // MARK: -
 
   // MARK: --> Managing the Selected Cells
@@ -331,7 +335,9 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   //}
 
   // MARK: -
-  // MARK: -> Interface protocol UICollectionViewDelegateFlowLayout
+  // MARK: -> Interface implementation protocol
+
+  // MARK: ->  enums UICollectionViewDelegateFlowLayout
   // MARK: -
   
   // MARK: --> Getting the Size of Items
@@ -409,12 +415,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
 
   // MARK: -> Open methods
   
-  // MARK: -> Open protocol <#protocol name#>
+  // MARK: -> Open implementation protocol <#protocol name#>
 
   // MARK: -
   // MARK: Public access
   // MARK: -
   
+  // MARK: -> Public protocols
+
   // MARK: -> Public enums
   
   // MARK: -> Public structs
@@ -435,12 +443,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
 
   // MARK: -> Public methods
   
-  // MARK: -> Public protocol <#protocol name#>
+  // MARK: -> Public implementation protocol <#protocol name#>
 
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
   
+  // MARK: -> Internal protocols
+
   // MARK: -> Internal enums
   
   // MARK: -> Internal structs
@@ -461,12 +471,14 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
 
   // MARK: -> Internal methods
   
-  // MARK: -> Internal protocol <#protocol name#>
+  // MARK: -> Internal implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: File Private access
   // MARK: -
   
+  // MARK: -> File Private protocols
+
   // MARK: -> File Private enums
   
   // MARK: -> File Private structs
@@ -491,6 +503,8 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionViewDat
   // MARK: Private access
   // MARK: -
   
+  // MARK: -> Private protocols
+
   // MARK: -> Private enums
   
   // MARK: -> Private structs

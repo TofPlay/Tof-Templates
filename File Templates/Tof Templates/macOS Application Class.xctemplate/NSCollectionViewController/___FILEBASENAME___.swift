@@ -27,7 +27,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___Item : NSCollectionViewItem {
   
   // MARK: -> Internal methods
   
-  // MARK: -> Internal protocol <#protocol name#>
+  // MARK: -> Internal implementation protocol <#protocol name#>
 }
 
 // MARK: -
@@ -97,10 +97,12 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionVie
   //  // Your code here
   //}
   
-  // MARK: -> Interface protocol <#protocol name#>
+  // MARK: -> Interface implementation protocol <#protocol name#>
 
   // MARK: -
-  // MARK: -> Interface protocol NSCollectionViewDataSource
+  // MARK: -> Interface implementation protocol
+
+  // MARK: ->  enums NSCollectionViewDataSource
   // MARK: -
   
   // MARK: --> Getting the Number of Sections and Items
@@ -140,7 +142,9 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionVie
   //}
   
   // MARK: -
-  // MARK: -> Interface protocol NSCollectionViewDelegate
+  // MARK: -> Interface implementation protocol
+
+  // MARK: ->  enums NSCollectionViewDelegate
   // MARK: -
   
   // MARK: --> Managing the Selection
@@ -301,6 +305,8 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionVie
   // MARK: Internal access (aka public for current module)
   // MARK: -
   
+  // MARK: -> Internal protocols
+
   // MARK: -> Internal enums
   
   // MARK: -> Internal structs
@@ -329,12 +335,14 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionVie
     }
   }
 
-  // MARK: -> Internal protocol <#protocol name#>
+  // MARK: -> Internal implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: File Private access
   // MARK: -
   
+  // MARK: -> File Private protocols
+
   // MARK: -> File Private enums
   
   // MARK: -> File Private structs
@@ -359,6 +367,8 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionVie
   // MARK: Private access
   // MARK: -
   
+  // MARK: -> Private protocols
+
   // MARK: -> Private enums
   
   // MARK: -> Private structs
