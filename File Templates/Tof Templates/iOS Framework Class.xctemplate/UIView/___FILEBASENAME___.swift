@@ -51,8 +51,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: Public access
   // MARK: -
   
-  // MARK: -> Public protocols
-
   // MARK: -> Public enums
   
   // MARK: -> Public structs
@@ -79,8 +77,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: Internal access (aka public for current module)
   // MARK: -
   
-  // MARK: -> Internal protocols
-
   // MARK: -> Internal enums
   
   // MARK: -> Internal structs
@@ -107,8 +103,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: File Private access
   // MARK: -
   
-  // MARK: -> File Private protocols
-
   // MARK: -> File Private enums
   
   // MARK: -> File Private structs
@@ -133,8 +127,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: Private access
   // MARK: -
   
-  // MARK: -> Private protocols
-
   // MARK: -> Private enums
   
   // MARK: -> Private structs
