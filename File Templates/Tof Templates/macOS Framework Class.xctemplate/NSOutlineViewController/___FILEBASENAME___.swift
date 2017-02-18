@@ -79,9 +79,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDataSo
   // MARK: -> Interface implementation protocol <#protocol name#>
 
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums NSOutlineViewDataSource
+  // MARK: -> Interface implementation protocol NSOutlineViewDataSource
   // MARK: -
   
   // Returns a Boolean value that indicates whether a drop operation was successful.

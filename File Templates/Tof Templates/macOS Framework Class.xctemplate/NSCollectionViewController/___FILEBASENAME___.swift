@@ -100,9 +100,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
   // MARK: -> Interface implementation protocol <#protocol name#>
 
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums NSCollectionViewDataSource
+  // MARK: -> Interface implementation protocol NSCollectionViewDataSource
   // MARK: -
   
   // MARK: --> Getting the Number of Sections and Items
@@ -142,9 +140,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
   //}
   
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums NSCollectionViewDelegate
+  // MARK: -> Interface implementation protocol NSCollectionViewDelegate
   // MARK: -
   
   // MARK: --> Managing the Selection

@@ -79,9 +79,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDa
   // MARK: -> Interface implementation protocol <#protocol name#>
 
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums NSOutlineViewDataSource
+  // MARK: -> Interface implementation protocol NSOutlineViewDataSource
   // MARK: -
   
   // Returns a Boolean value that indicates whether the a given item is expandable.
@@ -209,9 +207,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDa
   //}
   
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums NSOutlineViewDelegate
+  // MARK: -> Interface implementation protocol NSOutlineViewDelegate
   // MARK: -
   
   // MARK: --> Expanding and Collapsing the Outline

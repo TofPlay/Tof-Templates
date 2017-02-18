@@ -100,9 +100,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSTableViewData
   // MARK: -> Interface implementation protocol <#protocol name#>
 
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums NSTableViewDataSource
+  // MARK: -> Interface implementation protocol NSTableViewDataSource
   // MARK: -
 
   // MARK: --> Values
@@ -217,9 +215,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSTableViewData
   //}
   
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums NSTableViewDelegate
+  // MARK: -> Interface implementation protocol NSTableViewDelegate
   // MARK: -
   
   // MARK: --> Providing Views for Rows and Columns
