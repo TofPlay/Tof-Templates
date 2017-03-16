@@ -102,9 +102,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionVie
   }
 
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums UICollectionViewDataSource
+  // MARK: -> Interface implementation protocol UICollectionViewDataSource
   // MARK: -
 
   // MARK: --> Getting Item and Section Metrics
@@ -168,9 +166,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionVie
   //}
   
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums UICollectionViewDelegate
+  // MARK: -> Interface implementation protocol UICollectionViewDelegate
   // MARK: -
 
   // MARK: --> Managing the Selected Cells
@@ -335,9 +331,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UICollectionVie
   //}
 
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums UICollectionViewDelegateFlowLayout
+  // MARK: -> Interface implementation protocol UICollectionViewDelegateFlowLayout
   // MARK: -
   
   // MARK: --> Getting the Size of Items

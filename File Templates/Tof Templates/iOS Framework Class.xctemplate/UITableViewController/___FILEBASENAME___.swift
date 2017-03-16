@@ -98,13 +98,25 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   // MARK: -> Interface implementation protocol <#protocol name#>
 
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums UITableViewDataSource
+  // MARK: -> Interface implementation protocol UITableViewDataSource
   // MARK: -
 
   // MARK: --> Configuring a Table View
   
+  // Asks the data source to return the number of sections in the table view.
+  //open func numberOfSections(in pTableView: UITableView) -> Int {
+  //  return 1
+  //}
+  
+  // Tells the data source to return the number of rows in a given section of a table view.
+  open func tableView(_ pTableView: UITableView, numberOfRowsInSection pSection: Int) -> Int {
+    var lRet:Int = self.items.count
+    
+    // Change lRet here and add your code
+
+    return lRet
+  }
+
   // Asks the data source for a cell to insert in a particular location of the table view.
   open func tableView(_ pTableView: UITableView, cellForRowAt pIndexPath: IndexPath) -> UITableViewCell {
     var lRet:UITableViewCell! = nil
@@ -124,20 +136,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
       lRet.backgroundColor = UIColor.clear
     }
     
-    return lRet
-  }
-
-  // Asks the data source to return the number of sections in the table view.
-  //open func numberOfSections(in pTableView: UITableView) -> Int {
-  //  return 1
-  //}
-  
-  // Tells the data source to return the number of rows in a given section of a table view.
-  open func tableView(_ pTableView: UITableView, numberOfRowsInSection pSection: Int) -> Int {
-    var lRet:Int = self.items.count
-    
-    // Change lRet here and add your code
-
     return lRet
   }
 
@@ -214,9 +212,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewDataSour
   //}
   
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums UITableViewDelegate
+  // MARK: -> Interface implementation protocol UITableViewDelegate
   // MARK: -
 
   // MARK: --> Configuring Rows for the Table View

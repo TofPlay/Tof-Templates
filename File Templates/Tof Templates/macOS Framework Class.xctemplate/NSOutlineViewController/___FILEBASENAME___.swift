@@ -207,9 +207,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDataSo
   //}
   
   // MARK: -
-  // MARK: -> Interface implementation protocol
-
-  // MARK: ->  enums NSOutlineViewDelegate
+  // MARK: -> Interface implementation protocol NSOutlineViewDelegate
   // MARK: -
   
   // MARK: --> Expanding and Collapsing the Outline
