@@ -48,9 +48,9 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
   
   //override open func prepare(for pSegue: NSStoryboardSegue, sender pSender: Any?) {
   //  if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
+  //    let l<#View Controller#> = pSegue.destination as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
+  //    let l<#View Controller#> = pSegue.destination as! <#View Controller#>
   //  }
   //}
   

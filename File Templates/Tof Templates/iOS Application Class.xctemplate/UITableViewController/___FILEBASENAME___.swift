@@ -48,9 +48,9 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewData
   
   //override internal func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
   //  if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
+  //    let l<#View Controller#> = pSegue.destination as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#> = pSegue.destinationViewController as! <#View Controller#>
+  //    let l<#View Controller#> = pSegue.destination as! <#View Controller#>
   //  }
   //}
   
