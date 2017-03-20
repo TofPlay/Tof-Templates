@@ -1,7 +1,7 @@
 # Tof Templates
 Xcode templates for Swift and Objective-C
 
-![License MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg) ![Plaforms](https://img.shields.io/badge/Platform-iOS | macOS-lightgrey.svg) ![Swift Version](https://img.shields.io/badge/Swift-3.0-orange.svg)
+![License MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg) ![Plaforms](https://img.shields.io/badge/Platform-iOS%20|%20macOS-lightgrey.svg) ![Swift Version](https://img.shields.io/badge/Swift-3.0-orange.svg)
 
 **iOS Templates**
 
