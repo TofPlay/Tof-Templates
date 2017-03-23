@@ -177,6 +177,12 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewData
   
   // MARK: --> Inserting or Deleting Table Rows
   
+  // Asks the data source to verify that the given row is editable.
+  //internal func tableView(_ pTableView: UITableView, canEditRowAt pIndexPath: IndexPath) -> Bool {
+  //  // Return false if you do not want the specified item to be editable.
+  //  return true
+  //}
+  
   // Asks the data source to commit the insertion or deletion of a specified row in the receiver.
   //internal func tableView(_ pTableView: UITableView, commit pEditingStyle: UITableViewCellEditingStyle, forRowAt pIndexPath: IndexPath) {
   //  if pEditingStyle == .delete {
@@ -190,12 +196,6 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController, UITableViewData
   //    let lIndexPath = IndexPath(row: self.items.count - 1, section: 0)
   //    self.tableView.insertRows(at: [lIndexPath], with: .automatic)
   //  }
-  //}
-  
-  // Asks the data source to verify that the given row is editable.
-  //internal func tableView(_ pTableView: UITableView, canEditRowAt pIndexPath: IndexPath) -> Bool {
-  //  // Return false if you do not want the specified item to be editable.
-  //  return true
   //}
   
   // MARK: --> Reordering Table Rows
