@@ -19,7 +19,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDa
   
   // MARK: -> Interface Builder properties
   
-  @IBOutlet weak internal var pOutlineView: NSOutlineView!
+  @IBOutlet weak internal var outlineView: NSOutlineView!
 
   // MARK: -> Interface Builder actions
   
