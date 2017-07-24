@@ -71,29 +71,29 @@ internal class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   }
   
   // Notifies the view controller that its view is about to be added to a view hierarchy.
-  override internal func viewWillAppear(_ pAnimated: Bool) {
-    super.viewWillAppear(pAnimated)
-  }
+  //override internal func viewWillAppear(_ pAnimated: Bool) {
+  //  super.viewWillAppear(pAnimated)
+  //}
   
   // Notifies the view controller that its view was added to a view hierarchy.
-  override internal func viewDidAppear(_ pAnimated: Bool) {
-    super.viewDidAppear(pAnimated)
-  }
+  //override internal func viewDidAppear(_ pAnimated: Bool) {
+  //  super.viewDidAppear(pAnimated)
+  //}
   
   // Notifies the view controller that its view is about to be removed from a view hierarchy.
-  override internal func viewWillDisappear(_ pAnimated: Bool) {
-    super.viewWillDisappear(pAnimated)
-  }
+  //override internal func viewWillDisappear(_ pAnimated: Bool) {
+  //  super.viewWillDisappear(pAnimated)
+  //}
   
   // Notifies the view controller that its view was removed from a view hierarchy.
-  override internal func viewDidDisappear(_ pAnimated: Bool) {
-    super.viewDidDisappear(pAnimated)
-  }
+  //override internal func viewDidDisappear(_ pAnimated: Bool) {
+  //  super.viewDidDisappear(pAnimated)
+  //}
 
-  override internal func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
+  //override internal func didReceiveMemoryWarning() {
+  //  super.didReceiveMemoryWarning()
+  //  // Dispose of any resources that can be recreated.
+  //}
   
   // MARK: -> Interface implementation protocol <#protocol name#>
   
