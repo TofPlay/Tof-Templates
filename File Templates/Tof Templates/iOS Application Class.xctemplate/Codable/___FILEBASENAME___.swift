@@ -14,12 +14,12 @@ import Foundation
 // MARK: -
 internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -
-  // MARK: Internal access (aka public for current module)
+  // MARK: Internal access (aka internal for current module)
   // MARK: -
   
   // MARK: -> Internal enums
   
-  //public enum CodingKeys: String, CodingKey {
+  //internal enum CodingKeys: String, CodingKey {
   //  case <#field#>
   //}
 
@@ -39,21 +39,21 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   //internal var <#field#>:Double? = nil
   //internal var <#field#>:Data? = nil
   //internal var <#field#>:Date? = nil
-  //internal var <#field#>:Data? = nil
+  //internal var <#field#>:Dat? = nil
   //internal var <#field#>:String? = nil
 
   // MARK: -> Internal class methods
   
   // MARK: -> Internal init methods
   
-  public init() {
+  internal init() {
   }
     
   // MARK: -> Internal methods
     
   // MARK: -> Public protocol Encodable
     
-  //public func encode(to pEncoder: Encoder) throws {
+  //internal func encode(to pEncoder: Encoder) throws {
   //  var lContainer = pEncoder.container(keyedBy: CodingKeys.self)
   //
   //  try lContainer.encode(self.<#field#>, forKey: .<#field#>)
@@ -61,7 +61,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   
   // MARK: -> Public protocol Decodable
     
-  //public required init(from pDecoder: Decoder) throws {
+  //internal required init(from pDecoder: Decoder) throws {
   //  if let lValues = try? pDecoder.container(keyedBy: CodingKeys.self) {
   //    self.<#field#> = try? lValues.decode(Bool.self, forKey: .<#field#>)
   //    self.<#field#> = try? lValues.decode(Int.self, forKey: .<#field#>)
