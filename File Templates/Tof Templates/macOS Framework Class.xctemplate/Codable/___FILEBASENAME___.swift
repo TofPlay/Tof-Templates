@@ -8,7 +8,6 @@
 //
 
 import Foundation
-import ObjectMapper
 
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
@@ -17,12 +16,18 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -
   // MARK: Public access
   // MARK: -
-    
+  
   // MARK: -> Public enums
   
+  //public enum CodingKeys: String, CodingKey {
+  //  case <#field#>
+  //}
+
   // MARK: -> Public structs
   
   // MARK: -> Public class
+  
+  // MARK: -> Public type alias 
   
   // MARK: -> Public static properties
   
@@ -32,28 +37,44 @@ open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   //public var <#field#>:Int? = nil
   //public var <#field#>:Float? = nil
   //public var <#field#>:Double? = nil
+  //public var <#field#>:Data? = nil
+  //public var <#field#>:Date? = nil
+  //public var <#field#>:Data? = nil
   //public var <#field#>:String? = nil
-  //public var <#field date#>:Date? = nil
 
   // MARK: -> Public class methods
   
   // MARK: -> Public init methods
   
-  public init?() {
-  }
-  
-  public required init?(map pMap: Map) {
-  }
-
-  // MARK: -> Public operators
-
-  // MARK: -> Public methods
-  
-  public func mapping(map pMap: Map) {
-    //self.<#field#>      <- pMap["<#field#>"]
-    //self.<#field date#> <- (pMap["<#field date#>"], TransformOf<Date, String>(fromJSON: { Date.date(iso8601:$0,timezone: TimeZone.autoupdatingCurrent) }, toJSON: { $0.map { $0.iso8601(timezone: TimeZone.autoupdatingCurrent)! } }))
+  public init() {
   }
     
+  // MARK: -> Public methods
+    
+  // MARK: -> Public protocol Encodable
+    
+  //public func encode(to pEncoder: Encoder) throws {
+  //  var lContainer = pEncoder.container(keyedBy: CodingKeys.self)
+  //
+  //  try lContainer.encode(self.<#field#>, forKey: .<#field#>)
+  //}
+  
+  // MARK: -> Public protocol Decodable
+    
+  //public required init(from pDecoder: Decoder) throws {
+  //  if let lValues = try? pDecoder.container(keyedBy: CodingKeys.self) {
+  //    self.<#field#> = try? lValues.decode(Bool.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(Int.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(Float.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(Double.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(Date.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(Data.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(String.self, forKey: .<#field#>)
+  //  }
+  //}
+
+  // MARK: -> Public implementation protocol <#protocol name#>
+  
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
