@@ -4,7 +4,7 @@
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Base on Tof Templates (https://goo.gl/GdyFiw)
-//___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 #import "___FILEBASENAME___.h"

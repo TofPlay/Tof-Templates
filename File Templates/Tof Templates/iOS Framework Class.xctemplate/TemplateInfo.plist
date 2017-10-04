@@ -40,7 +40,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>NSObject</string>
+			<string></string>
 			<key>Description</key>
 			<string>What class to subclass in the new file</string>
 			<key>Identifier</key>
@@ -65,6 +65,7 @@
 			<key>Values</key>
 			<array>
 				<string>NSObject</string>
+				<string>Codable</string>
 				<string>Mappable</string>
 				<string>UIView</string>
 				<string>UIViewController</string>

@@ -10,15 +10,19 @@
 import Foundation
 
 // MARK: -
-// MARK: ___FILEBASENAMEASIDENTIFIER___ Struct
+// MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-public struct ___FILEBASENAMEASIDENTIFIER___ {
+open class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -
   // MARK: Public access
   // MARK: -
   
   // MARK: -> Public enums
   
+  //public enum CodingKeys: String, CodingKey {
+  //  case <#field#>
+  //}
+
   // MARK: -> Public structs
   
   // MARK: -> Public class
@@ -29,15 +33,45 @@ public struct ___FILEBASENAMEASIDENTIFIER___ {
   
   // MARK: -> Public properties
   
+  //public var <#field#>:Bool? = nil
+  //public var <#field#>:Int? = nil
+  //public var <#field#>:Float? = nil
+  //public var <#field#>:Double? = nil
+  //public var <#field#>:Data? = nil
+  //public var <#field#>:Date? = nil
+  //public var <#field#>:Data? = nil
+  //public var <#field#>:String? = nil
+
   // MARK: -> Public class methods
   
   // MARK: -> Public init methods
   
-  // MARK: -> Public operators
-
+  public init() {
+  }
+    
   // MARK: -> Public methods
+    
+  // MARK: -> Public protocol Encodable
+    
+  //public func encode(to pEncoder: Encoder) throws {
+  //  var lContainer = pEncoder.container(keyedBy: CodingKeys.self)
+  //
+  //  try lContainer.encode(self.<#field#>, forKey: .<#field#>)
+  //}
   
-  // MARK: -> Public class override Mappable
+  // MARK: -> Public protocol Decodable
+    
+  //public required init(from pDecoder: Decoder) throws {
+  //  if let lValues = try? pDecoder.container(keyedBy: CodingKeys.self) {
+  //    self.<#field#> = try? lValues.decode(Bool.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(Int.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(Float.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(Double.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(Date.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(Data.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(String.self, forKey: .<#field#>)
+  //  }
+  //}
 
   // MARK: -> Public implementation protocol <#protocol name#>
   
@@ -114,4 +148,5 @@ public struct ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: -> Private operators
 
   // MARK: -> Private methods
+    
 }
