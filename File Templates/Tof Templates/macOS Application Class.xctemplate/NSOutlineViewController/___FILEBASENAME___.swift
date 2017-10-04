@@ -4,7 +4,7 @@
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Base on Tof Templates (https://goo.gl/GdyFiw)
-//___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 import Cocoa
@@ -19,7 +19,7 @@ internal class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDa
   
   // MARK: -> Interface Builder properties
   
-  @IBOutlet weak internal var pOutlineView: NSOutlineView!
+  @IBOutlet weak internal var outlineView: NSOutlineView!
 
   // MARK: -> Interface Builder actions
   

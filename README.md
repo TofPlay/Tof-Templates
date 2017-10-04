@@ -1,7 +1,7 @@
 # Tof Templates
 Xcode templates for Swift and Objective-C
 
-![Swift Version](https://img.shields.io/badge/Swift-3.0-orange.svg)
+![Swift Version](https://img.shields.io/badge/Swift-4.0-orange.svg)
 ![Plaforms](https://img.shields.io/badge/Platform-iOS%20|%20macOS-lightgrey.svg)
 ![License MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg) 
 
@@ -26,22 +26,6 @@ $ cd "Tof-Templates/File Templates"
 $ mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/
 $ cp -R Tof\ Templates ~/Library/Developer/Xcode/Templates/File\ Templates/
 ``` 
-
-## Installation with Alcatraz
-
-[![](https://raw.githubusercontent.com/TofPlay/Tof-Templates/master/Images/Xcode-Alcatraz.png)](http://alcatraz.io/)
-
-by [Alcatraz](http://alcatraz.io/):
-*Alcatraz is an open-source package manager for Xcode 5+. It lets you discover and install plugins, templates and color schemes without the need for manually cloning or copying files. It installs itself as a part of Xcode and it feels like home.*
-
-![](https://raw.githubusercontent.com/TofPlay/Tof-Templates/master/Images/TofTemplate-Alcatraz.gif)
-
-* Open Alcatraz
-* Click on "All" + "Templates"
-* Search for "Tof"
-* Click on the button "INSTALL"
-
-"Tof Templates" is now installed 
 
 ## License
 The MIT License (MIT)

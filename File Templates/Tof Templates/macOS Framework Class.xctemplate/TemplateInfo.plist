@@ -65,6 +65,7 @@
 			<key>Values</key>
 			<array>
 				<string>NSObject</string>
+				<string>Codable</string>
 				<string>Mappable</string>
 				<string>NSViewController</string>
 				<string>NSTableViewController</string>
