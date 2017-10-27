@@ -56,20 +56,14 @@ internal class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___
   //internal func encode(to pEncoder: Encoder) throws {
   //  var lContainer = pEncoder.container(keyedBy: CodingKeys.self)
   //
-  //  try lContainer.encode(self.<#field#>, forKey: .<#field#>)
+  //  try lContainer.encode(self.<#field#>, forKey: .<#coding key#>)
   //}
   
   // MARK: -> Public protocol Decodable
     
   //internal required init(from pDecoder: Decoder) throws {
   //  if let lValues = try? pDecoder.container(keyedBy: CodingKeys.self) {
-  //    self.<#field#> = try? lValues.decode(Bool.self, forKey: .<#field#>)
-  //    self.<#field#> = try? lValues.decode(Int.self, forKey: .<#field#>)
-  //    self.<#field#> = try? lValues.decode(Float.self, forKey: .<#field#>)
-  //    self.<#field#> = try? lValues.decode(Double.self, forKey: .<#field#>)
-  //    self.<#field#> = try? lValues.decode(Date.self, forKey: .<#field#>)
-  //    self.<#field#> = try? lValues.decode(Data.self, forKey: .<#field#>)
-  //    self.<#field#> = try? lValues.decode(String.self, forKey: .<#field#>)
+  //    self.<#field#> = try? lValues.decode(<#type#>.self, forKey: .<#coding key#>)
   //  }
   //}
 
