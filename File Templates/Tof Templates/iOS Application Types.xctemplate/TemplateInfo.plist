@@ -58,7 +58,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>NSObject</string>
+			<string>None</string>
 			<key>Description</key>
 			<string>Which class to add a category or extension to</string>
 			<key>Identifier</key>

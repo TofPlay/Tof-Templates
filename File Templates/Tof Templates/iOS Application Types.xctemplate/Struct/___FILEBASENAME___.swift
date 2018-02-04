@@ -39,8 +39,6 @@ internal struct ___FILEBASENAMEASIDENTIFIER___ {
   
   // MARK: -> Public class override Mappable
 
-  // MARK: -> Public implementation protocol <#protocol name#>
-  
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
@@ -64,33 +62,7 @@ internal struct ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: -> Internal operators
 
   // MARK: -> Internal methods
-  
-  // MARK: -> Internal implementation protocol <#protocol name#>
-  
-  // MARK: -
-  // MARK: File Private access
-  // MARK: -
-  
-  // MARK: -> File Private enums
-  
-  // MARK: -> File Private structs
-  
-  // MARK: -> File Private class
-  
-  // MARK: -> File Private type alias 
-
-  // MARK: -> File Private static properties
-
-  // MARK: -> File Private properties
-  
-  // MARK: -> File Private class methods
-  
-  // MARK: -> File Private init methods
-  
-  // MARK: -> File Private operators
-
-  // MARK: -> File Private methods
-
+    
   // MARK: -
   // MARK: Private access
   // MARK: -

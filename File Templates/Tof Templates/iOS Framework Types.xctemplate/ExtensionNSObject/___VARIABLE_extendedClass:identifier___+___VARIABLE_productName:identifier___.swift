@@ -12,7 +12,7 @@ import Foundation
 // MARK: -
 // MARK: ___VARIABLE_extendedClass:identifier___ extension
 // MARK: -
-public  extension ___VARIABLE_extendedClass:identifier___ {
+extension ___VARIABLE_extendedClass:identifier___ {
   // MARK: -
   // MARK: Public access
   // MARK: -
@@ -36,8 +36,6 @@ public  extension ___VARIABLE_extendedClass:identifier___ {
   // MARK: -> Public operators
   
   // MARK: -> Public methods
-  
-  // MARK: -> Public implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: Internal access (aka public for current module)
@@ -63,32 +61,6 @@ public  extension ___VARIABLE_extendedClass:identifier___ {
 
   // MARK: -> Internal methods
   
-  // MARK: -> Internal implementation protocol <#protocol name#>
-  
-  // MARK: -
-  // MARK: File Private access
-  // MARK: -
-  
-  // MARK: -> File Private enums
-  
-  // MARK: -> File Private structs
-  
-  // MARK: -> File Private class
-  
-  // MARK: -> File Private type alias 
-
-  // MARK: -> File Private static properties
-
-  // MARK: -> File Private properties
-  
-  // MARK: -> File Private class methods
-  
-  // MARK: -> File Private init methods
-  
-  // MARK: -> File Private operators
-
-  // MARK: -> File Private methods
-
   // MARK: -
   // MARK: Private access
   // MARK: -

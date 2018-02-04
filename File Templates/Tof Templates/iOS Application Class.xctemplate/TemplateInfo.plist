@@ -65,6 +65,7 @@
 			<key>Values</key>
 			<array>
 				<string>NSObject</string>
+				<string>None</string>
 				<string>Codable</string>
 				<string>Mappable</string>
 				<string>UIView</string>

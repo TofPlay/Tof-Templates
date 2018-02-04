@@ -12,19 +12,25 @@ import UIKit
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
+open class ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: -
-  // MARK: Interface
+  // MARK: Open access
   // MARK: -
   
-  // MARK: -> Class override ___VARIABLE_cocoaTouchSubclass___
+  // MARK: -> Open structs
   
-  // Only override drawRect: if you perform custom drawing.
-  // An empty implementation adversely affects performance during animation.
-  //public override func draw(_ pRect: CGRect) {
-  //  // Drawing code
-  //}
+  // MARK: -> Open class
+  
+  // MARK: -> Open static properties
+  
+  // MARK: -> Open properties
+  
+  // MARK: -> Open class methods
+  
+  // MARK: -> Open operators
 
+  // MARK: -> Open methods
+  
   // MARK: -
   // MARK: Public access
   // MARK: -
@@ -48,7 +54,7 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> Public operators
 
   // MARK: -> Public methods
-    
+  
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
@@ -63,12 +69,16 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   
   // MARK: -> Internal static properties
   
+  // MARK: -> Internal properties
+  
   // MARK: -> Internal class methods
+  
+  // MARK: -> Internal init methods
   
   // MARK: -> Internal operators
 
   // MARK: -> Internal methods
-
+  
   // MARK: -
   // MARK: Private access
   // MARK: -
@@ -92,13 +102,33 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> Private operators
 
   // MARK: -> Private methods
+    
 }
-
 
 // MARK: -
 // MARK: -> Custom implementation protocol <#custom protocol#>
 // MARK: -
-//extension ___FILEBASENAMEASIDENTIFIER___:  <#custom protocol#> {
+//open extension ___FILEBASENAMEASIDENTIFIER___:  <#custom protocol#> {
+  // MARK: -
+  // MARK: Open access
+  // MARK: -
+  
+  // MARK: -> Open enums
+  
+  // MARK: -> Open structs
+  
+  // MARK: -> Open class
+  
+  // MARK: -> Open type alias 
+  
+  // MARK: -> Open static properties
+  
+  // MARK: -> Open class methods
+  
+  // MARK: -> Open operators
+
+  // MARK: -> Open methods
+  
   // MARK: -
   // MARK: Public access
   // MARK: -

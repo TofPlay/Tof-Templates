@@ -31,8 +31,6 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
 
   // MARK: -> Open methods
   
-  // MARK: -> Open implementation protocol <#protocol name#>
-
   // MARK: -
   // MARK: Public access
   // MARK: -
@@ -56,8 +54,6 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: -> Public operators
   
   // MARK: -> Public methods
-  
-  // MARK: -> Public implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: Internal access (aka public for current module)
@@ -83,32 +79,6 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
 
   // MARK: -> Internal methods
   
-  // MARK: -> Internal implementation protocol <#protocol name#>
-  
-  // MARK: -
-  // MARK: File Private access
-  // MARK: -
-  
-  // MARK: -> File Private enums
-  
-  // MARK: -> File Private structs
-  
-  // MARK: -> File Private class
-  
-  // MARK: -> File Private type alias 
-
-  // MARK: -> File Private static properties
-
-  // MARK: -> File Private properties
-  
-  // MARK: -> File Private class methods
-  
-  // MARK: -> File Private init methods
-  
-  // MARK: -> File Private operators
-
-  // MARK: -> File Private methods
-
   // MARK: -
   // MARK: Private access
   // MARK: -

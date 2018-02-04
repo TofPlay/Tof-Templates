@@ -12,7 +12,7 @@ import Foundation
 // MARK: - 
 // MARK: ___VARIABLE_extendedClass:identifier___ extension
 // MARK: -
-public extension ___VARIABLE_extendedClass:identifier___ {
+extension ___VARIABLE_extendedClass:identifier___ {
   // MARK: -
   // MARK: Public access
   // MARK: -

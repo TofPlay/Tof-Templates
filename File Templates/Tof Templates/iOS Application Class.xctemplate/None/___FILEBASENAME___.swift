@@ -12,19 +12,7 @@ import UIKit
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
-  // MARK: -
-  // MARK: Interface
-  // MARK: -
-  
-  // MARK: -> Class override ___VARIABLE_cocoaTouchSubclass___
-  
-  // Only override drawRect: if you perform custom drawing.
-  // An empty implementation adversely affects performance during animation.
-  //public override func draw(_ pRect: CGRect) {
-  //  // Drawing code
-  //}
-
+public class ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: -
   // MARK: Public access
   // MARK: -
@@ -68,7 +56,7 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> Internal operators
 
   // MARK: -> Internal methods
-
+  
   // MARK: -
   // MARK: Private access
   // MARK: -
@@ -92,8 +80,8 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> Private operators
 
   // MARK: -> Private methods
-}
 
+}
 
 // MARK: -
 // MARK: -> Custom implementation protocol <#custom protocol#>
