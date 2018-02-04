@@ -14,16 +14,16 @@ import UIKit
 // MARK: -
 open class ___FILEBASENAMEASIDENTIFIER___Cell : UICollectionViewCell {
   // MARK: -
-  // MARK: open access (aka public for current module)
+  // MARK: Open access
   // MARK: -
   
-  // MARK: -> open properties
+  // MARK: -> Open properties
   
-  // MARK: -> open class methods
+  // MARK: -> Open class methods
   
-  // MARK: -> open init methods
+  // MARK: -> Open init methods
   
-  // MARK: -> open methods
+  // MARK: -> Open methods
   
 }
 

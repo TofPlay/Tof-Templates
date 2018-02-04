@@ -17,9 +17,13 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: Open access
   // MARK: -
   
+  // MARK: -> Open enums
+  
   // MARK: -> Open structs
   
   // MARK: -> Open class
+  
+  // MARK: -> Open type alias 
   
   // MARK: -> Open static properties
   
@@ -27,8 +31,10 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
   
   // MARK: -> Open class methods
   
+  // MARK: -> Open init methods
+  
   // MARK: -> Open operators
-
+  
   // MARK: -> Open methods
   
   // MARK: -
