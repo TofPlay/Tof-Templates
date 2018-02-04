@@ -14,7 +14,7 @@ import Cocoa
 // MARK: -
 open class ___FILEBASENAMEASIDENTIFIER___Item : NSCollectionViewItem {
   // MARK: -
-  // MARK: Open access (aka public for current module)
+  // MARK: Open access
   // MARK: -
   
   // MARK: -> Open properties
@@ -23,30 +23,27 @@ open class ___FILEBASENAMEASIDENTIFIER___Item : NSCollectionViewItem {
   
   // MARK: -> Open init methods
   
-  // MARK: -> Open operators
-  
   // MARK: -> Open methods
   
-  // MARK: -> Open implementation protocol <#protocol name#>
 }
 
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDataSource, NSCollectionViewDelegate {
+open class ___FILEBASENAMEASIDENTIFIER___: NSViewController {
   // MARK: -
   // MARK: Interface
   // MARK: -
   
-  // MARK: -> Interface Builder properties
+  // MARK: Interface Builder properties
   
   @IBOutlet weak open var collectionView: NSCollectionView!
 
-  // MARK: -> Interface Builder actions
+  // MARK: Interface Builder actions
   
-  // MARK: -> Interface navigation
+  // MARK: Interface navigation
   
-  //override open func prepare(for pSegue: NSStoryboardSegue, sender pSender: Any?) {
+  //open override func prepare(for pSegue: NSStoryboardSegue, sender pSender: Any?) {
   //  if pSegue.identifier == "<#segue name#>" {
   //    let l<#View Controller#> = pSegue.destination as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
@@ -54,7 +51,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
   //  }
   //}
   
-  // MARK: -> Interface notifications
+  // MARK: Interface notifications
   
   //open func notification<#notification name#>(_ pNotification: NSNotification) {
   //  if pNotification.object is <#type#> {
@@ -62,46 +59,229 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
   //  }
   //}
   
- // MARK: -> Interface class override NSCollectionView
+  // MARK: Interface override properties
   
-  override open func viewDidLoad() {
+  open override var representedObject: Any? {
+    didSet {
+    // Update the view, if already loaded.
+    }
+  }
+
+  // MARK: Interface class override NSViewController
+  
+  open override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
   }
   
-  //override open func viewWillAppear() {
+  //open override func viewWillAppear() {
   //  // Your code here
   //}
   
-  //override open func viewDidAppear() {
+  //open override func viewDidAppear() {
   //  // Your code here
   //}
   
-  //override open func updateViewConstraints() {
+  //open override func updateViewConstraints() {
   //  // Your code here
   //}
   
-  //override open func viewWillLayout() {
+  //open override func viewWillLayout() {
   //  // Your code here
   //}
   
-  //override open func viewDidLayout() {
+  //open override func viewDidLayout() {
   //  // Your code here
   //}
   
-  //override open func viewWillDisappear() {
+  //open override func viewWillDisappear() {
   //  // Your code here
   //}
   
-  //override open func viewDidDisappear() {
+  //open override func viewDidDisappear() {
   //  // Your code here
   //}
   
-  // MARK: -> Interface implementation protocol <#protocol name#>
+  // MARK: -
+  // MARK: Open access
+  // MARK: -
+  
+  // MARK: -> Open enums
+  
+  // MARK: -> Open structs
+  
+  // MARK: -> Open class
+  
+  // MARK: -> Open type alias 
+  
+  // MARK: -> Open static properties
+  
+  // MARK: -> Open class methods
+  
+  // MARK: -> Open operators
+
+  // MARK: -> Open methods
+  
+  // MARK: -
+  // MARK: Public access
+  // MARK: -
+  
+  // MARK: -> Public enums
+  
+  // MARK: -> Public structs
+  
+  // MARK: -> Public class
+  
+  // MARK: -> Public type alias 
+  
+  // MARK: -> Public static properties
+  
+  // MARK: -> Public properties
+  
+  // MARK: -> Public class methods
+  
+  // MARK: -> Public init methods
+  
+  // MARK: -> Public operators
+
+  // MARK: -> Public methods
+    
+  // MARK: -
+  // MARK: Internal access (aka open for current module)
+  // MARK: -
+  
+  // MARK: -> Internal enums
+  
+  // MARK: -> Internal structs
+  
+  // MARK: -> Internal class
+  
+  // MARK: -> Internal type alias 
+  
+  // MARK: -> Internal static properties
+  
+  // MARK: -> Internal class methods
+  
+  // MARK: -> Internal operators
+
+  // MARK: -> Internal methods
 
   // MARK: -
-  // MARK: -> Interface implementation protocol NSCollectionViewDataSource
+  // MARK: Private access
   // MARK: -
+  
+  // MARK: -> Private enums
+  
+  // MARK: -> Private structs
+  
+  // MARK: -> Private class
+  
+  // MARK: -> Private type alias 
+
+  // MARK: -> Private static properties
+
+  // MARK: -> Private properties
+
+  private var items:[AnyObject] = [] // Items for collectin view
+
+  // MARK: -> Private class methods
+  
+  // MARK: -> Private init methods
+  
+  // MARK: -> Private operators
+
+  // MARK: -> Private methods
+}
+
+// MARK: -
+// MARK: -> Custom implementation protocol <#custom protocol#>
+// MARK: -
+//extension ___FILEBASENAMEASIDENTIFIER___:  <#custom protocol#> {
+  // MARK: -
+  // MARK: Open access
+  // MARK: -
+  
+  // MARK: -> Open enums
+  
+  // MARK: -> Open structs
+  
+  // MARK: -> Open class
+  
+  // MARK: -> Open type alias 
+  
+  // MARK: -> Open static properties
+  
+  // MARK: -> Open class methods
+  
+  // MARK: -> Open operators
+
+  // MARK: -> Open methods
+  
+  // MARK: -
+  // MARK: Public access
+  // MARK: -
+  
+  // MARK: -> Public enums
+  
+  // MARK: -> Public structs
+  
+  // MARK: -> Public class
+  
+  // MARK: -> Public type alias 
+  
+  // MARK: -> Public static properties
+  
+  // MARK: -> Public class methods
+  
+  // MARK: -> Public operators
+
+  // MARK: -> Public methods
+  
+  // MARK: -
+  // MARK: Internal access (aka public for current module)
+  // MARK: -
+  
+  // MARK: -> Internal enums
+  
+  // MARK: -> Internal structs
+  
+  // MARK: -> Internal class
+  
+  // MARK: -> Internal type alias 
+  
+  // MARK: -> Internal static properties
+  
+  // MARK: -> Internal class methods
+  
+  // MARK: -> Internal operators
+
+  // MARK: -> Internal methods
+
+  // MARK: -
+  // MARK: Private access
+  // MARK: -
+  
+  // MARK: -> Private enums
+  
+  // MARK: -> Private structs
+  
+  // MARK: -> Private class
+  
+  // MARK: -> Private type alias 
+
+  // MARK: -> Private static properties
+
+  // MARK: -> Private class methods
+  
+  // MARK: -> Private operators
+
+  // MARK: -> Private methods
+//}  
+
+// MARK: -
+// MARK:  Interface implementation protocol NSCollectionViewDataSource
+// MARK: -
+extension ___FILEBASENAMEASIDENTIFIER___: NSCollectionViewDataSource {
   
   // MARK: --> Getting the Number of Sections and Items
   
@@ -138,10 +318,12 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
   //
   //  return lRet
   //}
-  
-  // MARK: -
-  // MARK: -> Interface implementation protocol NSCollectionViewDelegate
-  // MARK: -
+}
+
+// MARK: -
+// MARK:  Interface implementation protocol NSCollectionViewDelegate
+// MARK: -
+extension ___FILEBASENAMEASIDENTIFIER___: NSCollectionViewDelegate {
   
   // MARK: --> Managing the Selection
   
@@ -296,136 +478,4 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSCollectionViewDat
   //  
   //  return lRet
   //}
-  
-  // MARK: -
-  // MARK: Open access
-  // MARK: -
-  
-  // MARK: -> Open structs
-  
-  // MARK: -> Open class
-  
-  // MARK: -> Open static properties
-  
-  // MARK: -> Open properties
-  
-  // MARK: -> Open class methods
-  
-  // MARK: -> Open operators
-
-  // MARK: -> Open methods
-  
-  // MARK: -> Open class override NSViewController
-  
-  override open var representedObject: Any? {
-    didSet {
-    // Update the view, if already loaded.
-    }
-  }
-
-  // MARK: -> Open implementation protocol <#protocol name#>
-  
-  // MARK: -
-  // MARK: Public access
-  // MARK: -
-  
-  // MARK: -> Public enums
-  
-  // MARK: -> Public structs
-  
-  // MARK: -> Public class
-  
-  // MARK: -> Public type alias 
-  
-  // MARK: -> Public static properties
-  
-  // MARK: -> Public properties
-  
-  // MARK: -> Public class methods
-  
-  // MARK: -> Public init methods
-  
-  // MARK: -> Public operators
-
-  // MARK: -> Public methods
-  
-  // MARK: -> Public class override Mappable
-
-  // MARK: -> Public implementation protocol <#protocol name#>
-  
-  // MARK: -
-  // MARK: Internal access (aka public for current module)
-  // MARK: -
-  
-  // MARK: -> Internal enums
-  
-  // MARK: -> Internal structs
-  
-  // MARK: -> Internal class
-  
-  // MARK: -> Internal type alias 
-  
-  // MARK: -> Internal static properties
-  
-  // MARK: -> Internal properties
-  
-  // MARK: -> Internal class methods
-  
-  // MARK: -> Internal init methods
-  
-  // MARK: -> Internal operators
-
-  // MARK: -> Internal methods
-  
-  // MARK: -> Internal implementation protocol <#protocol name#>
-  
-  // MARK: -
-  // MARK: File Private access
-  // MARK: -
-  
-  // MARK: -> File Private enums
-  
-  // MARK: -> File Private structs
-  
-  // MARK: -> File Private class
-  
-  // MARK: -> File Private type alias 
-
-  // MARK: -> File Private static properties
-
-  // MARK: -> File Private properties
-  
-  // MARK: -> File Private class methods
-  
-  // MARK: -> File Private init methods
-  
-  // MARK: -> File Private operators
-
-  // MARK: -> File Private methods
-
-  // MARK: -
-  // MARK: Private access
-  // MARK: -
-  
-  // MARK: -> Private enums
-  
-  // MARK: -> Private structs
-  
-  // MARK: -> Private class
-  
-  // MARK: -> Private type alias 
-
-  // MARK: -> Private static properties
-
-  // MARK: -> Private properties
-
-  private var items:[AnyObject] = [] // Items for collectin view
-
-  // MARK: -> Private class methods
-  
-  // MARK: -> Private init methods
-  
-  // MARK: -> Private operators
-
-  // MARK: -> Private methods
 }

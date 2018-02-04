@@ -12,20 +12,20 @@ import Cocoa
 // MARK: -
 // MARK: ___FILEBASENAMEASIDENTIFIER___
 // MARK: -
-open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDataSource, NSOutlineViewDelegate {
+open class ___FILEBASENAMEASIDENTIFIER___: NSViewController {
   // MARK: -
   // MARK: Interface
   // MARK: -
   
-  // MARK: -> Interface Builder properties
+  // MARK: Interface Builder properties
   
-  @IBOutlet weak open var pOutlineView: NSOutlineView!
+  @IBOutlet weak open var outlineView: NSOutlineView!
 
-  // MARK: -> Interface Builder actions
+  // MARK: Interface Builder actions
   
-  // MARK: -> Interface navigation
+  // MARK: Interface navigation
   
-  //override open func prepare(for pSegue: NSStoryboardSegue, sender pSender: Any?) {
+  //open open override func prepare(for pSegue: NSStoryboardSegue, sender pSender: Any?) {
   //  if pSegue.identifier == "<#segue name#>" {
   //    let l<#View Controller#> = pSegue.destination as! <#View Controller#>
   //  } else if pSegue.identifier == "<#segue name#>" {
@@ -33,7 +33,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDataSo
   //  }
   //}
   
-  // MARK: -> Interface notifications
+  // MARK: Interface notifications
   
   //open func notification<#notification name#>(_ pNotification: NSNotification) {
   //  if pNotification.object is <#type#> {
@@ -41,53 +41,247 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDataSo
   //  }
   //}
   
-  // MARK: -> Interface class override NSViewController
+  // MARK: Interface override properties
   
-  override open func viewDidLoad() {
+  open override var representedObject: Any? {
+    didSet {
+    // Update the view, if already loaded.
+    }
+  }
+
+  // MARK: Interface class override NSViewController
+  
+  open open override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
   }
   
-  //override func viewWillAppear() {
+  //open override func viewWillAppear() {
   //  // Your code here
   //}
   
-  //override func viewDidAppear() {
+  //open override func viewDidAppear() {
   //  // Your code here
   //}
   
-  //override func updateViewConstraints() {
+  //open override func updateViewConstraints() {
   //  // Your code here
   //}
   
-  //override func viewWillLayout() {
+  //open override func viewWillLayout() {
   //  // Your code here
   //}
   
-  //override func viewDidLayout() {
+  //open override func viewDidLayout() {
   //  // Your code here
   //}
   
-  //override func viewWillDisappear() {
+  //open override func viewWillDisappear() {
   //  // Your code here
   //}
   
-  //override func viewDidDisappear() {
+  //open override func viewDidDisappear() {
   //  // Your code here
   //}
   
-  // MARK: -> Interface implementation protocol <#protocol name#>
+  // MARK: -
+  // MARK: Public access
+  // MARK: -
+  
+  // MARK: -> Public enums
+  
+  // MARK: -> Public structs
+  
+  // MARK: -> Public class
+  
+  // MARK: -> Public type alias 
+  
+  // MARK: -> Public static properties
+  
+  // MARK: -> Public properties
+  
+  // MARK: -> Public class methods
+  
+  // MARK: -> Public init methods
+  
+  // MARK: -> Public operators
+
+  // MARK: -> Public methods
+    
+  // MARK: -
+  // MARK: Public access
+  // MARK: -
+  
+  // MARK: -> Public enums
+  
+  // MARK: -> Public structs
+  
+  // MARK: -> Public class
+  
+  // MARK: -> Public type alias 
+  
+  // MARK: -> Public static properties
+  
+  // MARK: -> Public properties
+  
+  // MARK: -> Public class methods
+  
+  // MARK: -> Public init methods
+  
+  // MARK: -> Public operators
+
+  // MARK: -> Public methods
+    
+  // MARK: -
+  // MARK: Internal access (aka open for current module)
+  // MARK: -
+  
+  // MARK: -> Internal enums
+  
+  // MARK: -> Internal structs
+  
+  // MARK: -> Internal class
+  
+  // MARK: -> Internal type alias 
+  
+  // MARK: -> Internal static properties
+  
+  // MARK: -> Internal class methods
+  
+  // MARK: -> Internal operators
+
+  // MARK: -> Internal methods
 
   // MARK: -
-  // MARK: -> Interface implementation protocol NSOutlineViewDataSource
+  // MARK: Private access
   // MARK: -
   
-  // Returns a Boolean value that indicates whether a drop operation was successful.
-  //open func outlineView(_ pOutlineView: NSOutlineView, acceptDrop pInfo: NSDraggingInfo, pItem: Any?, childIndex pIndex: Int) -> Bool {
+  // MARK: -> Private enums
+  
+  // MARK: -> Private structs
+  
+  // MARK: -> Private class
+  
+  // MARK: -> Private type alias 
+
+  // MARK: -> Private static properties
+
+  // MARK: -> Private properties
+
+  // MARK: -> Private class methods
+  
+  // MARK: -> Private init methods
+  
+  // MARK: -> Private operators
+
+  // MARK: -> Private methods
+}
+
+// MARK: -
+// MARK: -> Custom implementation protocol <#custom protocol#>
+// MARK: -
+//extension ___FILEBASENAMEASIDENTIFIER___:  <#custom protocol#> {
+  // MARK: -
+  // MARK: Open access
+  // MARK: -
+  
+  // MARK: -> Open enums
+  
+  // MARK: -> Open structs
+  
+  // MARK: -> Open class
+  
+  // MARK: -> Open type alias 
+  
+  // MARK: -> Open static properties
+  
+  // MARK: -> Open class methods
+  
+  // MARK: -> Open operators
+
+  // MARK: -> Open methods
+  
+  // MARK: -
+  // MARK: Public access
+  // MARK: -
+  
+  // MARK: -> Public enums
+  
+  // MARK: -> Public structs
+  
+  // MARK: -> Public class
+  
+  // MARK: -> Public type alias 
+  
+  // MARK: -> Public static properties
+  
+  // MARK: -> Public class methods
+  
+  // MARK: -> Public operators
+
+  // MARK: -> Public methods
+  
+  // MARK: -
+  // MARK: Internal access (aka public for current module)
+  // MARK: -
+  
+  // MARK: -> Internal enums
+  
+  // MARK: -> Internal structs
+  
+  // MARK: -> Internal class
+  
+  // MARK: -> Internal type alias 
+  
+  // MARK: -> Internal static properties
+  
+  // MARK: -> Internal class methods
+  
+  // MARK: -> Internal operators
+
+  // MARK: -> Internal methods
+  
+  // MARK: -
+  // MARK: Private access
+  // MARK: -
+  
+  // MARK: -> Private enums
+  
+  // MARK: -> Private structs
+  
+  // MARK: -> Private class
+  
+  // MARK: -> Private type alias 
+
+  // MARK: -> Private static properties
+
+  // MARK: -> Private class methods
+  
+  // MARK: -> Private operators
+
+  // MARK: -> Private methods
+//}  
+
+// MARK: -
+// MARK: Interface implementation protocol NSOutlineViewDataSource
+// MARK: -
+extension ___FILEBASENAMEASIDENTIFIER___: NSOutlineViewDataSource {
+  
+  // Returns a Boolean value that indicates whether the a given item is expandable.
+  //open func outlineView(_ pOutlineView: NSOutlineView, isItemExpandable pItem: Any) -> Bool {
   //  var lRet:Bool = false
-  //
+  //  
   //  // Change lRet here and add your code
-  //
+  //  
+  //  return lRet
+  //}
+  
+  // Returns the number of child items encompassed by a given item.
+  //open func outlineView(_ pOutlineView: NSOutlineView, numberOfChildrenOfItem pItem: Any?) -> Int {
+  //  var lRet:Int = 0
+  //  
+  //  // Change lRet here and add your code
+  //  
   //  return lRet
   //}
   
@@ -100,6 +294,29 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDataSo
   //  return lRet
   //}
   
+  // Invoked by outlineView to return the data object associated with the specified item.
+  //open func outlineView(_ pOutlineView: NSOutlineView, objectValueFor pTableColumn: NSTableColumn?, byItem pItem: Any?) -> Any? {
+  //  var lRet:Any? = nil
+  //  
+  //  // Change lRet here and add your code
+  //  
+  //  return lRet
+  //}
+  
+  // Set the data object for a given item in a given column.
+  //open func outlineView(_ pOutlineView: NSOutlineView, setObjectValue pObject: Any?, for pTableColumn: NSTableColumn?, byItem pItem: Any?) {
+  //  // Your code here
+  //}
+  
+  // Returns a Boolean value that indicates whether a drop operation was successful.
+  //open func outlineView(_ pOutlineView: NSOutlineView, acceptDrop pInfo: NSDraggingInfo, pItem: Any?, childIndex pIndex: Int) -> Bool {
+  //  var lRet:Bool = false
+  //
+  //  // Change lRet here and add your code
+  //
+  //  return lRet
+  //}
+  
   // Implement this method to know when the given dragging session has ended.
   //open func outlineView(_ pOutlineView: NSOutlineView, draggingSession pSession: NSDraggingSession, endedAt pScreenPoint: NSPoint, operation pOperation: NSDragOperation) {
   //  // Your code here
@@ -108,15 +325,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDataSo
   // Implement this method know when the given dragging session is about to begin and potentially modify the dragging session.
   //open func outlineView(_ pOutlineView: NSOutlineView, draggingSession pSession: NSDraggingSession, willBeginAt pScreenPoint: NSPoint, forItems pDraggedItems: [Any]) {
   //  // Your code here
-  //}
-  
-  // Returns a Boolean value that indicates whether the a given item is expandable.
-  //open func outlineView(_ pOutlineView: NSOutlineView, isItemExpandable pItem: Any) -> Bool {
-  //  var lRet:Bool = false
-  //  
-  //  // Change lRet here and add your code
-  //  
-  //  return lRet
   //}
   
   // Invoked by outlineView to return the item for the archived object.
@@ -137,24 +345,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDataSo
   //  return lRet
   //}
 
-  // Returns the number of child items encompassed by a given item.
-  //open func outlineView(_ pOutlineView: NSOutlineView, numberOfChildrenOfItem pItem: Any?) -> Int {
-  //  var lRet:Int = 0
-  //  
-  //  // Change lRet here and add your code
-  //  
-  //  return lRet
-  //}
-  
-  // Invoked by outlineView to return the data object associated with the specified item.
-  //open func outlineView(_ pOutlineView: NSOutlineView, objectValueFor pTableColumn: NSTableColumn?, byItem pItem: Any?) -> Any? {
-  //  var lRet:Any? = nil
-  //  
-  //  // Change lRet here and add your code
-  //  
-  //  return lRet
-  //}
-  
   // Implement this method to enable the table to be an NSDraggingSource that supports dragging multiple items.
   //open func outlineView(_ pOutlineView: NSOutlineView, pasteboardWriterForItem pItem: Any) -> NSPasteboardWriting? {
   //  var lRet:NSPasteboardWriting? = nil
@@ -171,11 +361,6 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDataSo
   //  // Change lRet here and add your code
   //  
   //  return lRet
-  //}
-  
-  // Set the data object for a given item in a given column.
-  //open func outlineView(_ pOutlineView: NSOutlineView, setObjectValue pObject: Any?, for pTableColumn: NSTableColumn?, byItem pItem: Any?) {
-  //  // Your code here
   //}
   
   // Invoked by an outline view to notify the data source that the descriptors changed and the data may need to be resorted.
@@ -205,10 +390,12 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDataSo
   //  
   //  return lRet
   //}
-  
-  // MARK: -
-  // MARK: -> Interface implementation protocol NSOutlineViewDelegate
-  // MARK: -
+}
+
+// MARK: -
+// MARK:  Interface implementation protocol NSOutlineViewDelegate
+// MARK: -
+extension ___FILEBASENAMEASIDENTIFIER___: NSOutlineViewDelegate {
   
   // MARK: --> Expanding and Collapsing the Outline
 
@@ -498,140 +685,4 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController, NSOutlineViewDataSo
   //  
   //  return lRet
   //}
-  
-  // MARK: -
-  // MARK: Open access
-  // MARK: -
-  
-  // MARK: -> Open enums
-  
-  // MARK: -> Open structs
-  
-  // MARK: -> Open class
-  
-  // MARK: -> Open type alias 
-  
-  // MARK: -> Open static properties
-  
-  // MARK: -> Open properties
-  
-  // MARK: -> Open class methods
-  
-  // MARK: -> Open init methods
-  
-  // MARK: -> Open operators
-
-  // MARK: -> Open methods
-  
-  // MARK: -> Open class override NSViewController
-  
-  override open var representedObject: Any? {
-    didSet {
-    // Update the view, if already loaded.
-    }
-  }
-
-  // MARK: -> Open implementation protocol <#protocol name#>
-  
-  // MARK: -
-  // MARK: Public access
-  // MARK: -
-  
-  // MARK: -> Public enums
-  
-  // MARK: -> Public structs
-  
-  // MARK: -> Public class
-  
-  // MARK: -> Public type alias 
-  
-  // MARK: -> Public static properties
-  
-  // MARK: -> Public properties
-  
-  // MARK: -> Public class methods
-  
-  // MARK: -> Public init methods
-  
-  // MARK: -> Public operators
-
-  // MARK: -> Public methods
-  
-  // MARK: -> Public class override Mappable
-
-  // MARK: -> Public implementation protocol <#protocol name#>
-  
-  // MARK: -
-  // MARK: Internal access (aka public for current module)
-  // MARK: -
-  
-  // MARK: -> Internal enums
-  
-  // MARK: -> Internal structs
-  
-  // MARK: -> Internal class
-  
-  // MARK: -> Internal type alias 
-  
-  // MARK: -> Internal static properties
-  
-  // MARK: -> Internal properties
-  
-  // MARK: -> Internal class methods
-  
-  // MARK: -> Internal init methods
-  
-  // MARK: -> Internal operators
-
-  // MARK: -> Internal methods
-  
-  // MARK: -> Internal implementation protocol <#protocol name#>
-  
-  // MARK: -
-  // MARK: File Private access
-  // MARK: -
-  
-  // MARK: -> File Private enums
-  
-  // MARK: -> File Private structs
-  
-  // MARK: -> File Private class
-  
-  // MARK: -> File Private type alias 
-
-  // MARK: -> File Private static properties
-
-  // MARK: -> File Private properties
-  
-  // MARK: -> File Private class methods
-  
-  // MARK: -> File Private init methods
-  
-  // MARK: -> File Private operators
-
-  // MARK: -> File Private methods
-
-  // MARK: -
-  // MARK: Private access
-  // MARK: -
-  
-  // MARK: -> Private enums
-  
-  // MARK: -> Private structs
-  
-  // MARK: -> Private class
-  
-  // MARK: -> Private type alias 
-
-  // MARK: -> Private static properties
-
-  // MARK: -> Private properties
-
-  // MARK: -> Private class methods
-  
-  // MARK: -> Private init methods
-  
-  // MARK: -> Private operators
-
-  // MARK: -> Private methods
 }
