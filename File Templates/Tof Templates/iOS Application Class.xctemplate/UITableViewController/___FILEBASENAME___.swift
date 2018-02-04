@@ -14,18 +14,16 @@ import UIKit
 // MARK: -
 public class ___FILEBASENAMEASIDENTIFIER___Cell : UITableViewCell {
   // MARK: -
-  // MARK: Internal access (aka public for current module)
+  // MARK: Public access
   // MARK: -
   
-  // MARK: -> Internal properties
+  // MARK: -> Public properties
   
-  // MARK: -> Internal class methods
+  // MARK: -> Public class methods
   
-  // MARK: -> Internal init methods
+  // MARK: -> Public init methods
   
-  // MARK: -> Internal operators
-
-  // MARK: -> Internal methods
+  // MARK: -> Public methods
 }
 
 // MARK: -
