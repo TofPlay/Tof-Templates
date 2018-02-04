@@ -17,15 +17,21 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: Open access
   // MARK: -
   
+  // MARK: -> Open enums
+  
   // MARK: -> Open structs
   
   // MARK: -> Open class
+  
+  // MARK: -> Open type alias 
   
   // MARK: -> Open static properties
   
   // MARK: -> Open properties
   
   // MARK: -> Open class methods
+  
+  // MARK: -> Open init methods
   
   // MARK: -> Open operators
 
@@ -55,10 +61,6 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
 
   // MARK: -> Public methods
   
-  // MARK: -> Public class override Mappable
-
-  // MARK: -> Public implementation protocol <#protocol name#>
-  
   // MARK: -
   // MARK: Internal access (aka public for current module)
   // MARK: -
@@ -82,8 +84,6 @@ open struct ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: -> Internal operators
 
   // MARK: -> Internal methods
-  
-  // MARK: -> Internal implementation protocol <#protocol name#>
   
   // MARK: -
   // MARK: File Private access
