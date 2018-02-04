@@ -59,7 +59,7 @@ public class ___FILEBASENAMEASIDENTIFIER___: NSViewController {
   //  }
   //}
   
-  // MARK: Interface properties
+  // MARK: Interface override properties
   
   public override var representedObject: Any? {
     didSet {

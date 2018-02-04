@@ -177,25 +177,25 @@ public class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
   // MARK: -> Public methods
   
   // MARK: -
-  // MARK: Public access
+  // MARK: Internal access (aka public for current module)
   // MARK: -
   
-  // MARK: -> Public enums
+  // MARK: -> Internal enums
   
-  // MARK: -> Public structs
+  // MARK: -> Internal structs
   
-  // MARK: -> Public class
+  // MARK: -> Internal class
   
-  // MARK: -> Public type alias 
+  // MARK: -> Internal type alias 
   
-  // MARK: -> Public static properties
+  // MARK: -> Internal static properties
   
-  // MARK: -> Public class methods
+  // MARK: -> Internal class methods
   
-  // MARK: -> Public operators
+  // MARK: -> Internal operators
 
-  // MARK: -> Public methods
-  
+  // MARK: -> Internal methods
+
   // MARK: -
   // MARK: Private access
   // MARK: -
