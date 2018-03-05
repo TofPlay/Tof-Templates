@@ -53,7 +53,7 @@ open class ___FILEBASENAMEASIDENTIFIER___: NSViewController {
   
   open open override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view
   }
   
   //open override func viewWillAppear() {

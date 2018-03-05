@@ -44,7 +44,7 @@ public class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   // Called after the controller's view is loaded into memory.
   public override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view
   }
   
   // Notifies the view controller that its view is about to be added to a view hierarchy.
