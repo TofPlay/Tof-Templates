@@ -63,7 +63,13 @@ public class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   // Called after the controller's view is loaded into memory.
   public override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+
+    // Trick to hide empty cells
+    self.tableView.tableFooterView = UIView()
+    
+    // Setup selfsizing for cells
+    self.tableView.estimatedRowHeight = 44
+    self.tableView.rowHeight = UITableViewAutomaticDimension
   }
   
   // Notifies the view controller that its view is about to be added to a view hierarchy.
@@ -90,6 +96,30 @@ public class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   //  super.didReceiveMemoryWarning()
   //  // Dispose of any resources that can be recreated.
   //}
+  
+  // MARK: -
+  // MARK: Public access
+  // MARK: -
+  
+  // MARK: -> Public enums
+  
+  // MARK: -> Public structs
+  
+  // MARK: -> Public class
+  
+  // MARK: -> Public type alias 
+  
+  // MARK: -> Public static properties
+  
+  // MARK: -> Public properties
+  
+  // MARK: -> Public class methods
+  
+  // MARK: -> Public init methods
+  
+  // MARK: -> Public operators
+
+  // MARK: -> Public methods
   
   // MARK: -
   // MARK: Internal access (aka public for current module)
@@ -246,6 +276,8 @@ extension ___FILEBASENAMEASIDENTIFIER___: UITableViewDataSource {
       lRet = UITableViewCell()
       lRet.backgroundColor = UIColor.clear
     }
+    
+    lRet.selectionStyle = .none
     
     return lRet
   }
