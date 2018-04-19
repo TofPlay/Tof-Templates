@@ -44,9 +44,13 @@ public class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   
   //public override func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
   //  if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#> = pSegue.destination as! <#View Controller#>
+  //    if let l<#View Controller#> = pSegue.destination as? <#View Controller#> {
+  //      // Set public properties of view controller
+  //    }
   //  } else if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#> = pSegue.destination as! <#View Controller#>
+  //    if let l<#View Controller#> = pSegue.destination as? <#View Controller#> {
+  //      // Set public properties of view controller
+  //    }
   //  }
   //}
   
@@ -67,6 +71,10 @@ public class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     // Trick to hide empty cells
     self.tableView.tableFooterView = UIView()
     
+    // Setup selfsizing for sections
+    //self.tableView.sectionHeaderHeight = 25
+    //self.tableView.estimatedSectionHeaderHeight = UITableViewAutomaticDimension
+
     // Setup selfsizing for cells
     self.tableView.estimatedRowHeight = 44
     self.tableView.rowHeight = UITableViewAutomaticDimension

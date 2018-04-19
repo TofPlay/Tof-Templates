@@ -43,9 +43,13 @@ public class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   
   //public override func prepare(for pSegue: UIStoryboardSegue, sender pSender: Any?) {
   //  if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#> = pSegue.destination as! <#View Controller#>
+  //    if let l<#View Controller#> = pSegue.destination as? <#View Controller#> {
+  //      // Set public properties of view controller
+  //    }
   //  } else if pSegue.identifier == "<#segue name#>" {
-  //    let l<#View Controller#> = pSegue.destination as! <#View Controller#>
+  //    if let l<#View Controller#> = pSegue.destination as? <#View Controller#> {
+  //      // Set public properties of view controller
+  //    }
   //  }
   //}
   

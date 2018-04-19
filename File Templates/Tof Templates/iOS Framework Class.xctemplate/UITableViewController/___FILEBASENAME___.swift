@@ -64,7 +64,17 @@ open class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
   // Called after the controller's view is loaded into memory.
   open override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view
+
+    // Trick to hide empty cells
+    self.tableView.tableFooterView = UIView()
+    
+    // Setup selfsizing for sections
+    //self.tableView.sectionHeaderHeight = 25
+    //self.tableView.estimatedSectionHeaderHeight = UITableViewAutomaticDimension
+
+    // Setup selfsizing for cells
+    self.tableView.estimatedRowHeight = 44
+    self.tableView.rowHeight = UITableViewAutomaticDimension
   }
   
   // Notifies the view controller that its view is about to be added to a view hierarchy.
