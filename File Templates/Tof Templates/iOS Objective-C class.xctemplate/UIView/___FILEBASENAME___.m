@@ -3,7 +3,7 @@
 //   ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Base on Tof Templates (https://goo.gl/GdyFiw)
+//  Base on Tof Templates (https://bit.ly/2xvQG15)
 //  ___COPYRIGHT___
 //
 
