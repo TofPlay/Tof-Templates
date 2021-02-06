@@ -671,6 +671,13 @@ public class <#class#>VM: ObservableObject {
   // MARK: -
   // MARK: Dummy datas
   // MARK: -
+    
+  public class Dummy {
+        
+        public static var <#one instance#>: #class# {
+            return #class#()
+        }
+  }
 }
 ```
 </details>
