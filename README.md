@@ -674,8 +674,8 @@ public class <#class#>VM: ObservableObject {
     
   public class Dummy {
         
-        public static var <#one instance#>: <#class#> {
-            return <#class#>()
+        public static var <#one instance#>: <#class#>VM {
+            return <#class#>VM()
         }
   }
 }
