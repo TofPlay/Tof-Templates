@@ -230,13 +230,6 @@ public class <#class#>: Codable {
 </details>
 
 <details>
-<summary>Template Swift Class</summary>
-
-```swift
-```
-</details>
-
-<details>
 <summary>Template Swift Extension</summary>
 
 ```swift
