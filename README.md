@@ -549,9 +549,9 @@ extension <#class#>: UITableViewDelegate {
 
 ```swift
 // MARK: -
-// MARK: <#class#>
+// MARK: <#view name#>
 // MARK: -
-public class <#class#>: View {
+public struct <#view name#>: View {
   // MARK: -
   // MARK: Parameters
   // MARK: -
@@ -600,7 +600,7 @@ public class <#class#>: View {
   // MARK: Body
   // MARK: -
 
-  var body: some View {
+  public var body: some View {
       VStack {
       	  Text(“Hello World!”)   
       }
