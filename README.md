@@ -557,11 +557,17 @@ public struct <#view name#>: View {
   // MARK: -
 
   // MARK: -> Parameters constantes
+  
+  public let <#property#>: <#type#>
 
   // MARK: -> Parameters binding objects
 
+  @Binding public var <#property#>: <#type#>
+
   // MARK: -> Parameters closures
 
+  public let <#closure#>: <#closure type#>
+  
   // MARK: -
   // MARK: Public access
   // MARK: -
@@ -573,6 +579,8 @@ public struct <#view name#>: View {
   // MARK: -> Public class
   
   // MARK: -> Public type alias 
+  
+  public typealias <#closure type#> = <#closure declaration#>
   
   // MARK: -> Public static methods
   
@@ -630,6 +638,8 @@ public class <#class#>VM: ObservableObject {
   // MARK: -> Public type alias 
 
   // MARK: -> Public published properties
+
+  @Published public var <#property#>:<#type#> = <#value#>
 
   // MARK: -> Public static methods
   
