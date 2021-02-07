@@ -589,7 +589,7 @@ public struct <#view name#>: View {
   // MARK: -> Public methods
   
   // MARK: -
-  // MARK: Private section
+  // MARK: Private access
   // MARK: -
 
   // MARK: -> Private environment objects
