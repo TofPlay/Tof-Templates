@@ -593,14 +593,20 @@ public struct <#view name#>: View {
   // MARK: -
 
   // MARK: -> Private environment objects
+  
+  @EnvironmentObject private var <#property#>: <#type#>
 
   // MARK: -> Private StateObject 
+  
+  @StateObject private var <#property#> = <#type#>()
 
   // MARK: -> Private State 
+  
+  @State private var <#property#>: <#type#> = <#default value#>
 
   // MARK: -> Private constantes
-
-  // MARK: -> Private properties
+  
+  private let <#property#> = <#default value#>
 
   // MARK: -> Private methods
 
