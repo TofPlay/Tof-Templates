@@ -558,15 +558,15 @@ public struct <#view name#>: View {
 
   // MARK: -> Parameters constantes
   
-  public let <#property#>: <#type#>
+  //public let <#property#>: <#type#>
 
   // MARK: -> Parameters binding objects
 
-  @Binding public var <#property#>: <#type#>
+  //@Binding public var <#property#>: <#type#>
 
   // MARK: -> Parameters closures
 
-  public let <#closure#>: <#closure type#>
+  //public let <#closure#>: <#closure type#>
   
   // MARK: -
   // MARK: Public access
@@ -580,7 +580,7 @@ public struct <#view name#>: View {
   
   // MARK: -> Public type alias 
   
-  public typealias <#closure type#> = <#closure declaration#>
+  //public typealias <#closure type#> = <#closure declaration#>
   
   // MARK: -> Public static methods
   
@@ -594,19 +594,19 @@ public struct <#view name#>: View {
 
   // MARK: -> Private environment objects
   
-  @EnvironmentObject private var <#property#>: <#type#>
+  //@EnvironmentObject private var <#property#>: <#type#>
 
   // MARK: -> Private StateObject 
   
-  @StateObject private var <#property#> = <#type#>()
+  //@StateObject private var <#property#> = <#type#>()
 
   // MARK: -> Private State 
   
-  @State private var <#property#>: <#type#> = <#default value#>
+  //@State private var <#property#>: <#type#> = <#default value#>
 
   // MARK: -> Private constantes
   
-  private let <#property#> = <#default value#>
+  //private let <#property#> = <#default value#>
 
   // MARK: -> Private methods
 
