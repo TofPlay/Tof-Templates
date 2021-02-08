@@ -553,9 +553,9 @@ extension <#class#>: UITableViewDelegate {
 
 ```swift
 // MARK: -
-// MARK: <#view name#>
+// MARK: <#view name#>View
 // MARK: -
-public struct <#view name#>: View {
+public struct <#view name#>View: View {
   // MARK: -
   // MARK: Parameters
   // MARK: -
