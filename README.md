@@ -319,9 +319,9 @@ public class <#class#>: Codable {
 import UIKit
 
 // MARK: -
-// MARK: <#class#>
+// MARK: <#class#>ViewController
 // MARK: -
-public class  <#class#>: UIViewController {
+public class  <#class#>ViewController: UIViewController {
   // MARK: -
   // MARK: Interface
   // MARK: -
@@ -463,16 +463,20 @@ public class  <#class#>: UIViewController {
 
 ```swift
 // MARK: -
-// MARK: <#class#>
+// MARK: <#class#>Cell
 // MARK: -
-public class <#class#> : UITableViewCell {
+public class <#class#>Cell : UITableViewCell {
     // MARK: -
     // MARK: Public access
     // MARK: -
     
     // MARK: -> Public properties
     
-    @IBOutlet weak var lbl<#label#>: UILabel!
+    //@IBOutlet weak var lbl<#label name#>: UILabel!
+    //@IBOutlet weak var img<#image name#>: UIImageView!
+    //@IBOutlet weak var bt<#button name#>: UIButton!
+    //@IBOutlet weak var view<#view name#>: UIView!
+    //@IBOutlet weak var stack<#stack name#>: UIStack!
     
     // MARK: -> Public class methods
     
