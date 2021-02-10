@@ -1,33 +1,4 @@
 # Tof Templates
-Xcode templates for Swift and Objective-C
-
-![Swift Version](https://img.shields.io/badge/Swift-4.0-orange.svg)
-![Plaforms](https://img.shields.io/badge/Platform-iOS%20|%20macOS-lightgrey.svg)
-![License MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg) 
-
-**iOS Templates**
-
-![](https://raw.githubusercontent.com/TofPlay/Tof-Templates/master/Images/Tof-Templates-iOS.png)
-
-**macOS Templates**
-
-![](https://raw.githubusercontent.com/TofPlay/Tof-Templates/master/Images/Tof-Templates-macOS.png)
-
-## Introduction
-
-I shared templates I created. They allow to create a Swift or Objective-C sources with sections. This helps to structure your code. It is then much easier to maintain and evolve your code. When it's possible I insert code snippets to help you.
-
-## Manual Installation 
-Open `Terminal.app` and made the following commands:
-```bash
-$ cd ~/Downloads
-$ git clone https://github.com/TofPlay/Tof-Templates.git
-$ cd "Tof-Templates/File Templates"
-$ mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/
-$ cp -R Tof\ Templates ~/Library/Developer/Xcode/Templates/File\ Templates/
-``` 
-
-## Online templates
 
 <details>
 <summary>Template Swift Class</summary>
